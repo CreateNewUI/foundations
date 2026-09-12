@@ -111,24 +111,3 @@ those values onto the shared contract:
 The build runs a completeness check with `scripts/check-contract.mjs`. The
 check fails if any compiled theme is missing a contract token, so an
 incomplete theme cannot ship.
-
-## Credits
-
-New UI reuses only the raw palette values from the following projects. The
-semantic mapping onto the New UI contract is original work. Every upstream
-project is MIT licensed.
-
-- **Dracula**. © Dracula Theme. [dracula/dracula-theme](https://github.com/dracula/dracula-theme), [draculatheme.com](https://draculatheme.com)
-- **Catppuccin** for Latte, Frappé, Macchiato, and Mocha. © Catppuccin. [catppuccin/palette](https://github.com/catppuccin/palette), [catppuccin.com](https://catppuccin.com)
-- **Tokyo Night**. © enkia. [enkia/tokyo-night-vscode-theme](https://github.com/enkia/tokyo-night-vscode-theme)
-- **Night Owl**. © Sarah Drasner. [sdras/night-owl-vscode-theme](https://github.com/sdras/night-owl-vscode-theme)
-- **Ayu**. © Ike Ku, known as dempfi. [ayu-theme/vscode-ayu](https://github.com/ayu-theme/vscode-ayu)
-- **Flexoki**. © Steph Ango. [kepano/flexoki](https://github.com/kepano/flexoki), [stephango.com/flexoki](https://stephango.com/flexoki)
-- **Aura**. © Dalton Menezes. [daltonmenezes/aura-theme](https://github.com/daltonmenezes/aura-theme), [aura-theme.com](https://aura-theme.com)
-- **Synthwave '84**. © Robb Owen. [robb0wen/synthwave-vscode](https://github.com/robb0wen/synthwave-vscode)
-- **Monokai**. © Microsoft, from the VS Code built-in theme, based on the original Monokai by Wimer Hazenberg. [microsoft/vscode](https://github.com/microsoft/vscode/tree/main/extensions/theme-monokai)
-- **Sargam**. © Sargam Design. [SargamDesign/sargam-colors](https://github.com/SargamDesign/sargam-colors)
-
-## Guides
-
-- [Read our themes guide](https://new-ui.com/docs/foundations/themes)
