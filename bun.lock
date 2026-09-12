@@ -40,6 +40,13 @@
       "name": "@new-ui/spacings",
       "version": "3.0.0",
     },
+    "packages/themes": {
+      "name": "@new-ui/themes",
+      "version": "3.0.0",
+      "peerDependencies": {
+        "@new-ui/colors": "^3.0.0",
+      },
+    },
     "packages/typography": {
       "name": "@new-ui/typography",
       "version": "3.0.0",
@@ -149,6 +156,8 @@
     "@new-ui/reset": ["@new-ui/reset@workspace:packages/reset"],
 
     "@new-ui/spacings": ["@new-ui/spacings@workspace:packages/spacings"],
+
+    "@new-ui/themes": ["@new-ui/themes@workspace:packages/themes"],
 
     "@new-ui/typography": ["@new-ui/typography@workspace:packages/typography"],
 

@@ -11,6 +11,7 @@
       "@new-ui/effects",
       "@new-ui/reset",
       "@new-ui/spacings",
+      "@new-ui/themes",
       "@new-ui/typography"
     ]
   ],

@@ -1,0 +1,80 @@
+// Catppuccin Mocha (dark)
+// Palette values copied verbatim from the official Catppuccin palette (v1.8.0).
+// Source: https://github.com/catppuccin/palette (MIT License)
+// © Catppuccin. https://catppuccin.com
+
+[data-new-ui-theme='catppuccin-mocha'] {
+  color-scheme: dark;
+
+  // Palette (verbatim)
+  --ctp-rosewater: #f5e0dc;
+  --ctp-flamingo: #f2cdcd;
+  --ctp-pink: #f5c2e7;
+  --ctp-mauve: #cba6f7;
+  --ctp-red: #f38ba8;
+  --ctp-maroon: #eba0ac;
+  --ctp-peach: #fab387;
+  --ctp-yellow: #f9e2af;
+  --ctp-green: #a6e3a1;
+  --ctp-teal: #94e2d5;
+  --ctp-sky: #89dceb;
+  --ctp-sapphire: #74c7ec;
+  --ctp-blue: #89b4fa;
+  --ctp-lavender: #b4befe;
+  --ctp-text: #cdd6f4;
+  --ctp-subtext1: #bac2de;
+  --ctp-subtext0: #a6adc8;
+  --ctp-overlay2: #9399b2;
+  --ctp-overlay1: #7f849c;
+  --ctp-overlay0: #6c7086;
+  --ctp-surface2: #585b70;
+  --ctp-surface1: #45475a;
+  --ctp-surface0: #313244;
+  --ctp-base: #1e1e2e;
+  --ctp-mantle: #181825;
+  --ctp-crust: #11111b;
+
+  // Backgrounds
+  --background: var(--ctp-base);
+  --background-secondary: var(--ctp-mantle);
+  --background-hover: var(--ctp-surface0);
+  --background-selected: var(--ctp-surface1);
+  --background-selected-hover: var(--ctp-surface2);
+  --background-high-contrast: var(--ctp-crust);
+
+  // Borders
+  --border-muted: var(--ctp-surface0);
+  --border: var(--ctp-surface1);
+  --border-strong: var(--ctp-surface2);
+  --border-inked: var(--ctp-text);
+  --border-inverse: var(--ctp-base);
+  --border-focus: var(--ctp-lavender);
+
+  // Buttons
+  --button: var(--ctp-mauve);
+  --button-hover: var(--ctp-lavender);
+  --button-active: var(--ctp-blue);
+  --button-disabled: var(--ctp-surface2);
+
+  // Links
+  --link: var(--ctp-blue);
+  --link-hover: var(--ctp-sky);
+  --link-subtle: var(--ctp-overlay1);
+  --link-visited: var(--ctp-lavender);
+
+  // Support
+  --support-error: var(--ctp-red);
+  --support-warning: var(--ctp-yellow);
+  --support-success: var(--ctp-green);
+  --support-info: var(--ctp-teal);
+
+  // Content
+  --content-primary: var(--ctp-text);
+  --content-secondary: var(--ctp-subtext1);
+  --content-secondary-alt: var(--ctp-subtext0);
+  --content-placeholder: var(--ctp-overlay1);
+  --content-on-color: var(--ctp-base);
+  --content-error: var(--ctp-red);
+  --content-success: var(--ctp-green);
+  --content-inked: var(--ctp-text);
+}

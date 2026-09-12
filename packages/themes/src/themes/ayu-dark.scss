@@ -1,0 +1,77 @@
+// Ayu Dark
+// Palette values copied verbatim from the official Ayu VS Code theme.
+// Source: https://github.com/ayu-theme/vscode-ayu (MIT License)
+// © Ike Ku (dempfi). Ayu.
+
+[data-new-ui-theme='ayu-dark'] {
+  color-scheme: dark;
+
+  // Palette (verbatim)
+  --ayu-bg: #10141c;
+  --ayu-bg-dark: #0d1017;
+  --ayu-line: #161a24;
+  --ayu-panel: #1b1f29;
+  --ayu-fg: #bfbdb6;
+  --ayu-ui: #5a6378;
+  --ayu-comment: #5a6673;
+  --ayu-accent: #e6b450;
+  --ayu-accent-hover: #deae4d;
+  --ayu-on-accent: #765b24;
+  --ayu-tag: #39bae6;
+  --ayu-entity: #59c2ff;
+  --ayu-constant: #d2a6ff;
+  --ayu-string: #aad94c;
+  --ayu-keyword: #ff8f40;
+  --ayu-func: #ffb454;
+  --ayu-operator: #f29668;
+  --ayu-regexp: #95e6cb;
+  --ayu-vcs-added: #70bf56;
+  --ayu-vcs-modified: #73b8ff;
+  --ayu-vcs-removed: #f26d78;
+  --ayu-error: #d95757;
+  --ayu-warning: #fdb04c;
+
+  // Backgrounds
+  --background: var(--ayu-bg);
+  --background-secondary: var(--ayu-bg-dark);
+  --background-hover: var(--ayu-line);
+  --background-selected: var(--ayu-panel);
+  --background-selected-hover: #232834;
+  --background-high-contrast: var(--ayu-bg-dark);
+
+  // Borders
+  --border-muted: var(--ayu-panel);
+  --border: var(--ayu-ui);
+  --border-strong: var(--ayu-comment);
+  --border-inked: var(--ayu-fg);
+  --border-inverse: var(--ayu-bg);
+  --border-focus: var(--ayu-accent);
+
+  // Buttons
+  --button: var(--ayu-accent);
+  --button-hover: var(--ayu-accent-hover);
+  --button-active: var(--ayu-func);
+  --button-disabled: var(--ayu-ui);
+
+  // Links
+  --link: var(--ayu-tag);
+  --link-hover: var(--ayu-entity);
+  --link-subtle: var(--ayu-comment);
+  --link-visited: var(--ayu-constant);
+
+  // Support
+  --support-error: var(--ayu-error);
+  --support-warning: var(--ayu-warning);
+  --support-success: var(--ayu-vcs-added);
+  --support-info: var(--ayu-tag);
+
+  // Content
+  --content-primary: var(--ayu-fg);
+  --content-secondary: var(--ayu-ui);
+  --content-secondary-alt: var(--ayu-comment);
+  --content-placeholder: var(--ayu-comment);
+  --content-on-color: var(--ayu-on-accent);
+  --content-error: var(--ayu-error);
+  --content-success: var(--ayu-vcs-added);
+  --content-inked: #fff;
+}

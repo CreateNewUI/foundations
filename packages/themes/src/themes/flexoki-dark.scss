@@ -1,0 +1,79 @@
+// Flexoki Dark
+// Palette values copied verbatim from the official Flexoki spec.
+// Source: https://github.com/kepano/flexoki (MIT License)
+// © Steph Ango. https://stephango.com/flexoki
+
+[data-new-ui-theme='flexoki-dark'] {
+  color-scheme: dark;
+
+  // Base ramp (verbatim)
+  --fk-paper: #fffcf0;
+  --fk-base-50: #f2f0e5;
+  --fk-base-100: #e6e4d9;
+  --fk-base-150: #dad8ce;
+  --fk-base-200: #cecdc3;
+  --fk-base-300: #b7b5ac;
+  --fk-base-400: #9f9d96;
+  --fk-base-500: #878580;
+  --fk-base-600: #6f6e69;
+  --fk-base-700: #575653;
+  --fk-base-800: #403e3c;
+  --fk-base-850: #343331;
+  --fk-base-900: #282726;
+  --fk-base-950: #1c1b1a;
+  --fk-black: #100f0f;
+
+  // Accents — 400 (verbatim)
+  --fk-red: #d14d41;
+  --fk-orange: #da702c;
+  --fk-yellow: #d0a215;
+  --fk-green: #879a39;
+  --fk-cyan: #3aa99f;
+  --fk-blue: #4385be;
+  --fk-purple: #8b7ec8;
+  --fk-magenta: #ce5d97;
+
+  // Backgrounds
+  --background: var(--fk-black);
+  --background-secondary: var(--fk-base-950);
+  --background-hover: var(--fk-base-900);
+  --background-selected: var(--fk-base-850);
+  --background-selected-hover: var(--fk-base-800);
+  --background-high-contrast: var(--fk-black);
+
+  // Borders
+  --border-muted: var(--fk-base-900);
+  --border: var(--fk-base-800);
+  --border-strong: var(--fk-base-700);
+  --border-inked: var(--fk-base-200);
+  --border-inverse: var(--fk-black);
+  --border-focus: var(--fk-blue);
+
+  // Buttons
+  --button: var(--fk-purple);
+  --button-hover: var(--fk-magenta);
+  --button-active: var(--fk-magenta);
+  --button-disabled: var(--fk-base-700);
+
+  // Links
+  --link: var(--fk-blue);
+  --link-hover: var(--fk-cyan);
+  --link-subtle: var(--fk-base-500);
+  --link-visited: var(--fk-purple);
+
+  // Support
+  --support-error: var(--fk-red);
+  --support-warning: var(--fk-yellow);
+  --support-success: var(--fk-green);
+  --support-info: var(--fk-blue);
+
+  // Content
+  --content-primary: var(--fk-base-200);
+  --content-secondary: var(--fk-base-400);
+  --content-secondary-alt: var(--fk-base-500);
+  --content-placeholder: var(--fk-base-600);
+  --content-on-color: var(--fk-paper);
+  --content-error: var(--fk-red);
+  --content-success: var(--fk-green);
+  --content-inked: var(--fk-paper);
+}

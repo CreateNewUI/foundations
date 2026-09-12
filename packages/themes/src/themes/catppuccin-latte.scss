@@ -1,0 +1,80 @@
+// Catppuccin Latte (light)
+// Palette values copied verbatim from the official Catppuccin palette (v1.8.0).
+// Source: https://github.com/catppuccin/palette (MIT License)
+// © Catppuccin. https://catppuccin.com
+
+[data-new-ui-theme='catppuccin-latte'] {
+  color-scheme: light;
+
+  // Palette (verbatim)
+  --ctp-rosewater: #dc8a78;
+  --ctp-flamingo: #dd7878;
+  --ctp-pink: #ea76cb;
+  --ctp-mauve: #8839ef;
+  --ctp-red: #d20f39;
+  --ctp-maroon: #e64553;
+  --ctp-peach: #fe640b;
+  --ctp-yellow: #df8e1d;
+  --ctp-green: #40a02b;
+  --ctp-teal: #179299;
+  --ctp-sky: #04a5e5;
+  --ctp-sapphire: #209fb5;
+  --ctp-blue: #1e66f5;
+  --ctp-lavender: #7287fd;
+  --ctp-text: #4c4f69;
+  --ctp-subtext1: #5c5f77;
+  --ctp-subtext0: #6c6f85;
+  --ctp-overlay2: #7c7f93;
+  --ctp-overlay1: #8c8fa1;
+  --ctp-overlay0: #9ca0b0;
+  --ctp-surface2: #acb0be;
+  --ctp-surface1: #bcc0cc;
+  --ctp-surface0: #ccd0da;
+  --ctp-base: #eff1f5;
+  --ctp-mantle: #e6e9ef;
+  --ctp-crust: #dce0e8;
+
+  // Backgrounds
+  --background: var(--ctp-base);
+  --background-secondary: var(--ctp-mantle);
+  --background-hover: var(--ctp-surface0);
+  --background-selected: var(--ctp-surface1);
+  --background-selected-hover: var(--ctp-surface2);
+  --background-high-contrast: var(--ctp-crust);
+
+  // Borders
+  --border-muted: var(--ctp-surface0);
+  --border: var(--ctp-surface1);
+  --border-strong: var(--ctp-surface2);
+  --border-inked: var(--ctp-text);
+  --border-inverse: var(--ctp-base);
+  --border-focus: var(--ctp-lavender);
+
+  // Buttons
+  --button: var(--ctp-mauve);
+  --button-hover: var(--ctp-lavender);
+  --button-active: var(--ctp-blue);
+  --button-disabled: var(--ctp-surface2);
+
+  // Links
+  --link: var(--ctp-blue);
+  --link-hover: var(--ctp-sky);
+  --link-subtle: var(--ctp-overlay1);
+  --link-visited: var(--ctp-lavender);
+
+  // Support
+  --support-error: var(--ctp-red);
+  --support-warning: var(--ctp-yellow);
+  --support-success: var(--ctp-green);
+  --support-info: var(--ctp-teal);
+
+  // Content
+  --content-primary: var(--ctp-text);
+  --content-secondary: var(--ctp-subtext1);
+  --content-secondary-alt: var(--ctp-subtext0);
+  --content-placeholder: var(--ctp-overlay1);
+  --content-on-color: var(--ctp-base);
+  --content-error: var(--ctp-red);
+  --content-success: var(--ctp-green);
+  --content-inked: var(--ctp-text);
+}
