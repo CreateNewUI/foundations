@@ -1,0 +1,75 @@
+// Synthwave '84
+// Palette values copied verbatim from the official Synthwave '84 VS Code theme.
+// Source: https://github.com/robb0wen/synthwave-vscode (MIT License)
+// © Robb Owen. Synthwave '84.
+
+[data-new-ui-theme='synthwave-84'] {
+  color-scheme: dark;
+
+  // Palette (verbatim)
+  --sw-bg: #262335;
+  --sw-bg-panel: #241b2f;
+  --sw-bg-deep: #171520;
+  --sw-input: #2a2139;
+  --sw-menu: #463465;
+  --sw-selected: #34294f;
+  --sw-hover: #37294d;
+  --sw-indent: #444251;
+  --sw-border: #495495;
+  --sw-fg: #fff;
+  --sw-fg-muted: #b6b1b1;
+  --sw-comment: #848bbd;
+  --sw-purple: #614d85;
+  --sw-coral: #f97e72;
+  --sw-pink: #ff7edb;
+  --sw-yellow: #fede5d;
+  --sw-cyan: #03edf9;
+  --sw-green: #72f1b8;
+  --sw-red: #fe4450;
+  --sw-mauve: #b893ce;
+  --sw-on-accent: #2a2139;
+
+  // Backgrounds
+  --background: var(--sw-bg);
+  --background-secondary: var(--sw-bg-panel);
+  --background-hover: var(--sw-hover);
+  --background-selected: var(--sw-selected);
+  --background-selected-hover: var(--sw-menu);
+  --background-high-contrast: var(--sw-bg-deep);
+
+  // Borders
+  --border-muted: var(--sw-indent);
+  --border: var(--sw-border);
+  --border-strong: var(--sw-purple);
+  --border-inked: var(--sw-fg);
+  --border-inverse: var(--sw-bg);
+  --border-focus: var(--sw-pink);
+
+  // Buttons
+  --button: var(--sw-coral);
+  --button-hover: var(--sw-pink);
+  --button-active: var(--sw-pink);
+  --button-disabled: var(--sw-border);
+
+  // Links
+  --link: var(--sw-coral);
+  --link-hover: var(--sw-pink);
+  --link-subtle: var(--sw-comment);
+  --link-visited: var(--sw-mauve);
+
+  // Support
+  --support-error: var(--sw-red);
+  --support-warning: var(--sw-yellow);
+  --support-success: var(--sw-green);
+  --support-info: var(--sw-cyan);
+
+  // Content
+  --content-primary: var(--sw-fg);
+  --content-secondary: var(--sw-fg-muted);
+  --content-secondary-alt: var(--sw-comment);
+  --content-placeholder: var(--sw-comment);
+  --content-on-color: var(--sw-on-accent);
+  --content-error: var(--sw-red);
+  --content-success: var(--sw-green);
+  --content-inked: #fff;
+}

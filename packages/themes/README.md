@@ -70,6 +70,11 @@ Activate a theme by setting the `data-new-ui-theme` attribute on a root element:
 | `ayu-dark`                | dark   | `./ayu-dark`             |
 | `flexoki-light`           | light  | `./flexoki-light`        |
 | `flexoki-dark`            | dark   | `./flexoki-dark`         |
+| `aura`                    | dark   | `./aura`                 |
+| `synthwave-84`            | dark   | `./synthwave-84`         |
+| `monokai`                 | dark   | `./monokai`              |
+| `sargam-light`            | light  | `./sargam-light`         |
+| `sargam-dark`             | dark   | `./sargam-dark`          |
 
 Each theme also declares `color-scheme`, so native form controls, scrollbars,
 and `light-dark()` values render correctly.
@@ -111,6 +116,10 @@ MIT licensed.
 - **Night Owl** — © Sarah Drasner. [sdras/night-owl-vscode-theme](https://github.com/sdras/night-owl-vscode-theme)
 - **Ayu** — © Ike Ku (dempfi). [ayu-theme/vscode-ayu](https://github.com/ayu-theme/vscode-ayu)
 - **Flexoki** — © Steph Ango. [kepano/flexoki](https://github.com/kepano/flexoki) · [stephango.com/flexoki](https://stephango.com/flexoki)
+- **Aura** — © Dalton Menezes. [daltonmenezes/aura-theme](https://github.com/daltonmenezes/aura-theme) · [aura-theme.com](https://aura-theme.com)
+- **Synthwave '84** — © Robb Owen. [robb0wen/synthwave-vscode](https://github.com/robb0wen/synthwave-vscode)
+- **Monokai** — © Microsoft (VS Code built-in theme), based on the original Monokai by Wimer Hazenberg. [microsoft/vscode](https://github.com/microsoft/vscode/tree/main/extensions/theme-monokai)
+- **Sargam** — © Sargam Design. [SargamDesign/sargam-colors](https://github.com/SargamDesign/sargam-colors)
 
 ## Guides
 

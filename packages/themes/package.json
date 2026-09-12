@@ -27,6 +27,11 @@
     "./ayu-dark": "./dist/themes/ayu-dark.css",
     "./flexoki-light": "./dist/themes/flexoki-light.css",
     "./flexoki-dark": "./dist/themes/flexoki-dark.css",
+    "./aura": "./dist/themes/aura.css",
+    "./synthwave-84": "./dist/themes/synthwave-84.css",
+    "./monokai": "./dist/themes/monokai.css",
+    "./sargam-light": "./dist/themes/sargam-light.css",
+    "./sargam-dark": "./dist/themes/sargam-dark.css",
     "./scss/*": "./src/themes/*.scss",
     "./package.json": "./package.json"
   },
@@ -51,7 +56,12 @@
         "src/themes/night-owl.scss",
         "src/themes/ayu-dark.scss",
         "src/themes/flexoki-light.scss",
-        "src/themes/flexoki-dark.scss"
+        "src/themes/flexoki-dark.scss",
+        "src/themes/aura.scss",
+        "src/themes/synthwave-84.scss",
+        "src/themes/monokai.scss",
+        "src/themes/sargam-light.scss",
+        "src/themes/sargam-dark.scss"
       ],
       "distDir": "dist/themes",
       "optimize": false
