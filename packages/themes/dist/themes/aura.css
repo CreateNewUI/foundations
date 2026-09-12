@@ -1,25 +1,25 @@
-[data-new-ui-theme="aura"] {
+[data-new-ui-theme='aura'] {
   color-scheme: dark;
-  --au-bg: #15141b;
-  --au-bg-panel: #121016;
-  --au-bg-sidebar: #110f18;
-  --au-shadow: #0f0f0f;
-  --au-surface: #2e2b38;
-  --au-surface-alt: #3b334b;
-  --au-selection: #3d375e;
-  --au-line: #2d2d2d;
-  --au-fg: #edecee;
-  --au-fg-secondary: #cdccce;
-  --au-fg-muted: #adacae;
-  --au-comment: #6d6d6d;
-  --au-purple: #a277ff;
-  --au-green: #61ffca;
-  --au-green-hover: #49c29a;
-  --au-orange: #ffca85;
-  --au-pink: #f694ff;
-  --au-red: #ff6767;
-  --au-blue: #82e2ff;
-  --au-on-accent: #15141b;
+  --au-bg: oklch(19.57% 0.014 291.6);
+  --au-bg-panel: oklch(17.83% 0.0126 300.35);
+  --au-bg-sidebar: oklch(17.54% 0.0186 294.6);
+  --au-shadow: oklch(16.84% 0 0);
+  --au-surface: oklch(29.78% 0.0236 295.51);
+  --au-surface-alt: oklch(34% 0.0426 299.43);
+  --au-selection: oklch(36.16% 0.0665 289.71);
+  --au-line: oklch(29.72% 0 0);
+  --au-fg: oklch(94.44% 0.0029 308.43);
+  --au-fg-secondary: oklch(84.66% 0.0029 308.42);
+  --au-fg-muted: oklch(74.58% 0.003 308.42);
+  --au-comment: oklch(53.48% 0 0);
+  --au-purple: oklch(67.4% 0.1945 295.27);
+  --au-green: oklch(90.27% 0.153 167.27);
+  --au-green-hover: oklch(73.55% 0.1233 167.69);
+  --au-orange: oklch(87.1% 0.1052 73.04);
+  --au-pink: oklch(80.44% 0.1774 323.99);
+  --au-red: oklch(70.59% 0.186 23.12);
+  --au-blue: oklch(86.4% 0.0992 219.55);
+  --au-on-accent: oklch(19.57% 0.014 291.6);
   --background: var(--au-bg);
   --background-secondary: var(--au-bg-panel);
   --background-hover: var(--au-surface-alt);
@@ -51,6 +51,6 @@
   --content-on-color: var(--au-on-accent);
   --content-error: var(--au-red);
   --content-success: var(--au-green);
-  --content-inked: #fff;
+  --content-inked: oklch(100% 0 0);
 }
 /*# sourceMappingURL=aura.css.map */

@@ -1,8 +1,6 @@
 # New UI Themes
 
-Ready-made themes mapped onto the New UI semantic color contract. Every theme
-sets the same 32 semantic custom properties (backgrounds, borders, buttons,
-links, support, and content), so switching skins never breaks your components.
+Ready-made themes mapped onto the New UI semantic color contract. Every theme sets the same 32 semantic custom properties (backgrounds, borders, buttons, links, support, and content), so switching skins never breaks your components.
 
 ## Install
 

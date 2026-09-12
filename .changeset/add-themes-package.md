@@ -1,5 +1,5 @@
 ---
-"@new-ui/themes": minor
+'@new-ui/themes': minor
 ---
 
 Add `@new-ui/themes`: fifteen ready-made themes (Dracula, Catppuccin Latte/Frappé/Macchiato/Mocha, Tokyo Night, Night Owl, Ayu Dark, Flexoki Light/Dark, Aura, Synthwave '84, Monokai, Sargam Light/Dark) mapped onto the 32-token semantic color contract.

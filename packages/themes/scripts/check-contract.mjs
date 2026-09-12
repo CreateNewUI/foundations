@@ -38,9 +38,13 @@ const required = requiredTokens();
 
 let files;
 try {
-  files = readdirSync(themesDir).filter((f) => f.endsWith('.css') && !f.endsWith('.map'));
+  files = readdirSync(themesDir).filter(
+    (f) => f.endsWith('.css') && !f.endsWith('.map')
+  );
 } catch {
-  console.error(`✗ Missing build output: ${themesDir}. Run the theme build first.`);
+  console.error(
+    `✗ Missing build output: ${themesDir}. Run the theme build first.`
+  );
   process.exit(1);
 }
 
@@ -56,15 +60,21 @@ for (const file of files.sort()) {
   const missing = required.filter((token) => !defined.has(token));
   if (missing.length > 0) {
     failed = true;
-    console.error(`✗ ${file} is missing ${missing.length} token(s): ${missing.join(', ')}`);
+    console.error(
+      `✗ ${file} is missing ${missing.length} token(s): ${missing.join(', ')}`
+    );
   } else {
     console.log(`✓ ${file} defines all ${required.length} contract tokens`);
   }
 }
 
 if (failed) {
-  console.error('\nContract check failed. Every theme must define the full token contract.');
+  console.error(
+    '\nContract check failed. Every theme must define the full token contract.'
+  );
   process.exit(1);
 }
 
-console.log(`\nAll ${files.length} theme(s) satisfy the ${required.length}-token contract.`);
+console.log(
+  `\nAll ${files.length} theme(s) satisfy the ${required.length}-token contract.`
+);

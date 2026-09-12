@@ -7,31 +7,31 @@
   color-scheme: dark;
 
   // Base ramp (verbatim)
-  --fk-paper: #fffcf0;
-  --fk-base-50: #f2f0e5;
-  --fk-base-100: #e6e4d9;
-  --fk-base-150: #dad8ce;
-  --fk-base-200: #cecdc3;
-  --fk-base-300: #b7b5ac;
-  --fk-base-400: #9f9d96;
-  --fk-base-500: #878580;
-  --fk-base-600: #6f6e69;
-  --fk-base-700: #575653;
-  --fk-base-800: #403e3c;
-  --fk-base-850: #343331;
-  --fk-base-900: #282726;
-  --fk-base-950: #1c1b1a;
-  --fk-black: #100f0f;
+  --fk-paper: oklch(99.01% 0.0161 95.22deg);
+  --fk-base-50: oklch(95.37% 0.0147 98.29deg);
+  --fk-base-100: oklch(91.74% 0.0149 98.3deg);
+  --fk-base-150: oklch(88.1% 0.0137 97.46deg);
+  --fk-base-200: oklch(84.63% 0.0137 102.05deg);
+  --fk-base-300: oklch(77.21% 0.0128 96.47deg);
+  --fk-base-400: oklch(69.56% 0.0103 93.62deg);
+  --fk-base-500: oklch(61.69% 0.0078 88.67deg);
+  --fk-base-600: oklch(53.75% 0.0078 97.45deg);
+  --fk-base-700: oklch(45.31% 0.005 91.5deg);
+  --fk-base-800: oklch(36.51% 0.0044 67.69deg);
+  --fk-base-850: oklch(32.14% 0.0038 84.58deg);
+  --fk-base-900: oklch(27.34% 0.0023 67.73deg);
+  --fk-base-950: oklch(22.28% 0.0025 67.7deg);
+  --fk-black: oklch(16.96% 0.0017 17.32deg);
 
   // Accents — 400 (verbatim)
-  --fk-red: #d14d41;
-  --fk-orange: #da702c;
-  --fk-yellow: #d0a215;
-  --fk-green: #879a39;
-  --fk-cyan: #3aa99f;
-  --fk-blue: #4385be;
-  --fk-purple: #8b7ec8;
-  --fk-magenta: #ce5d97;
+  --fk-red: oklch(59.7% 0.1692 28.38deg);
+  --fk-orange: oklch(65.76% 0.1539 49.3deg);
+  --fk-yellow: oklch(73.46% 0.1462 87.46deg);
+  --fk-green: oklch(65.13% 0.1242 119.38deg);
+  --fk-cyan: oklch(67.01% 0.0999 186.58deg);
+  --fk-blue: oklch(59.88% 0.1104 247deg);
+  --fk-purple: oklch(63.48% 0.1098 291deg);
+  --fk-magenta: oklch(63.48% 0.1565 350.47deg);
 
   // Backgrounds
   --background: var(--fk-black);

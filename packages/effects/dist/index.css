@@ -35,8 +35,7 @@
 [data-new-ui-theme="dark"], [data-new-ui-theme="dark--warm"], [data-new-ui-theme="dark--cold"] {
   --dialog-strong: 0px 16px 48px #55555552,
     inset 0px 0px 0px .5px #ffffff29;
-  --dialog: 0px 0px 0px .5px #ffffff3d,
-    0px 2px 12px #33333352;
+  --dialog: 0px 0px 0px .5px #ffffff3d, 0px 2px 12px #33333352;
   --content: 0px 2px 4px #ffffff0a,
     inset 0px .5px 0px #ffffff26;
   --canvas: none;

@@ -7,36 +7,36 @@
   color-scheme: dark;
 
   // Palette (verbatim)
-  --ayu-bg: #10141c;
-  --ayu-bg-dark: #0d1017;
-  --ayu-line: #161a24;
-  --ayu-panel: #1b1f29;
-  --ayu-fg: #bfbdb6;
-  --ayu-ui: #5a6378;
-  --ayu-comment: #5a6673;
-  --ayu-accent: #e6b450;
-  --ayu-accent-hover: #deae4d;
-  --ayu-on-accent: #765b24;
-  --ayu-tag: #39bae6;
-  --ayu-entity: #59c2ff;
-  --ayu-constant: #d2a6ff;
-  --ayu-string: #aad94c;
-  --ayu-keyword: #ff8f40;
-  --ayu-func: #ffb454;
-  --ayu-operator: #f29668;
-  --ayu-regexp: #95e6cb;
-  --ayu-vcs-added: #70bf56;
-  --ayu-vcs-modified: #73b8ff;
-  --ayu-vcs-removed: #f26d78;
-  --ayu-error: #d95757;
-  --ayu-warning: #fdb04c;
+  --ayu-bg: oklch(19.1% 0.0175 264.03deg);
+  --ayu-bg-dark: oklch(17.33% 0.0154 266.68deg);
+  --ayu-line: oklch(21.84% 0.0206 267.71deg);
+  --ayu-panel: oklch(23.98% 0.0201 267.83deg);
+  --ayu-fg: oklch(79.8% 0.01 93.6deg);
+  --ayu-ui: oklch(49.99% 0.0354 266.87deg);
+  --ayu-comment: oklch(50.48% 0.0254 250.44deg);
+  --ayu-accent: oklch(79.68% 0.1298 82.17deg);
+  --ayu-accent-hover: oklch(77.66% 0.1265 82.42deg);
+  --ayu-on-accent: oklch(48.75% 0.0802 82.51deg);
+  --ayu-tag: oklch(73.86% 0.1251 225.66deg);
+  --ayu-entity: oklch(77.71% 0.1301 237.29deg);
+  --ayu-constant: oklch(79.7% 0.1307 306.33deg);
+  --ayu-string: oklch(82.51% 0.1745 125.84deg);
+  --ayu-keyword: oklch(75.82% 0.1627 52.42deg);
+  --ayu-func: oklch(82.38% 0.1408 70.17deg);
+  --ayu-operator: oklch(75.83% 0.1268 46.79deg);
+  --ayu-regexp: oklch(86.51% 0.0884 171.1deg);
+  --ayu-vcs-added: oklch(73.02% 0.161 138.56deg);
+  --ayu-vcs-modified: oklch(76.56% 0.1243 250.38deg);
+  --ayu-vcs-removed: oklch(69.82% 0.1638 17.29deg);
+  --ayu-error: oklch(62.57% 0.164 23.07deg);
+  --ayu-warning: oklch(81.36% 0.1445 70.04deg);
 
   // Backgrounds
   --background: var(--ayu-bg);
   --background-secondary: var(--ayu-bg-dark);
   --background-hover: var(--ayu-line);
   --background-selected: var(--ayu-panel);
-  --background-selected-hover: #232834;
+  --background-selected-hover: oklch(27.73% 0.0234 267.18deg);
   --background-high-contrast: var(--ayu-bg-dark);
 
   // Borders
@@ -73,5 +73,5 @@
   --content-on-color: var(--ayu-on-accent);
   --content-error: var(--ayu-error);
   --content-success: var(--ayu-vcs-added);
-  --content-inked: #fff;
+  --content-inked: oklch(100% 0 0deg);
 }

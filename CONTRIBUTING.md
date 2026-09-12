@@ -19,7 +19,6 @@ We use [Changesets](https://github.com/changesets/changesets) to version and pub
 
 > The root `@new-ui/foundations` meta-package is the workspace root, so Changesets does not manage or publish it. Keep its `version` aligned with the child packages by hand and publish it manually (`npm publish` from the repo root) as part of a release.
 
-
 When you make a change that should ship, record a changeset and commit it with your PR:
 
 ```bash

@@ -56,7 +56,6 @@ To keep native controls (form fields, scrollbars, system UI) in step with dark t
 <meta name="color-scheme" content="light dark" />
 ```
 
-
 | Available themes | Value         |
 | :--------------- | :------------ |
 | Light (Default)  | `light`       |
