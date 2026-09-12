@@ -1,0 +1,66 @@
+// Dracula
+// Palette values copied verbatim from the official Dracula spec.
+// Source: https://github.com/dracula/dracula-theme (MIT License)
+// © Dracula Theme. https://draculatheme.com
+
+[data-new-ui-theme='dracula'] {
+  color-scheme: dark;
+
+  // Palette (verbatim)
+  --dt-background: oklch(28.82% 0.0221 277.51deg);
+  --dt-current-line: oklch(40.28% 0.0322 277.83deg);
+  --dt-selection: oklch(40.28% 0.0322 277.83deg);
+  --dt-foreground: oklch(97.75% 0.0079 106.55deg);
+  --dt-comment: oklch(55.98% 0.0803 270.09deg);
+  --dt-cyan: oklch(88.26% 0.0934 212.85deg);
+  --dt-green: oklch(87.1% 0.2195 148.02deg);
+  --dt-orange: oklch(83.39% 0.1241 66.56deg);
+  --dt-pink: oklch(75.46% 0.1831 346.81deg);
+  --dt-purple: oklch(74.2% 0.1485 301.88deg);
+  --dt-red: oklch(68.22% 0.2063 24.43deg);
+  --dt-yellow: oklch(95.53% 0.1342 112.76deg);
+
+  // Backgrounds
+  --background: var(--dt-background);
+  --background-secondary: oklch(25.54% 0.0188 280.49deg);
+  --background-hover: var(--dt-current-line);
+  --background-selected: var(--dt-selection);
+  --background-selected-hover: oklch(46.88% 0.042 281.2deg);
+  --background-high-contrast: oklch(21.99% 0.0137 278.8deg);
+
+  // Borders
+  --border-muted: oklch(34.02% 0.0266 276.05deg);
+  --border: var(--dt-current-line);
+  --border-strong: var(--dt-comment);
+  --border-inked: var(--dt-foreground);
+  --border-inverse: var(--dt-background);
+  --border-focus: var(--dt-purple);
+
+  // Buttons
+  --button: var(--dt-purple);
+  --button-hover: var(--dt-pink);
+  --button-active: var(--dt-pink);
+  --button-disabled: var(--dt-comment);
+
+  // Links
+  --link: var(--dt-cyan);
+  --link-hover: var(--dt-pink);
+  --link-subtle: var(--dt-comment);
+  --link-visited: var(--dt-purple);
+
+  // Support
+  --support-error: var(--dt-red);
+  --support-warning: var(--dt-orange);
+  --support-success: var(--dt-green);
+  --support-info: var(--dt-cyan);
+
+  // Content
+  --content-primary: var(--dt-foreground);
+  --content-secondary: oklch(84.43% 0.0305 281.59deg);
+  --content-secondary-alt: var(--dt-comment);
+  --content-placeholder: var(--dt-comment);
+  --content-on-color: var(--dt-background);
+  --content-error: var(--dt-red);
+  --content-success: var(--dt-green);
+  --content-inked: var(--dt-foreground);
+}

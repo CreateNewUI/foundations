@@ -1,0 +1,21 @@
+// @new-ui/themes
+// Bundles every ready-made theme. Import this to ship all themes at once, or
+// import an individual theme (e.g. `@new-ui/themes/dracula`) to ship just one.
+// Activate a theme by setting the attribute on a root element:
+//   <html data-new-ui-theme="dracula">
+
+@use 'themes/dracula';
+@use 'themes/catppuccin-latte';
+@use 'themes/catppuccin-frappe';
+@use 'themes/catppuccin-macchiato';
+@use 'themes/catppuccin-mocha';
+@use 'themes/tokyo-night';
+@use 'themes/night-owl';
+@use 'themes/ayu-dark';
+@use 'themes/flexoki-light';
+@use 'themes/flexoki-dark';
+@use 'themes/aura';
+@use 'themes/synthwave-84';
+@use 'themes/monokai';
+@use 'themes/sargam-light';
+@use 'themes/sargam-dark';

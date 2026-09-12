@@ -1,2 +1,1106 @@
-:root,[data-new-ui-theme=light]{--red1:oklch(96.89% .0152 22.39);--red2:oklch(88.06% .0631 22.04);--red3:oklch(78.71% .1233 23.85);--red4:oklch(66.85% .2188 27.86);--red5:oklch(65.42% .2321 28.66);--red6:oklch(53.49% .1867 28.41);--red7:oklch(40.87% .1383 28.31);--red8:oklch(26.91% .0843 27.43);--orange1:oklch(97.94% .0169 76.12);--orange2:oklch(92.44% .0628 75.47);--orange3:oklch(86.56% .1144 74.96);--orange4:oklch(77.91% .1702 65.71);--orange5:oklch(76.52% .1752 62.57);--orange6:oklch(62.47% .142257 63.186);--orange7:oklch(47.75% .1069 65.23);--orange8:oklch(31.2% .0684 68.13);--yellow1:oklch(98.71% .0201 94.52);--yellow2:oklch(95.57% .0743 95.93);--yellow3:oklch(91.99% .1295 95.37);--yellow4:oklch(87.33% .176 91.91);--yellow5:oklch(86.52% .1768 90.38);--yellow6:oklch(70.52% .1441 90.64);--yellow7:oklch(53.55% .109476 91.1235);--yellow8:oklch(34.95% .0716 93.44);--green1:oklch(97.77% .0156 154.48);--green2:oklch(91.5% .0588 153.39);--green3:oklch(84.74% .1113 151.25);--green4:oklch(74.63% .183 148.25);--green5:oklch(73.03% .1944 147.44);--green6:oklch(59.64% .1556 147.67);--green7:oklch(45.69% .1169 147.76);--green8:oklch(29.96% .0699 149.05);--mint1:oklch(97.67% .0158 192.09);--mint2:oklch(91.4% .0559 193.43);--mint3:oklch(84.89% .0975 191.4);--mint4:oklch(76.08% .1293 189.71);--mint5:oklch(74.81% .1296 189.03);--mint6:oklch(61.02% .1054 189.82);--mint7:oklch(46.64% .0808 189.01);--mint8:oklch(30.41% .052376 190.816);--teal1:oklch(97.6% .0099 212.52);--teal2:oklch(91.01% .0384 208.75);--teal3:oklch(83.55% .0693 209.91);--teal4:oklch(71.96% .1068 211.76);--teal5:oklch(69.98% .1109 212.72);--teal6:oklch(57.32% .0893 212.09);--teal7:oklch(43.95% .0672 212.18);--teal8:oklch(29.06% .0415 210.48);--cyan1:oklch(97.65% .011 225.98);--cyan2:oklch(91.15% .0418 227.91);--cyan3:oklch(83.73% .0772 228.87);--cyan4:oklch(72.55% .1259 232.84);--cyan5:oklch(70.68% .1327 233.88);--cyan6:oklch(57.95% .1068 233.26);--cyan7:oklch(44.23% .0796 233.37);--cyan8:oklch(29.28% .0484 232.3);--blue1:oklch(96.63% .0165 250.84);--blue2:oklch(87.61% .062887 250.725);--blue3:oklch(77.33% .1193 251.31);--blue4:oklch(62.52% .2047 255.95);--blue5:oklch(60.28% .2177 257.42);--blue6:oklch(49.47% .175 256.92);--blue7:oklch(38.03% .12949 255.924);--blue8:oklch(25.32% .0794 253.56);--indigo1:oklch(96.48% .0133 290.75);--indigo2:oklch(86.98% .0495 286.6);--indigo3:oklch(75.4% .0957 284.55);--indigo4:oklch(56.4% .1758 279.91);--indigo5:oklch(52.95% .191 278.34);--indigo6:oklch(43.62% .1538 278.81);--indigo7:oklch(33.98% .1127 279.22);--indigo8:oklch(23.31% .0672 281.07);--purple1:oklch(96.97% .0163 313.62);--purple2:oklch(88.81% .0595 314.5);--purple3:oklch(79.08% .113 313.73);--purple4:oklch(64.18% .1982 312.55);--purple5:oklch(61.49% .2129 312.41);--purple6:oklch(50.43% .1716 312.44);--purple7:oklch(38.87% .126 312.32);--purple8:oklch(26.16% .0759 313.11);--pink1:oklch(96.56% .0177 4.51);--pink2:oklch(87.81% .0675 5.89);--pink3:oklch(77.9% .1338 8.42);--pink4:oklch(66.26% .2271 15.86);--pink5:oklch(64.97% .2383 17.9);--pink6:oklch(53.08% .1924 17.29);--pink7:oklch(40.48% .1434 16.74);--pink8:oklch(26.78% .0869 14.7);--brown1:oklch(97.38% .0045 78.3);--brown2:oklch(90.09% .0172 76.1);--brown3:oklch(81.17% .0322 75.16);--brown4:oklch(66.26% .0586 73.73);--brown5:oklch(63.22% .0643 72.82);--brown6:oklch(51.86% .0506 71.83);--brown7:oklch(40.04% .0375 74.38);--brown8:oklch(27.01% .0227 75.38);--black:oklch(0% 0 0);--white:oklch(100% 0 0);--grey1:oklch(96.72% 0 0);--grey2:oklch(90.67% 0 0);--grey3:oklch(82.66% 0 0);--grey4:oklch(73.16% 0 0);--grey5:oklch(64.34% 0 0);--grey6:oklch(54.17% 0 0);--grey7:oklch(43.86% 0 0);--grey8:oklch(34.46% 0 0);--grey9:oklch(26.86% 0 0);--grey10:oklch(20.02% 0 0);--background:var(--white);--background-secondary:var(--grey1);--background-hover:var(--grey1);--background-selected:var(--grey2);--background-selected-hover:var(--grey3);--background-high-contrast:var(--white);--border-muted:var(--grey3);--border:var(--grey4);--border-strong:var(--grey6);--border-inked:var(--grey10);--border-inverse:var(--white);--border-focus:var(--blue5);--button:var(--blue5);--button-hover:var(--blue6);--button-active:var(--blue7);--button-disabled:var(--grey4);--link:var(--blue5);--link-hover:var(--blue6);--link-subtle:var(--grey8);--link-visited:var(--indigo5);--support-error:var(--red5);--support-warning:var(--yellow5);--support-success:var(--green5);--support-info:var(--blue5);--content-primary:var(--grey10);--content-secondary:var(--grey7);--content-secondary-alt:var(--grey5);--content-placeholder:var(--grey4);--content-on-color:var(--white);--content-error:var(--red6);--content-success:var(--green6);--content-inked:var(--black)}[data-new-ui-theme=light--warm]{--red1:oklch(96.89% .0152 22.39);--red2:oklch(88.06% .0631 22.04);--red3:oklch(78.71% .1233 23.85);--red4:oklch(66.85% .2188 27.86);--red5:oklch(65.42% .2321 28.66);--red6:oklch(53.49% .1867 28.41);--red7:oklch(40.87% .1383 28.31);--red8:oklch(26.91% .0843 27.43);--orange1:oklch(97.94% .0169 76.12);--orange2:oklch(92.44% .0628 75.47);--orange3:oklch(86.56% .1144 74.96);--orange4:oklch(77.91% .1702 65.71);--orange5:oklch(76.52% .1752 62.57);--orange6:oklch(62.47% .142257 63.186);--orange7:oklch(47.75% .1069 65.23);--orange8:oklch(31.2% .0684 68.13);--yellow1:oklch(98.71% .0201 94.52);--yellow2:oklch(95.57% .0743 95.93);--yellow3:oklch(91.99% .1295 95.37);--yellow4:oklch(87.33% .176 91.91);--yellow5:oklch(86.52% .1768 90.38);--yellow6:oklch(70.52% .1441 90.64);--yellow7:oklch(53.55% .109476 91.1235);--yellow8:oklch(34.95% .0716 93.44);--green1:oklch(97.77% .0156 154.48);--green2:oklch(91.5% .0588 153.39);--green3:oklch(84.74% .1113 151.25);--green4:oklch(74.63% .183 148.25);--green5:oklch(73.03% .1944 147.44);--green6:oklch(59.64% .1556 147.67);--green7:oklch(45.69% .1169 147.76);--green8:oklch(29.96% .0699 149.05);--mint1:oklch(97.67% .0158 192.09);--mint2:oklch(91.4% .0559 193.43);--mint3:oklch(84.89% .0975 191.4);--mint4:oklch(76.08% .1293 189.71);--mint5:oklch(74.81% .1296 189.03);--mint6:oklch(61.02% .1054 189.82);--mint7:oklch(46.64% .0808 189.01);--mint8:oklch(30.41% .052376 190.816);--teal1:oklch(97.6% .0099 212.52);--teal2:oklch(91.01% .0384 208.75);--teal3:oklch(83.55% .0693 209.91);--teal4:oklch(71.96% .1068 211.76);--teal5:oklch(69.98% .1109 212.72);--teal6:oklch(57.32% .0893 212.09);--teal7:oklch(43.95% .0672 212.18);--teal8:oklch(29.06% .0415 210.48);--cyan1:oklch(97.65% .011 225.98);--cyan2:oklch(91.15% .0418 227.91);--cyan3:oklch(83.73% .0772 228.87);--cyan4:oklch(72.55% .1259 232.84);--cyan5:oklch(70.68% .1327 233.88);--cyan6:oklch(57.95% .1068 233.26);--cyan7:oklch(44.23% .0796 233.37);--cyan8:oklch(29.28% .0484 232.3);--blue1:oklch(96.63% .0165 250.84);--blue2:oklch(87.61% .062887 250.725);--blue3:oklch(77.33% .1193 251.31);--blue4:oklch(62.52% .2047 255.95);--blue5:oklch(60.28% .2177 257.42);--blue6:oklch(49.47% .175 256.92);--blue7:oklch(38.03% .12949 255.924);--blue8:oklch(25.32% .0794 253.56);--indigo1:oklch(96.48% .0133 290.75);--indigo2:oklch(86.98% .0495 286.6);--indigo3:oklch(75.4% .0957 284.55);--indigo4:oklch(56.4% .1758 279.91);--indigo5:oklch(52.95% .191 278.34);--indigo6:oklch(43.62% .1538 278.81);--indigo7:oklch(33.98% .1127 279.22);--indigo8:oklch(23.31% .0672 281.07);--purple1:oklch(96.97% .0163 313.62);--purple2:oklch(88.81% .0595 314.5);--purple3:oklch(79.08% .113 313.73);--purple4:oklch(64.18% .1982 312.55);--purple5:oklch(61.49% .2129 312.41);--purple6:oklch(50.43% .1716 312.44);--purple7:oklch(38.87% .126 312.32);--purple8:oklch(26.16% .0759 313.11);--pink1:oklch(96.56% .0177 4.51);--pink2:oklch(87.81% .0675 5.89);--pink3:oklch(77.9% .1338 8.42);--pink4:oklch(66.26% .2271 15.86);--pink5:oklch(64.97% .2383 17.9);--pink6:oklch(53.08% .1924 17.29);--pink7:oklch(40.48% .1434 16.74);--pink8:oklch(26.78% .0869 14.7);--brown1:oklch(97.38% .0045 78.3);--brown2:oklch(90.09% .0172 76.1);--brown3:oklch(81.17% .0322 75.16);--brown4:oklch(66.26% .0586 73.73);--brown5:oklch(63.22% .0643 72.82);--brown6:oklch(51.86% .0506 71.83);--brown7:oklch(40.04% .0375 74.38);--brown8:oklch(27.01% .0227 75.38);--black:oklch(0% 0 0);--white:oklch(100% 0 0);--grey1:oklch(95.79% .001 106.42);--grey2:oklch(94.39% .001 17.18);--grey3:oklch(87.66% .002 67.8);--grey4:oklch(73.07% .004 106.5);--grey5:oklch(62.89% .006 106.57);--grey6:oklch(54.1% .008 97.45);--grey7:oklch(43.73% .011 100.22);--grey8:oklch(34.71% .012 100.33);--grey9:oklch(26.31% .013 100.51);--grey10:oklch(21.35% .012 91.77);--warm1:var(--grey1);--warm2:var(--grey2);--warm3:var(--grey3);--warm4:var(--grey4);--warm5:var(--grey5);--warm6:var(--grey6);--warm7:var(--grey7);--warm8:var(--grey8);--warm9:var(--grey9);--warm10:var(--grey10);--background:var(--white);--background-secondary:var(--warm1);--background-hover:var(--warm1);--background-selected:var(--warm2);--background-selected-hover:var(--warm3);--background-high-contrast:var(--white);--border-muted:var(--warm3);--border:var(--warm4);--border-strong:var(--warm6);--border-inked:var(--warm10);--border-inverse:var(--white);--border-focus:var(--blue5);--button:var(--blue5);--button-hover:var(--blue6);--button-active:var(--blue7);--button-disabled:var(--warm4);--link:var(--blue5);--link-hover:var(--blue6);--link-subtle:var(--warm8);--link-visited:var(--indigo5);--support-error:var(--red5);--support-warning:var(--yellow5);--support-success:var(--green5);--support-info:var(--blue5);--content-primary:var(--warm10);--content-secondary:var(--warm7);--content-secondary-alt:var(--warm5);--content-placeholder:var(--warm4);--content-on-color:var(--white);--content-error:var(--red6);--content-success:var(--green6);--content-inked:var(--black)}[data-new-ui-theme=light--cold]{--red1:oklch(96.89% .0152 22.39);--red2:oklch(88.06% .0631 22.04);--red3:oklch(78.71% .1233 23.85);--red4:oklch(66.85% .2188 27.86);--red5:oklch(65.42% .2321 28.66);--red6:oklch(53.49% .1867 28.41);--red7:oklch(40.87% .1383 28.31);--red8:oklch(26.91% .0843 27.43);--orange1:oklch(97.94% .0169 76.12);--orange2:oklch(92.44% .0628 75.47);--orange3:oklch(86.56% .1144 74.96);--orange4:oklch(77.91% .1702 65.71);--orange5:oklch(76.52% .1752 62.57);--orange6:oklch(62.47% .142257 63.186);--orange7:oklch(47.75% .1069 65.23);--orange8:oklch(31.2% .0684 68.13);--yellow1:oklch(98.71% .0201 94.52);--yellow2:oklch(95.57% .0743 95.93);--yellow3:oklch(91.99% .1295 95.37);--yellow4:oklch(87.33% .176 91.91);--yellow5:oklch(86.52% .1768 90.38);--yellow6:oklch(70.52% .1441 90.64);--yellow7:oklch(53.55% .109476 91.1235);--yellow8:oklch(34.95% .0716 93.44);--green1:oklch(97.77% .0156 154.48);--green2:oklch(91.5% .0588 153.39);--green3:oklch(84.74% .1113 151.25);--green4:oklch(74.63% .183 148.25);--green5:oklch(73.03% .1944 147.44);--green6:oklch(59.64% .1556 147.67);--green7:oklch(45.69% .1169 147.76);--green8:oklch(29.96% .0699 149.05);--mint1:oklch(97.67% .0158 192.09);--mint2:oklch(91.4% .0559 193.43);--mint3:oklch(84.89% .0975 191.4);--mint4:oklch(76.08% .1293 189.71);--mint5:oklch(74.81% .1296 189.03);--mint6:oklch(61.02% .1054 189.82);--mint7:oklch(46.64% .0808 189.01);--mint8:oklch(30.41% .052376 190.816);--teal1:oklch(97.6% .0099 212.52);--teal2:oklch(91.01% .0384 208.75);--teal3:oklch(83.55% .0693 209.91);--teal4:oklch(71.96% .1068 211.76);--teal5:oklch(69.98% .1109 212.72);--teal6:oklch(57.32% .0893 212.09);--teal7:oklch(43.95% .0672 212.18);--teal8:oklch(29.06% .0415 210.48);--cyan1:oklch(97.65% .011 225.98);--cyan2:oklch(91.15% .0418 227.91);--cyan3:oklch(83.73% .0772 228.87);--cyan4:oklch(72.55% .1259 232.84);--cyan5:oklch(70.68% .1327 233.88);--cyan6:oklch(57.95% .1068 233.26);--cyan7:oklch(44.23% .0796 233.37);--cyan8:oklch(29.28% .0484 232.3);--blue1:oklch(96.63% .0165 250.84);--blue2:oklch(87.61% .062887 250.725);--blue3:oklch(77.33% .1193 251.31);--blue4:oklch(62.52% .2047 255.95);--blue5:oklch(60.28% .2177 257.42);--blue6:oklch(49.47% .175 256.92);--blue7:oklch(38.03% .12949 255.924);--blue8:oklch(25.32% .0794 253.56);--indigo1:oklch(96.48% .0133 290.75);--indigo2:oklch(86.98% .0495 286.6);--indigo3:oklch(75.4% .0957 284.55);--indigo4:oklch(56.4% .1758 279.91);--indigo5:oklch(52.95% .191 278.34);--indigo6:oklch(43.62% .1538 278.81);--indigo7:oklch(33.98% .1127 279.22);--indigo8:oklch(23.31% .0672 281.07);--purple1:oklch(96.97% .0163 313.62);--purple2:oklch(88.81% .0595 314.5);--purple3:oklch(79.08% .113 313.73);--purple4:oklch(64.18% .1982 312.55);--purple5:oklch(61.49% .2129 312.41);--purple6:oklch(50.43% .1716 312.44);--purple7:oklch(38.87% .126 312.32);--purple8:oklch(26.16% .0759 313.11);--pink1:oklch(96.56% .0177 4.51);--pink2:oklch(87.81% .0675 5.89);--pink3:oklch(77.9% .1338 8.42);--pink4:oklch(66.26% .2271 15.86);--pink5:oklch(64.97% .2383 17.9);--pink6:oklch(53.08% .1924 17.29);--pink7:oklch(40.48% .1434 16.74);--pink8:oklch(26.78% .0869 14.7);--brown1:oklch(97.38% .0045 78.3);--brown2:oklch(90.09% .0172 76.1);--brown3:oklch(81.17% .0322 75.16);--brown4:oklch(66.26% .0586 73.73);--brown5:oklch(63.22% .0643 72.82);--brown6:oklch(51.86% .0506 71.83);--brown7:oklch(40.04% .0375 74.38);--brown8:oklch(27.01% .0227 75.38);--black:oklch(0% 0 0);--white:oklch(100% 0 0);--grey1:oklch(98.54% .001 286.38);--grey2:oklch(96.95% .005 258.32);--grey3:oklch(92.77% .01 267.36);--grey4:oklch(87.05% .012 252.1);--grey5:oklch(70.4% .03 263.37);--grey6:oklch(55.32% .032 261.39);--grey7:oklch(44.46% .03 263.13);--grey8:oklch(37.01% .034 262.07);--grey9:oklch(27.79% .029 267.58);--grey10:oklch(20.62% .027 267.82);--cold1:var(--grey1);--cold2:var(--grey2);--cold3:var(--grey3);--cold4:var(--grey4);--cold5:var(--grey5);--cold6:var(--grey6);--cold7:var(--grey7);--cold8:var(--grey8);--cold9:var(--grey9);--cold10:var(--grey10);--background:var(--white);--background-secondary:var(--cold1);--background-hover:var(--cold1);--background-selected:var(--cold2);--background-selected-hover:var(--cold3);--background-high-contrast:var(--white);--border-muted:var(--cold3);--border:var(--cold4);--border-strong:var(--cold6);--border-inked:var(--cold10);--border-inverse:var(--white);--border-focus:var(--blue5);--button:var(--blue5);--button-hover:var(--blue6);--button-active:var(--blue7);--button-disabled:var(--cold4);--link:var(--blue5);--link-hover:var(--blue6);--link-subtle:var(--cold8);--link-visited:var(--indigo5);--support-error:var(--red5);--support-warning:var(--yellow5);--support-success:var(--green5);--support-info:var(--blue5);--content-primary:var(--cold10);--content-secondary:var(--cold7);--content-secondary-alt:var(--cold5);--content-placeholder:var(--cold4);--content-on-color:var(--white);--content-error:var(--red6);--content-success:var(--green6);--content-inked:var(--black)}[data-new-ui-theme=dark]{--red1:oklch(96.89% .0152 22.39);--red2:oklch(88.06% .0631 22.04);--red3:oklch(78.71% .1233 23.85);--red4:oklch(66.85% .2188 27.86);--red5:oklch(65.42% .2321 28.66);--red6:oklch(53.49% .1867 28.41);--red7:oklch(40.87% .1383 28.31);--red8:oklch(26.91% .0843 27.43);--orange1:oklch(97.94% .0169 76.12);--orange2:oklch(92.44% .0628 75.47);--orange3:oklch(86.56% .1144 74.96);--orange4:oklch(77.91% .1702 65.71);--orange5:oklch(76.52% .1752 62.57);--orange6:oklch(62.47% .142257 63.186);--orange7:oklch(47.75% .1069 65.23);--orange8:oklch(31.2% .0684 68.13);--yellow1:oklch(98.71% .0201 94.52);--yellow2:oklch(95.57% .0743 95.93);--yellow3:oklch(91.99% .1295 95.37);--yellow4:oklch(87.33% .176 91.91);--yellow5:oklch(86.52% .1768 90.38);--yellow6:oklch(70.52% .1441 90.64);--yellow7:oklch(53.55% .109476 91.1235);--yellow8:oklch(34.95% .0716 93.44);--green1:oklch(97.77% .0156 154.48);--green2:oklch(91.5% .0588 153.39);--green3:oklch(84.74% .1113 151.25);--green4:oklch(74.63% .183 148.25);--green5:oklch(73.03% .1944 147.44);--green6:oklch(59.64% .1556 147.67);--green7:oklch(45.69% .1169 147.76);--green8:oklch(29.96% .0699 149.05);--mint1:oklch(97.67% .0158 192.09);--mint2:oklch(91.4% .0559 193.43);--mint3:oklch(84.89% .0975 191.4);--mint4:oklch(76.08% .1293 189.71);--mint5:oklch(74.81% .1296 189.03);--mint6:oklch(61.02% .1054 189.82);--mint7:oklch(46.64% .0808 189.01);--mint8:oklch(30.41% .052376 190.816);--teal1:oklch(97.6% .0099 212.52);--teal2:oklch(91.01% .0384 208.75);--teal3:oklch(83.55% .0693 209.91);--teal4:oklch(71.96% .1068 211.76);--teal5:oklch(69.98% .1109 212.72);--teal6:oklch(57.32% .0893 212.09);--teal7:oklch(43.95% .0672 212.18);--teal8:oklch(29.06% .0415 210.48);--cyan1:oklch(97.65% .011 225.98);--cyan2:oklch(91.15% .0418 227.91);--cyan3:oklch(83.73% .0772 228.87);--cyan4:oklch(72.55% .1259 232.84);--cyan5:oklch(70.68% .1327 233.88);--cyan6:oklch(57.95% .1068 233.26);--cyan7:oklch(44.23% .0796 233.37);--cyan8:oklch(29.28% .0484 232.3);--blue1:oklch(96.63% .0165 250.84);--blue2:oklch(87.61% .062887 250.725);--blue3:oklch(77.33% .1193 251.31);--blue4:oklch(62.52% .2047 255.95);--blue5:oklch(60.28% .2177 257.42);--blue6:oklch(49.47% .175 256.92);--blue7:oklch(38.03% .12949 255.924);--blue8:oklch(25.32% .0794 253.56);--indigo1:oklch(96.48% .0133 290.75);--indigo2:oklch(86.98% .0495 286.6);--indigo3:oklch(75.4% .0957 284.55);--indigo4:oklch(56.4% .1758 279.91);--indigo5:oklch(52.95% .191 278.34);--indigo6:oklch(43.62% .1538 278.81);--indigo7:oklch(33.98% .1127 279.22);--indigo8:oklch(23.31% .0672 281.07);--purple1:oklch(96.97% .0163 313.62);--purple2:oklch(88.81% .0595 314.5);--purple3:oklch(79.08% .113 313.73);--purple4:oklch(64.18% .1982 312.55);--purple5:oklch(61.49% .2129 312.41);--purple6:oklch(50.43% .1716 312.44);--purple7:oklch(38.87% .126 312.32);--purple8:oklch(26.16% .0759 313.11);--pink1:oklch(96.56% .0177 4.51);--pink2:oklch(87.81% .0675 5.89);--pink3:oklch(77.9% .1338 8.42);--pink4:oklch(66.26% .2271 15.86);--pink5:oklch(64.97% .2383 17.9);--pink6:oklch(53.08% .1924 17.29);--pink7:oklch(40.48% .1434 16.74);--pink8:oklch(26.78% .0869 14.7);--brown1:oklch(97.38% .0045 78.3);--brown2:oklch(90.09% .0172 76.1);--brown3:oklch(81.17% .0322 75.16);--brown4:oklch(66.26% .0586 73.73);--brown5:oklch(63.22% .0643 72.82);--brown6:oklch(51.86% .0506 71.83);--brown7:oklch(40.04% .0375 74.38);--brown8:oklch(27.01% .0227 75.38);--black:oklch(0% 0 0);--white:oklch(100% 0 0);--grey1:oklch(96.72% 0 0);--grey2:oklch(90.67% 0 0);--grey3:oklch(82.66% 0 0);--grey4:oklch(73.16% 0 0);--grey5:oklch(64.34% 0 0);--grey6:oklch(54.17% 0 0);--grey7:oklch(43.86% 0 0);--grey8:oklch(34.46% 0 0);--grey9:oklch(26.86% 0 0);--grey10:oklch(20.02% 0 0);--background:var(--grey10);--background-secondary:var(--grey9);--background-hover:var(--grey9);--background-selected:var(--grey8);--background-selected-hover:var(--grey7);--background-high-contrast:var(--black);--border-muted:var(--grey8);--border:var(--grey7);--border-strong:var(--grey6);--border-inked:var(--grey1);--border-inverse:var(--black);--border-focus:var(--blue4);--button:var(--blue4);--button-hover:var(--blue3);--button-active:var(--blue2);--button-disabled:var(--grey8);--link:var(--blue4);--link-hover:var(--blue3);--link-subtle:var(--grey1);--link-visited:var(--indigo4);--support-error:var(--red4);--support-warning:var(--yellow4);--support-success:var(--green4);--support-info:var(--blue4);--content-primary:var(--grey1);--content-secondary:var(--grey4);--content-secondary-alt:var(--grey6);--content-placeholder:var(--grey7);--content-on-color:var(--white);--content-error:var(--red4);--content-success:var(--green4);--content-inked:var(--white)}[data-new-ui-theme=dark--warm]{--red1:oklch(96.89% .0152 22.39);--red2:oklch(88.06% .0631 22.04);--red3:oklch(78.71% .1233 23.85);--red4:oklch(66.85% .2188 27.86);--red5:oklch(65.42% .2321 28.66);--red6:oklch(53.49% .1867 28.41);--red7:oklch(40.87% .1383 28.31);--red8:oklch(26.91% .0843 27.43);--orange1:oklch(97.94% .0169 76.12);--orange2:oklch(92.44% .0628 75.47);--orange3:oklch(86.56% .1144 74.96);--orange4:oklch(77.91% .1702 65.71);--orange5:oklch(76.52% .1752 62.57);--orange6:oklch(62.47% .142257 63.186);--orange7:oklch(47.75% .1069 65.23);--orange8:oklch(31.2% .0684 68.13);--yellow1:oklch(98.71% .0201 94.52);--yellow2:oklch(95.57% .0743 95.93);--yellow3:oklch(91.99% .1295 95.37);--yellow4:oklch(87.33% .176 91.91);--yellow5:oklch(86.52% .1768 90.38);--yellow6:oklch(70.52% .1441 90.64);--yellow7:oklch(53.55% .109476 91.1235);--yellow8:oklch(34.95% .0716 93.44);--green1:oklch(97.77% .0156 154.48);--green2:oklch(91.5% .0588 153.39);--green3:oklch(84.74% .1113 151.25);--green4:oklch(74.63% .183 148.25);--green5:oklch(73.03% .1944 147.44);--green6:oklch(59.64% .1556 147.67);--green7:oklch(45.69% .1169 147.76);--green8:oklch(29.96% .0699 149.05);--mint1:oklch(97.67% .0158 192.09);--mint2:oklch(91.4% .0559 193.43);--mint3:oklch(84.89% .0975 191.4);--mint4:oklch(76.08% .1293 189.71);--mint5:oklch(74.81% .1296 189.03);--mint6:oklch(61.02% .1054 189.82);--mint7:oklch(46.64% .0808 189.01);--mint8:oklch(30.41% .052376 190.816);--teal1:oklch(97.6% .0099 212.52);--teal2:oklch(91.01% .0384 208.75);--teal3:oklch(83.55% .0693 209.91);--teal4:oklch(71.96% .1068 211.76);--teal5:oklch(69.98% .1109 212.72);--teal6:oklch(57.32% .0893 212.09);--teal7:oklch(43.95% .0672 212.18);--teal8:oklch(29.06% .0415 210.48);--cyan1:oklch(97.65% .011 225.98);--cyan2:oklch(91.15% .0418 227.91);--cyan3:oklch(83.73% .0772 228.87);--cyan4:oklch(72.55% .1259 232.84);--cyan5:oklch(70.68% .1327 233.88);--cyan6:oklch(57.95% .1068 233.26);--cyan7:oklch(44.23% .0796 233.37);--cyan8:oklch(29.28% .0484 232.3);--blue1:oklch(96.63% .0165 250.84);--blue2:oklch(87.61% .062887 250.725);--blue3:oklch(77.33% .1193 251.31);--blue4:oklch(62.52% .2047 255.95);--blue5:oklch(60.28% .2177 257.42);--blue6:oklch(49.47% .175 256.92);--blue7:oklch(38.03% .12949 255.924);--blue8:oklch(25.32% .0794 253.56);--indigo1:oklch(96.48% .0133 290.75);--indigo2:oklch(86.98% .0495 286.6);--indigo3:oklch(75.4% .0957 284.55);--indigo4:oklch(56.4% .1758 279.91);--indigo5:oklch(52.95% .191 278.34);--indigo6:oklch(43.62% .1538 278.81);--indigo7:oklch(33.98% .1127 279.22);--indigo8:oklch(23.31% .0672 281.07);--purple1:oklch(96.97% .0163 313.62);--purple2:oklch(88.81% .0595 314.5);--purple3:oklch(79.08% .113 313.73);--purple4:oklch(64.18% .1982 312.55);--purple5:oklch(61.49% .2129 312.41);--purple6:oklch(50.43% .1716 312.44);--purple7:oklch(38.87% .126 312.32);--purple8:oklch(26.16% .0759 313.11);--pink1:oklch(96.56% .0177 4.51);--pink2:oklch(87.81% .0675 5.89);--pink3:oklch(77.9% .1338 8.42);--pink4:oklch(66.26% .2271 15.86);--pink5:oklch(64.97% .2383 17.9);--pink6:oklch(53.08% .1924 17.29);--pink7:oklch(40.48% .1434 16.74);--pink8:oklch(26.78% .0869 14.7);--brown1:oklch(97.38% .0045 78.3);--brown2:oklch(90.09% .0172 76.1);--brown3:oklch(81.17% .0322 75.16);--brown4:oklch(66.26% .0586 73.73);--brown5:oklch(63.22% .0643 72.82);--brown6:oklch(51.86% .0506 71.83);--brown7:oklch(40.04% .0375 74.38);--brown8:oklch(27.01% .0227 75.38);--black:oklch(0% 0 0);--white:oklch(100% 0 0);--grey1:oklch(95.79% .001 106.42);--grey2:oklch(94.39% .001 17.18);--grey3:oklch(87.66% .002 67.8);--grey4:oklch(73.07% .004 106.5);--grey5:oklch(62.89% .006 106.57);--grey6:oklch(54.1% .008 97.45);--grey7:oklch(43.73% .011 100.22);--grey8:oklch(34.71% .012 100.33);--grey9:oklch(26.31% .013 100.51);--grey10:oklch(21.35% .012 91.77);--warm1:var(--grey1);--warm2:var(--grey2);--warm3:var(--grey3);--warm4:var(--grey4);--warm5:var(--grey5);--warm6:var(--grey6);--warm7:var(--grey7);--warm8:var(--grey8);--warm9:var(--grey9);--warm10:var(--grey10);--background:var(--warm10);--background-secondary:var(--warm9);--background-hover:var(--warm9);--background-selected:var(--warm8);--background-selected-hover:var(--warm7);--background-high-contrast:var(--black);--border-muted:var(--warm8);--border:var(--warm7);--border-strong:var(--warm6);--border-inked:var(--warm1);--border-inverse:var(--black);--border-focus:var(--blue4);--button:var(--blue4);--button-hover:var(--blue3);--button-active:var(--blue2);--button-disabled:var(--warm8);--link:var(--blue4);--link-hover:var(--blue3);--link-subtle:var(--warm1);--link-visited:var(--indigo4);--support-error:var(--red4);--support-warning:var(--yellow4);--support-success:var(--green4);--support-info:var(--blue4);--content-primary:var(--warm1);--content-secondary:var(--warm4);--content-secondary-alt:var(--warm6);--content-placeholder:var(--warm7);--content-on-color:var(--white);--content-error:var(--red4);--content-success:var(--green4);--content-inked:var(--white)}[data-new-ui-theme=dark--cold]{--red1:oklch(96.89% .0152 22.39);--red2:oklch(88.06% .0631 22.04);--red3:oklch(78.71% .1233 23.85);--red4:oklch(66.85% .2188 27.86);--red5:oklch(65.42% .2321 28.66);--red6:oklch(53.49% .1867 28.41);--red7:oklch(40.87% .1383 28.31);--red8:oklch(26.91% .0843 27.43);--orange1:oklch(97.94% .0169 76.12);--orange2:oklch(92.44% .0628 75.47);--orange3:oklch(86.56% .1144 74.96);--orange4:oklch(77.91% .1702 65.71);--orange5:oklch(76.52% .1752 62.57);--orange6:oklch(62.47% .142257 63.186);--orange7:oklch(47.75% .1069 65.23);--orange8:oklch(31.2% .0684 68.13);--yellow1:oklch(98.71% .0201 94.52);--yellow2:oklch(95.57% .0743 95.93);--yellow3:oklch(91.99% .1295 95.37);--yellow4:oklch(87.33% .176 91.91);--yellow5:oklch(86.52% .1768 90.38);--yellow6:oklch(70.52% .1441 90.64);--yellow7:oklch(53.55% .109476 91.1235);--yellow8:oklch(34.95% .0716 93.44);--green1:oklch(97.77% .0156 154.48);--green2:oklch(91.5% .0588 153.39);--green3:oklch(84.74% .1113 151.25);--green4:oklch(74.63% .183 148.25);--green5:oklch(73.03% .1944 147.44);--green6:oklch(59.64% .1556 147.67);--green7:oklch(45.69% .1169 147.76);--green8:oklch(29.96% .0699 149.05);--mint1:oklch(97.67% .0158 192.09);--mint2:oklch(91.4% .0559 193.43);--mint3:oklch(84.89% .0975 191.4);--mint4:oklch(76.08% .1293 189.71);--mint5:oklch(74.81% .1296 189.03);--mint6:oklch(61.02% .1054 189.82);--mint7:oklch(46.64% .0808 189.01);--mint8:oklch(30.41% .052376 190.816);--teal1:oklch(97.6% .0099 212.52);--teal2:oklch(91.01% .0384 208.75);--teal3:oklch(83.55% .0693 209.91);--teal4:oklch(71.96% .1068 211.76);--teal5:oklch(69.98% .1109 212.72);--teal6:oklch(57.32% .0893 212.09);--teal7:oklch(43.95% .0672 212.18);--teal8:oklch(29.06% .0415 210.48);--cyan1:oklch(97.65% .011 225.98);--cyan2:oklch(91.15% .0418 227.91);--cyan3:oklch(83.73% .0772 228.87);--cyan4:oklch(72.55% .1259 232.84);--cyan5:oklch(70.68% .1327 233.88);--cyan6:oklch(57.95% .1068 233.26);--cyan7:oklch(44.23% .0796 233.37);--cyan8:oklch(29.28% .0484 232.3);--blue1:oklch(96.63% .0165 250.84);--blue2:oklch(87.61% .062887 250.725);--blue3:oklch(77.33% .1193 251.31);--blue4:oklch(62.52% .2047 255.95);--blue5:oklch(60.28% .2177 257.42);--blue6:oklch(49.47% .175 256.92);--blue7:oklch(38.03% .12949 255.924);--blue8:oklch(25.32% .0794 253.56);--indigo1:oklch(96.48% .0133 290.75);--indigo2:oklch(86.98% .0495 286.6);--indigo3:oklch(75.4% .0957 284.55);--indigo4:oklch(56.4% .1758 279.91);--indigo5:oklch(52.95% .191 278.34);--indigo6:oklch(43.62% .1538 278.81);--indigo7:oklch(33.98% .1127 279.22);--indigo8:oklch(23.31% .0672 281.07);--purple1:oklch(96.97% .0163 313.62);--purple2:oklch(88.81% .0595 314.5);--purple3:oklch(79.08% .113 313.73);--purple4:oklch(64.18% .1982 312.55);--purple5:oklch(61.49% .2129 312.41);--purple6:oklch(50.43% .1716 312.44);--purple7:oklch(38.87% .126 312.32);--purple8:oklch(26.16% .0759 313.11);--pink1:oklch(96.56% .0177 4.51);--pink2:oklch(87.81% .0675 5.89);--pink3:oklch(77.9% .1338 8.42);--pink4:oklch(66.26% .2271 15.86);--pink5:oklch(64.97% .2383 17.9);--pink6:oklch(53.08% .1924 17.29);--pink7:oklch(40.48% .1434 16.74);--pink8:oklch(26.78% .0869 14.7);--brown1:oklch(97.38% .0045 78.3);--brown2:oklch(90.09% .0172 76.1);--brown3:oklch(81.17% .0322 75.16);--brown4:oklch(66.26% .0586 73.73);--brown5:oklch(63.22% .0643 72.82);--brown6:oklch(51.86% .0506 71.83);--brown7:oklch(40.04% .0375 74.38);--brown8:oklch(27.01% .0227 75.38);--black:oklch(0% 0 0);--white:oklch(100% 0 0);--grey1:oklch(96.8% .007 247.896);--grey2:oklch(92.9% .013 255.508);--grey3:oklch(86.9% .022 252.894);--grey4:oklch(70.4% .04 256.788);--grey5:oklch(55.4% .046 257.417);--grey6:oklch(44.6% .043 257.281);--grey7:oklch(37.2% .044 257.287);--grey8:oklch(27.9% .041 260.031);--grey9:oklch(20.8% .042 265.755);--grey10:oklch(12.9% .042 264.695);--cold1:var(--grey1);--cold2:var(--grey2);--cold3:var(--grey3);--cold4:var(--grey4);--cold5:var(--grey5);--cold6:var(--grey6);--cold7:var(--grey7);--cold8:var(--grey8);--cold9:var(--grey9);--cold10:var(--grey10);--background:var(--cold10);--background-secondary:var(--cold9);--background-hover:var(--cold9);--background-selected:var(--cold8);--background-selected-hover:var(--cold7);--background-high-contrast:var(--black);--border-muted:var(--cold8);--border:var(--cold7);--border-strong:var(--cold6);--border-inked:var(--cold1);--border-inverse:var(--black);--border-focus:var(--blue4);--button:var(--blue4);--button-hover:var(--blue3);--button-active:var(--blue2);--button-disabled:var(--cold8);--link:var(--blue4);--link-hover:var(--blue3);--link-subtle:var(--cold1);--link-visited:var(--indigo4);--support-error:var(--red4);--support-warning:var(--yellow4);--support-success:var(--green4);--support-info:var(--blue4);--content-primary:var(--cold1);--content-secondary:var(--cold4);--content-secondary-alt:var(--cold6);--content-placeholder:var(--cold7);--content-on-color:var(--white);--content-error:var(--red4);--content-success:var(--green4);--content-inked:var(--white)}[data-new-ui-theme=light--cold] .nu-u-text-cold1,[data-new-ui-theme=dark--cold] .nu-u-text-cold1{color:var(--cold1)}[data-new-ui-theme=light--cold] .nu-u-text-cold2,[data-new-ui-theme=dark--cold] .nu-u-text-cold2{color:var(--cold2)}[data-new-ui-theme=light--cold] .nu-u-text-cold3,[data-new-ui-theme=dark--cold] .nu-u-text-cold3{color:var(--cold3)}[data-new-ui-theme=light--cold] .nu-u-text-cold4,[data-new-ui-theme=dark--cold] .nu-u-text-cold4{color:var(--cold4)}[data-new-ui-theme=light--cold] .nu-u-text-cold5,[data-new-ui-theme=dark--cold] .nu-u-text-cold5{color:var(--cold5)}[data-new-ui-theme=light--cold] .nu-u-text-cold6,[data-new-ui-theme=dark--cold] .nu-u-text-cold6{color:var(--cold6)}[data-new-ui-theme=light--cold] .nu-u-text-cold7,[data-new-ui-theme=dark--cold] .nu-u-text-cold7{color:var(--cold7)}[data-new-ui-theme=light--cold] .nu-u-text-cold8,[data-new-ui-theme=dark--cold] .nu-u-text-cold8{color:var(--cold8)}[data-new-ui-theme=light--cold] .nu-u-text-cold9,[data-new-ui-theme=dark--cold] .nu-u-text-cold9{color:var(--cold9)}[data-new-ui-theme=light--cold] .nu-u-text-cold10,[data-new-ui-theme=dark--cold] .nu-u-text-cold10{color:var(--cold10)}[data-new-ui-theme=light--warm] .nu-u-text-warm1,[data-new-ui-theme=dark--warm] .nu-u-text-warm1{color:var(--warm1)}[data-new-ui-theme=light--warm] .nu-u-text-warm2,[data-new-ui-theme=dark--warm] .nu-u-text-warm2{color:var(--warm2)}[data-new-ui-theme=light--warm] .nu-u-text-warm3,[data-new-ui-theme=dark--warm] .nu-u-text-warm3{color:var(--warm3)}[data-new-ui-theme=light--warm] .nu-u-text-warm4,[data-new-ui-theme=dark--warm] .nu-u-text-warm4{color:var(--warm4)}[data-new-ui-theme=light--warm] .nu-u-text-warm5,[data-new-ui-theme=dark--warm] .nu-u-text-warm5{color:var(--warm5)}[data-new-ui-theme=light--warm] .nu-u-text-warm6,[data-new-ui-theme=dark--warm] .nu-u-text-warm6{color:var(--warm6)}[data-new-ui-theme=light--warm] .nu-u-text-warm7,[data-new-ui-theme=dark--warm] .nu-u-text-warm7{color:var(--warm7)}[data-new-ui-theme=light--warm] .nu-u-text-warm8,[data-new-ui-theme=dark--warm] .nu-u-text-warm8{color:var(--warm8)}[data-new-ui-theme=light--warm] .nu-u-text-warm9,[data-new-ui-theme=dark--warm] .nu-u-text-warm9{color:var(--warm9)}[data-new-ui-theme=light--warm] .nu-u-text-warm10,[data-new-ui-theme=dark--warm] .nu-u-text-warm10{color:var(--warm10)}.nu-u-bg{background-color:var(--background)}.nu-u-bg-secondary{background-color:var(--background-secondary)}.nu-u-bg-hover{background-color:var(--background-hover)}.nu-u-bg-selected{background-color:var(--background-selected)}.nu-u-bg-selected-hover{background-color:var(--background-selected-hover)}.nu-u-bg-high-contrast{background-color:var(--background-high-contrast)}.nu-u-bg-black{background-color:var(--black)}.nu-u-bg-white{background-color:var(--white)}.nu-u-b--muted{border-color:var(--border-muted)}.nu-u-b{border-color:var(--border)}.nu-u-b--strong{border-color:var(--border-strong)}.nu-u-b--inked{border-color:var(--border-inked)}.nu-u-b--inverse{border-color:var(--border-inverse)}.nu-u-b--focus{border-color:var(--border-focus)}.nu-u-text--primary{color:var(--content-primary)}.nu-u-text--secondary{color:var(--content-secondary)}.nu-u-text--secondary-alt{color:var(--content-secondary-alt)}.nu-u-text--placeholder::placeholder{color:var(--content-placeholder)}.nu-u-text--on-color{color:var(--content-on-color)}.nu-u-text--error{color:var(--content-error)}.nu-u-text--success{color:var(--content-success)}.nu-u-text--inked{color:var(--content-inked)}.nu-u-text-black{color:var(--black)}.nu-u-text-white{color:var(--white)}.nu-u-link{color:var(--link)}.nu-u-link--hover{color:var(--link-hover)}.nu-u-link--subtle{color:var(--link-subtle)}.nu-u-link--visited{color:var(--link-visited)}.nu-u-support--error{color:var(--support-error)}.nu-u-support--warning{color:var(--support-warning)}.nu-u-support--success{color:var(--support-success)}.nu-u-support--info{color:var(--support-info)}
+:root, [data-new-ui-theme="light"] {
+  --red1: oklch(96.89% .0152 22.39);
+  --red2: oklch(88.06% .0631 22.04);
+  --red3: oklch(78.71% .1233 23.85);
+  --red4: oklch(66.85% .2188 27.86);
+  --red5: oklch(65.42% .2321 28.66);
+  --red6: oklch(53.49% .1867 28.41);
+  --red7: oklch(40.87% .1383 28.31);
+  --red8: oklch(26.91% .0843 27.43);
+  --orange1: oklch(97.94% .0169 76.12);
+  --orange2: oklch(92.44% .0628 75.47);
+  --orange3: oklch(86.56% .1144 74.96);
+  --orange4: oklch(77.91% .1702 65.71);
+  --orange5: oklch(76.52% .1752 62.57);
+  --orange6: oklch(62.47% .142257 63.186);
+  --orange7: oklch(47.75% .1069 65.23);
+  --orange8: oklch(31.2% .0684 68.13);
+  --yellow1: oklch(98.71% .0201 94.52);
+  --yellow2: oklch(95.57% .0743 95.93);
+  --yellow3: oklch(91.99% .1295 95.37);
+  --yellow4: oklch(87.33% .176 91.91);
+  --yellow5: oklch(86.52% .1768 90.38);
+  --yellow6: oklch(70.52% .1441 90.64);
+  --yellow7: oklch(53.55% .109476 91.1235);
+  --yellow8: oklch(34.95% .0716 93.44);
+  --green1: oklch(97.77% .0156 154.48);
+  --green2: oklch(91.5% .0588 153.39);
+  --green3: oklch(84.74% .1113 151.25);
+  --green4: oklch(74.63% .183 148.25);
+  --green5: oklch(73.03% .1944 147.44);
+  --green6: oklch(59.64% .1556 147.67);
+  --green7: oklch(45.69% .1169 147.76);
+  --green8: oklch(29.96% .0699 149.05);
+  --mint1: oklch(97.67% .0158 192.09);
+  --mint2: oklch(91.4% .0559 193.43);
+  --mint3: oklch(84.89% .0975 191.4);
+  --mint4: oklch(76.08% .1293 189.71);
+  --mint5: oklch(74.81% .1296 189.03);
+  --mint6: oklch(61.02% .1054 189.82);
+  --mint7: oklch(46.64% .0808 189.01);
+  --mint8: oklch(30.41% .052376 190.816);
+  --teal1: oklch(97.6% .0099 212.52);
+  --teal2: oklch(91.01% .0384 208.75);
+  --teal3: oklch(83.55% .0693 209.91);
+  --teal4: oklch(71.96% .1068 211.76);
+  --teal5: oklch(69.98% .1109 212.72);
+  --teal6: oklch(57.32% .0893 212.09);
+  --teal7: oklch(43.95% .0672 212.18);
+  --teal8: oklch(29.06% .0415 210.48);
+  --cyan1: oklch(97.65% .011 225.98);
+  --cyan2: oklch(91.15% .0418 227.91);
+  --cyan3: oklch(83.73% .0772 228.87);
+  --cyan4: oklch(72.55% .1259 232.84);
+  --cyan5: oklch(70.68% .1327 233.88);
+  --cyan6: oklch(57.95% .1068 233.26);
+  --cyan7: oklch(44.23% .0796 233.37);
+  --cyan8: oklch(29.28% .0484 232.3);
+  --blue1: oklch(96.63% .0165 250.84);
+  --blue2: oklch(87.61% .062887 250.725);
+  --blue3: oklch(77.33% .1193 251.31);
+  --blue4: oklch(62.52% .2047 255.95);
+  --blue5: oklch(60.28% .2177 257.42);
+  --blue6: oklch(49.47% .175 256.92);
+  --blue7: oklch(38.03% .12949 255.924);
+  --blue8: oklch(25.32% .0794 253.56);
+  --indigo1: oklch(96.48% .0133 290.75);
+  --indigo2: oklch(86.98% .0495 286.6);
+  --indigo3: oklch(75.4% .0957 284.55);
+  --indigo4: oklch(56.4% .1758 279.91);
+  --indigo5: oklch(52.95% .191 278.34);
+  --indigo6: oklch(43.62% .1538 278.81);
+  --indigo7: oklch(33.98% .1127 279.22);
+  --indigo8: oklch(23.31% .0672 281.07);
+  --purple1: oklch(96.97% .0163 313.62);
+  --purple2: oklch(88.81% .0595 314.5);
+  --purple3: oklch(79.08% .113 313.73);
+  --purple4: oklch(64.18% .1982 312.55);
+  --purple5: oklch(61.49% .2129 312.41);
+  --purple6: oklch(50.43% .1716 312.44);
+  --purple7: oklch(38.87% .126 312.32);
+  --purple8: oklch(26.16% .0759 313.11);
+  --pink1: oklch(96.56% .0177 4.51);
+  --pink2: oklch(87.81% .0675 5.89);
+  --pink3: oklch(77.9% .1338 8.42);
+  --pink4: oklch(66.26% .2271 15.86);
+  --pink5: oklch(64.97% .2383 17.9);
+  --pink6: oklch(53.08% .1924 17.29);
+  --pink7: oklch(40.48% .1434 16.74);
+  --pink8: oklch(26.78% .0869 14.7);
+  --brown1: oklch(97.38% .0045 78.3);
+  --brown2: oklch(90.09% .0172 76.1);
+  --brown3: oklch(81.17% .0322 75.16);
+  --brown4: oklch(66.26% .0586 73.73);
+  --brown5: oklch(63.22% .0643 72.82);
+  --brown6: oklch(51.86% .0506 71.83);
+  --brown7: oklch(40.04% .0375 74.38);
+  --brown8: oklch(27.01% .0227 75.38);
+  --black: oklch(0% 0 0);
+  --white: oklch(100% 0 0);
+  --grey1: oklch(96.72% 0 0);
+  --grey2: oklch(90.67% 0 0);
+  --grey3: oklch(82.66% 0 0);
+  --grey4: oklch(73.16% 0 0);
+  --grey5: oklch(64.34% 0 0);
+  --grey6: oklch(54.17% 0 0);
+  --grey7: oklch(43.86% 0 0);
+  --grey8: oklch(34.46% 0 0);
+  --grey9: oklch(26.86% 0 0);
+  --grey10: oklch(20.02% 0 0);
+  --background: var(--white);
+  --background-secondary: var(--grey1);
+  --background-hover: var(--grey1);
+  --background-selected: var(--grey2);
+  --background-selected-hover: var(--grey3);
+  --background-high-contrast: var(--white);
+  --border-muted: var(--grey3);
+  --border: var(--grey4);
+  --border-strong: var(--grey6);
+  --border-inked: var(--grey10);
+  --border-inverse: var(--white);
+  --border-focus: var(--blue5);
+  --button: var(--blue5);
+  --button-hover: var(--blue6);
+  --button-active: var(--blue7);
+  --button-disabled: var(--grey4);
+  --link: var(--blue5);
+  --link-hover: var(--blue6);
+  --link-subtle: var(--grey8);
+  --link-visited: var(--indigo5);
+  --support-error: var(--red5);
+  --support-warning: var(--yellow5);
+  --support-success: var(--green5);
+  --support-info: var(--blue5);
+  --content-primary: var(--grey10);
+  --content-secondary: var(--grey7);
+  --content-secondary-alt: var(--grey5);
+  --content-placeholder: var(--grey4);
+  --content-on-color: var(--white);
+  --content-error: var(--red6);
+  --content-success: var(--green6);
+  --content-inked: var(--black);
+}
+
+[data-new-ui-theme="light--warm"] {
+  --red1: oklch(96.89% .0152 22.39);
+  --red2: oklch(88.06% .0631 22.04);
+  --red3: oklch(78.71% .1233 23.85);
+  --red4: oklch(66.85% .2188 27.86);
+  --red5: oklch(65.42% .2321 28.66);
+  --red6: oklch(53.49% .1867 28.41);
+  --red7: oklch(40.87% .1383 28.31);
+  --red8: oklch(26.91% .0843 27.43);
+  --orange1: oklch(97.94% .0169 76.12);
+  --orange2: oklch(92.44% .0628 75.47);
+  --orange3: oklch(86.56% .1144 74.96);
+  --orange4: oklch(77.91% .1702 65.71);
+  --orange5: oklch(76.52% .1752 62.57);
+  --orange6: oklch(62.47% .142257 63.186);
+  --orange7: oklch(47.75% .1069 65.23);
+  --orange8: oklch(31.2% .0684 68.13);
+  --yellow1: oklch(98.71% .0201 94.52);
+  --yellow2: oklch(95.57% .0743 95.93);
+  --yellow3: oklch(91.99% .1295 95.37);
+  --yellow4: oklch(87.33% .176 91.91);
+  --yellow5: oklch(86.52% .1768 90.38);
+  --yellow6: oklch(70.52% .1441 90.64);
+  --yellow7: oklch(53.55% .109476 91.1235);
+  --yellow8: oklch(34.95% .0716 93.44);
+  --green1: oklch(97.77% .0156 154.48);
+  --green2: oklch(91.5% .0588 153.39);
+  --green3: oklch(84.74% .1113 151.25);
+  --green4: oklch(74.63% .183 148.25);
+  --green5: oklch(73.03% .1944 147.44);
+  --green6: oklch(59.64% .1556 147.67);
+  --green7: oklch(45.69% .1169 147.76);
+  --green8: oklch(29.96% .0699 149.05);
+  --mint1: oklch(97.67% .0158 192.09);
+  --mint2: oklch(91.4% .0559 193.43);
+  --mint3: oklch(84.89% .0975 191.4);
+  --mint4: oklch(76.08% .1293 189.71);
+  --mint5: oklch(74.81% .1296 189.03);
+  --mint6: oklch(61.02% .1054 189.82);
+  --mint7: oklch(46.64% .0808 189.01);
+  --mint8: oklch(30.41% .052376 190.816);
+  --teal1: oklch(97.6% .0099 212.52);
+  --teal2: oklch(91.01% .0384 208.75);
+  --teal3: oklch(83.55% .0693 209.91);
+  --teal4: oklch(71.96% .1068 211.76);
+  --teal5: oklch(69.98% .1109 212.72);
+  --teal6: oklch(57.32% .0893 212.09);
+  --teal7: oklch(43.95% .0672 212.18);
+  --teal8: oklch(29.06% .0415 210.48);
+  --cyan1: oklch(97.65% .011 225.98);
+  --cyan2: oklch(91.15% .0418 227.91);
+  --cyan3: oklch(83.73% .0772 228.87);
+  --cyan4: oklch(72.55% .1259 232.84);
+  --cyan5: oklch(70.68% .1327 233.88);
+  --cyan6: oklch(57.95% .1068 233.26);
+  --cyan7: oklch(44.23% .0796 233.37);
+  --cyan8: oklch(29.28% .0484 232.3);
+  --blue1: oklch(96.63% .0165 250.84);
+  --blue2: oklch(87.61% .062887 250.725);
+  --blue3: oklch(77.33% .1193 251.31);
+  --blue4: oklch(62.52% .2047 255.95);
+  --blue5: oklch(60.28% .2177 257.42);
+  --blue6: oklch(49.47% .175 256.92);
+  --blue7: oklch(38.03% .12949 255.924);
+  --blue8: oklch(25.32% .0794 253.56);
+  --indigo1: oklch(96.48% .0133 290.75);
+  --indigo2: oklch(86.98% .0495 286.6);
+  --indigo3: oklch(75.4% .0957 284.55);
+  --indigo4: oklch(56.4% .1758 279.91);
+  --indigo5: oklch(52.95% .191 278.34);
+  --indigo6: oklch(43.62% .1538 278.81);
+  --indigo7: oklch(33.98% .1127 279.22);
+  --indigo8: oklch(23.31% .0672 281.07);
+  --purple1: oklch(96.97% .0163 313.62);
+  --purple2: oklch(88.81% .0595 314.5);
+  --purple3: oklch(79.08% .113 313.73);
+  --purple4: oklch(64.18% .1982 312.55);
+  --purple5: oklch(61.49% .2129 312.41);
+  --purple6: oklch(50.43% .1716 312.44);
+  --purple7: oklch(38.87% .126 312.32);
+  --purple8: oklch(26.16% .0759 313.11);
+  --pink1: oklch(96.56% .0177 4.51);
+  --pink2: oklch(87.81% .0675 5.89);
+  --pink3: oklch(77.9% .1338 8.42);
+  --pink4: oklch(66.26% .2271 15.86);
+  --pink5: oklch(64.97% .2383 17.9);
+  --pink6: oklch(53.08% .1924 17.29);
+  --pink7: oklch(40.48% .1434 16.74);
+  --pink8: oklch(26.78% .0869 14.7);
+  --brown1: oklch(97.38% .0045 78.3);
+  --brown2: oklch(90.09% .0172 76.1);
+  --brown3: oklch(81.17% .0322 75.16);
+  --brown4: oklch(66.26% .0586 73.73);
+  --brown5: oklch(63.22% .0643 72.82);
+  --brown6: oklch(51.86% .0506 71.83);
+  --brown7: oklch(40.04% .0375 74.38);
+  --brown8: oklch(27.01% .0227 75.38);
+  --black: oklch(0% 0 0);
+  --white: oklch(100% 0 0);
+  --grey1: oklch(95.79% .001 106.42);
+  --grey2: oklch(94.39% .001 17.18);
+  --grey3: oklch(87.66% .002 67.8);
+  --grey4: oklch(73.07% .004 106.5);
+  --grey5: oklch(62.89% .006 106.57);
+  --grey6: oklch(54.1% .008 97.45);
+  --grey7: oklch(43.73% .011 100.22);
+  --grey8: oklch(34.71% .012 100.33);
+  --grey9: oklch(26.31% .013 100.51);
+  --grey10: oklch(21.35% .012 91.77);
+  --warm1: var(--grey1);
+  --warm2: var(--grey2);
+  --warm3: var(--grey3);
+  --warm4: var(--grey4);
+  --warm5: var(--grey5);
+  --warm6: var(--grey6);
+  --warm7: var(--grey7);
+  --warm8: var(--grey8);
+  --warm9: var(--grey9);
+  --warm10: var(--grey10);
+  --background: var(--white);
+  --background-secondary: var(--warm1);
+  --background-hover: var(--warm1);
+  --background-selected: var(--warm2);
+  --background-selected-hover: var(--warm3);
+  --background-high-contrast: var(--white);
+  --border-muted: var(--warm3);
+  --border: var(--warm4);
+  --border-strong: var(--warm6);
+  --border-inked: var(--warm10);
+  --border-inverse: var(--white);
+  --border-focus: var(--blue5);
+  --button: var(--blue5);
+  --button-hover: var(--blue6);
+  --button-active: var(--blue7);
+  --button-disabled: var(--warm4);
+  --link: var(--blue5);
+  --link-hover: var(--blue6);
+  --link-subtle: var(--warm8);
+  --link-visited: var(--indigo5);
+  --support-error: var(--red5);
+  --support-warning: var(--yellow5);
+  --support-success: var(--green5);
+  --support-info: var(--blue5);
+  --content-primary: var(--warm10);
+  --content-secondary: var(--warm7);
+  --content-secondary-alt: var(--warm5);
+  --content-placeholder: var(--warm4);
+  --content-on-color: var(--white);
+  --content-error: var(--red6);
+  --content-success: var(--green6);
+  --content-inked: var(--black);
+}
+
+[data-new-ui-theme="light--cold"] {
+  --red1: oklch(96.89% .0152 22.39);
+  --red2: oklch(88.06% .0631 22.04);
+  --red3: oklch(78.71% .1233 23.85);
+  --red4: oklch(66.85% .2188 27.86);
+  --red5: oklch(65.42% .2321 28.66);
+  --red6: oklch(53.49% .1867 28.41);
+  --red7: oklch(40.87% .1383 28.31);
+  --red8: oklch(26.91% .0843 27.43);
+  --orange1: oklch(97.94% .0169 76.12);
+  --orange2: oklch(92.44% .0628 75.47);
+  --orange3: oklch(86.56% .1144 74.96);
+  --orange4: oklch(77.91% .1702 65.71);
+  --orange5: oklch(76.52% .1752 62.57);
+  --orange6: oklch(62.47% .142257 63.186);
+  --orange7: oklch(47.75% .1069 65.23);
+  --orange8: oklch(31.2% .0684 68.13);
+  --yellow1: oklch(98.71% .0201 94.52);
+  --yellow2: oklch(95.57% .0743 95.93);
+  --yellow3: oklch(91.99% .1295 95.37);
+  --yellow4: oklch(87.33% .176 91.91);
+  --yellow5: oklch(86.52% .1768 90.38);
+  --yellow6: oklch(70.52% .1441 90.64);
+  --yellow7: oklch(53.55% .109476 91.1235);
+  --yellow8: oklch(34.95% .0716 93.44);
+  --green1: oklch(97.77% .0156 154.48);
+  --green2: oklch(91.5% .0588 153.39);
+  --green3: oklch(84.74% .1113 151.25);
+  --green4: oklch(74.63% .183 148.25);
+  --green5: oklch(73.03% .1944 147.44);
+  --green6: oklch(59.64% .1556 147.67);
+  --green7: oklch(45.69% .1169 147.76);
+  --green8: oklch(29.96% .0699 149.05);
+  --mint1: oklch(97.67% .0158 192.09);
+  --mint2: oklch(91.4% .0559 193.43);
+  --mint3: oklch(84.89% .0975 191.4);
+  --mint4: oklch(76.08% .1293 189.71);
+  --mint5: oklch(74.81% .1296 189.03);
+  --mint6: oklch(61.02% .1054 189.82);
+  --mint7: oklch(46.64% .0808 189.01);
+  --mint8: oklch(30.41% .052376 190.816);
+  --teal1: oklch(97.6% .0099 212.52);
+  --teal2: oklch(91.01% .0384 208.75);
+  --teal3: oklch(83.55% .0693 209.91);
+  --teal4: oklch(71.96% .1068 211.76);
+  --teal5: oklch(69.98% .1109 212.72);
+  --teal6: oklch(57.32% .0893 212.09);
+  --teal7: oklch(43.95% .0672 212.18);
+  --teal8: oklch(29.06% .0415 210.48);
+  --cyan1: oklch(97.65% .011 225.98);
+  --cyan2: oklch(91.15% .0418 227.91);
+  --cyan3: oklch(83.73% .0772 228.87);
+  --cyan4: oklch(72.55% .1259 232.84);
+  --cyan5: oklch(70.68% .1327 233.88);
+  --cyan6: oklch(57.95% .1068 233.26);
+  --cyan7: oklch(44.23% .0796 233.37);
+  --cyan8: oklch(29.28% .0484 232.3);
+  --blue1: oklch(96.63% .0165 250.84);
+  --blue2: oklch(87.61% .062887 250.725);
+  --blue3: oklch(77.33% .1193 251.31);
+  --blue4: oklch(62.52% .2047 255.95);
+  --blue5: oklch(60.28% .2177 257.42);
+  --blue6: oklch(49.47% .175 256.92);
+  --blue7: oklch(38.03% .12949 255.924);
+  --blue8: oklch(25.32% .0794 253.56);
+  --indigo1: oklch(96.48% .0133 290.75);
+  --indigo2: oklch(86.98% .0495 286.6);
+  --indigo3: oklch(75.4% .0957 284.55);
+  --indigo4: oklch(56.4% .1758 279.91);
+  --indigo5: oklch(52.95% .191 278.34);
+  --indigo6: oklch(43.62% .1538 278.81);
+  --indigo7: oklch(33.98% .1127 279.22);
+  --indigo8: oklch(23.31% .0672 281.07);
+  --purple1: oklch(96.97% .0163 313.62);
+  --purple2: oklch(88.81% .0595 314.5);
+  --purple3: oklch(79.08% .113 313.73);
+  --purple4: oklch(64.18% .1982 312.55);
+  --purple5: oklch(61.49% .2129 312.41);
+  --purple6: oklch(50.43% .1716 312.44);
+  --purple7: oklch(38.87% .126 312.32);
+  --purple8: oklch(26.16% .0759 313.11);
+  --pink1: oklch(96.56% .0177 4.51);
+  --pink2: oklch(87.81% .0675 5.89);
+  --pink3: oklch(77.9% .1338 8.42);
+  --pink4: oklch(66.26% .2271 15.86);
+  --pink5: oklch(64.97% .2383 17.9);
+  --pink6: oklch(53.08% .1924 17.29);
+  --pink7: oklch(40.48% .1434 16.74);
+  --pink8: oklch(26.78% .0869 14.7);
+  --brown1: oklch(97.38% .0045 78.3);
+  --brown2: oklch(90.09% .0172 76.1);
+  --brown3: oklch(81.17% .0322 75.16);
+  --brown4: oklch(66.26% .0586 73.73);
+  --brown5: oklch(63.22% .0643 72.82);
+  --brown6: oklch(51.86% .0506 71.83);
+  --brown7: oklch(40.04% .0375 74.38);
+  --brown8: oklch(27.01% .0227 75.38);
+  --black: oklch(0% 0 0);
+  --white: oklch(100% 0 0);
+  --grey1: oklch(98.54% .001 286.38);
+  --grey2: oklch(96.95% .005 258.32);
+  --grey3: oklch(92.77% .01 267.36);
+  --grey4: oklch(87.05% .012 252.1);
+  --grey5: oklch(70.4% .03 263.37);
+  --grey6: oklch(55.32% .032 261.39);
+  --grey7: oklch(44.46% .03 263.13);
+  --grey8: oklch(37.01% .034 262.07);
+  --grey9: oklch(27.79% .029 267.58);
+  --grey10: oklch(20.62% .027 267.82);
+  --cold1: var(--grey1);
+  --cold2: var(--grey2);
+  --cold3: var(--grey3);
+  --cold4: var(--grey4);
+  --cold5: var(--grey5);
+  --cold6: var(--grey6);
+  --cold7: var(--grey7);
+  --cold8: var(--grey8);
+  --cold9: var(--grey9);
+  --cold10: var(--grey10);
+  --background: var(--white);
+  --background-secondary: var(--cold1);
+  --background-hover: var(--cold1);
+  --background-selected: var(--cold2);
+  --background-selected-hover: var(--cold3);
+  --background-high-contrast: var(--white);
+  --border-muted: var(--cold3);
+  --border: var(--cold4);
+  --border-strong: var(--cold6);
+  --border-inked: var(--cold10);
+  --border-inverse: var(--white);
+  --border-focus: var(--blue5);
+  --button: var(--blue5);
+  --button-hover: var(--blue6);
+  --button-active: var(--blue7);
+  --button-disabled: var(--cold4);
+  --link: var(--blue5);
+  --link-hover: var(--blue6);
+  --link-subtle: var(--cold8);
+  --link-visited: var(--indigo5);
+  --support-error: var(--red5);
+  --support-warning: var(--yellow5);
+  --support-success: var(--green5);
+  --support-info: var(--blue5);
+  --content-primary: var(--cold10);
+  --content-secondary: var(--cold7);
+  --content-secondary-alt: var(--cold5);
+  --content-placeholder: var(--cold4);
+  --content-on-color: var(--white);
+  --content-error: var(--red6);
+  --content-success: var(--green6);
+  --content-inked: var(--black);
+}
+
+[data-new-ui-theme="dark"] {
+  --red1: oklch(96.89% .0152 22.39);
+  --red2: oklch(88.06% .0631 22.04);
+  --red3: oklch(78.71% .1233 23.85);
+  --red4: oklch(66.85% .2188 27.86);
+  --red5: oklch(65.42% .2321 28.66);
+  --red6: oklch(53.49% .1867 28.41);
+  --red7: oklch(40.87% .1383 28.31);
+  --red8: oklch(26.91% .0843 27.43);
+  --orange1: oklch(97.94% .0169 76.12);
+  --orange2: oklch(92.44% .0628 75.47);
+  --orange3: oklch(86.56% .1144 74.96);
+  --orange4: oklch(77.91% .1702 65.71);
+  --orange5: oklch(76.52% .1752 62.57);
+  --orange6: oklch(62.47% .142257 63.186);
+  --orange7: oklch(47.75% .1069 65.23);
+  --orange8: oklch(31.2% .0684 68.13);
+  --yellow1: oklch(98.71% .0201 94.52);
+  --yellow2: oklch(95.57% .0743 95.93);
+  --yellow3: oklch(91.99% .1295 95.37);
+  --yellow4: oklch(87.33% .176 91.91);
+  --yellow5: oklch(86.52% .1768 90.38);
+  --yellow6: oklch(70.52% .1441 90.64);
+  --yellow7: oklch(53.55% .109476 91.1235);
+  --yellow8: oklch(34.95% .0716 93.44);
+  --green1: oklch(97.77% .0156 154.48);
+  --green2: oklch(91.5% .0588 153.39);
+  --green3: oklch(84.74% .1113 151.25);
+  --green4: oklch(74.63% .183 148.25);
+  --green5: oklch(73.03% .1944 147.44);
+  --green6: oklch(59.64% .1556 147.67);
+  --green7: oklch(45.69% .1169 147.76);
+  --green8: oklch(29.96% .0699 149.05);
+  --mint1: oklch(97.67% .0158 192.09);
+  --mint2: oklch(91.4% .0559 193.43);
+  --mint3: oklch(84.89% .0975 191.4);
+  --mint4: oklch(76.08% .1293 189.71);
+  --mint5: oklch(74.81% .1296 189.03);
+  --mint6: oklch(61.02% .1054 189.82);
+  --mint7: oklch(46.64% .0808 189.01);
+  --mint8: oklch(30.41% .052376 190.816);
+  --teal1: oklch(97.6% .0099 212.52);
+  --teal2: oklch(91.01% .0384 208.75);
+  --teal3: oklch(83.55% .0693 209.91);
+  --teal4: oklch(71.96% .1068 211.76);
+  --teal5: oklch(69.98% .1109 212.72);
+  --teal6: oklch(57.32% .0893 212.09);
+  --teal7: oklch(43.95% .0672 212.18);
+  --teal8: oklch(29.06% .0415 210.48);
+  --cyan1: oklch(97.65% .011 225.98);
+  --cyan2: oklch(91.15% .0418 227.91);
+  --cyan3: oklch(83.73% .0772 228.87);
+  --cyan4: oklch(72.55% .1259 232.84);
+  --cyan5: oklch(70.68% .1327 233.88);
+  --cyan6: oklch(57.95% .1068 233.26);
+  --cyan7: oklch(44.23% .0796 233.37);
+  --cyan8: oklch(29.28% .0484 232.3);
+  --blue1: oklch(96.63% .0165 250.84);
+  --blue2: oklch(87.61% .062887 250.725);
+  --blue3: oklch(77.33% .1193 251.31);
+  --blue4: oklch(62.52% .2047 255.95);
+  --blue5: oklch(60.28% .2177 257.42);
+  --blue6: oklch(49.47% .175 256.92);
+  --blue7: oklch(38.03% .12949 255.924);
+  --blue8: oklch(25.32% .0794 253.56);
+  --indigo1: oklch(96.48% .0133 290.75);
+  --indigo2: oklch(86.98% .0495 286.6);
+  --indigo3: oklch(75.4% .0957 284.55);
+  --indigo4: oklch(56.4% .1758 279.91);
+  --indigo5: oklch(52.95% .191 278.34);
+  --indigo6: oklch(43.62% .1538 278.81);
+  --indigo7: oklch(33.98% .1127 279.22);
+  --indigo8: oklch(23.31% .0672 281.07);
+  --purple1: oklch(96.97% .0163 313.62);
+  --purple2: oklch(88.81% .0595 314.5);
+  --purple3: oklch(79.08% .113 313.73);
+  --purple4: oklch(64.18% .1982 312.55);
+  --purple5: oklch(61.49% .2129 312.41);
+  --purple6: oklch(50.43% .1716 312.44);
+  --purple7: oklch(38.87% .126 312.32);
+  --purple8: oklch(26.16% .0759 313.11);
+  --pink1: oklch(96.56% .0177 4.51);
+  --pink2: oklch(87.81% .0675 5.89);
+  --pink3: oklch(77.9% .1338 8.42);
+  --pink4: oklch(66.26% .2271 15.86);
+  --pink5: oklch(64.97% .2383 17.9);
+  --pink6: oklch(53.08% .1924 17.29);
+  --pink7: oklch(40.48% .1434 16.74);
+  --pink8: oklch(26.78% .0869 14.7);
+  --brown1: oklch(97.38% .0045 78.3);
+  --brown2: oklch(90.09% .0172 76.1);
+  --brown3: oklch(81.17% .0322 75.16);
+  --brown4: oklch(66.26% .0586 73.73);
+  --brown5: oklch(63.22% .0643 72.82);
+  --brown6: oklch(51.86% .0506 71.83);
+  --brown7: oklch(40.04% .0375 74.38);
+  --brown8: oklch(27.01% .0227 75.38);
+  --black: oklch(0% 0 0);
+  --white: oklch(100% 0 0);
+  --grey1: oklch(96.72% 0 0);
+  --grey2: oklch(90.67% 0 0);
+  --grey3: oklch(82.66% 0 0);
+  --grey4: oklch(73.16% 0 0);
+  --grey5: oklch(64.34% 0 0);
+  --grey6: oklch(54.17% 0 0);
+  --grey7: oklch(43.86% 0 0);
+  --grey8: oklch(34.46% 0 0);
+  --grey9: oklch(26.86% 0 0);
+  --grey10: oklch(20.02% 0 0);
+  --background: var(--grey10);
+  --background-secondary: var(--grey9);
+  --background-hover: var(--grey9);
+  --background-selected: var(--grey8);
+  --background-selected-hover: var(--grey7);
+  --background-high-contrast: var(--black);
+  --border-muted: var(--grey8);
+  --border: var(--grey7);
+  --border-strong: var(--grey6);
+  --border-inked: var(--grey1);
+  --border-inverse: var(--black);
+  --border-focus: var(--blue4);
+  --button: var(--blue4);
+  --button-hover: var(--blue3);
+  --button-active: var(--blue2);
+  --button-disabled: var(--grey8);
+  --link: var(--blue4);
+  --link-hover: var(--blue3);
+  --link-subtle: var(--grey1);
+  --link-visited: var(--indigo4);
+  --support-error: var(--red4);
+  --support-warning: var(--yellow4);
+  --support-success: var(--green4);
+  --support-info: var(--blue4);
+  --content-primary: var(--grey1);
+  --content-secondary: var(--grey4);
+  --content-secondary-alt: var(--grey6);
+  --content-placeholder: var(--grey7);
+  --content-on-color: var(--white);
+  --content-error: var(--red4);
+  --content-success: var(--green4);
+  --content-inked: var(--white);
+}
+
+[data-new-ui-theme="dark--warm"] {
+  --red1: oklch(96.89% .0152 22.39);
+  --red2: oklch(88.06% .0631 22.04);
+  --red3: oklch(78.71% .1233 23.85);
+  --red4: oklch(66.85% .2188 27.86);
+  --red5: oklch(65.42% .2321 28.66);
+  --red6: oklch(53.49% .1867 28.41);
+  --red7: oklch(40.87% .1383 28.31);
+  --red8: oklch(26.91% .0843 27.43);
+  --orange1: oklch(97.94% .0169 76.12);
+  --orange2: oklch(92.44% .0628 75.47);
+  --orange3: oklch(86.56% .1144 74.96);
+  --orange4: oklch(77.91% .1702 65.71);
+  --orange5: oklch(76.52% .1752 62.57);
+  --orange6: oklch(62.47% .142257 63.186);
+  --orange7: oklch(47.75% .1069 65.23);
+  --orange8: oklch(31.2% .0684 68.13);
+  --yellow1: oklch(98.71% .0201 94.52);
+  --yellow2: oklch(95.57% .0743 95.93);
+  --yellow3: oklch(91.99% .1295 95.37);
+  --yellow4: oklch(87.33% .176 91.91);
+  --yellow5: oklch(86.52% .1768 90.38);
+  --yellow6: oklch(70.52% .1441 90.64);
+  --yellow7: oklch(53.55% .109476 91.1235);
+  --yellow8: oklch(34.95% .0716 93.44);
+  --green1: oklch(97.77% .0156 154.48);
+  --green2: oklch(91.5% .0588 153.39);
+  --green3: oklch(84.74% .1113 151.25);
+  --green4: oklch(74.63% .183 148.25);
+  --green5: oklch(73.03% .1944 147.44);
+  --green6: oklch(59.64% .1556 147.67);
+  --green7: oklch(45.69% .1169 147.76);
+  --green8: oklch(29.96% .0699 149.05);
+  --mint1: oklch(97.67% .0158 192.09);
+  --mint2: oklch(91.4% .0559 193.43);
+  --mint3: oklch(84.89% .0975 191.4);
+  --mint4: oklch(76.08% .1293 189.71);
+  --mint5: oklch(74.81% .1296 189.03);
+  --mint6: oklch(61.02% .1054 189.82);
+  --mint7: oklch(46.64% .0808 189.01);
+  --mint8: oklch(30.41% .052376 190.816);
+  --teal1: oklch(97.6% .0099 212.52);
+  --teal2: oklch(91.01% .0384 208.75);
+  --teal3: oklch(83.55% .0693 209.91);
+  --teal4: oklch(71.96% .1068 211.76);
+  --teal5: oklch(69.98% .1109 212.72);
+  --teal6: oklch(57.32% .0893 212.09);
+  --teal7: oklch(43.95% .0672 212.18);
+  --teal8: oklch(29.06% .0415 210.48);
+  --cyan1: oklch(97.65% .011 225.98);
+  --cyan2: oklch(91.15% .0418 227.91);
+  --cyan3: oklch(83.73% .0772 228.87);
+  --cyan4: oklch(72.55% .1259 232.84);
+  --cyan5: oklch(70.68% .1327 233.88);
+  --cyan6: oklch(57.95% .1068 233.26);
+  --cyan7: oklch(44.23% .0796 233.37);
+  --cyan8: oklch(29.28% .0484 232.3);
+  --blue1: oklch(96.63% .0165 250.84);
+  --blue2: oklch(87.61% .062887 250.725);
+  --blue3: oklch(77.33% .1193 251.31);
+  --blue4: oklch(62.52% .2047 255.95);
+  --blue5: oklch(60.28% .2177 257.42);
+  --blue6: oklch(49.47% .175 256.92);
+  --blue7: oklch(38.03% .12949 255.924);
+  --blue8: oklch(25.32% .0794 253.56);
+  --indigo1: oklch(96.48% .0133 290.75);
+  --indigo2: oklch(86.98% .0495 286.6);
+  --indigo3: oklch(75.4% .0957 284.55);
+  --indigo4: oklch(56.4% .1758 279.91);
+  --indigo5: oklch(52.95% .191 278.34);
+  --indigo6: oklch(43.62% .1538 278.81);
+  --indigo7: oklch(33.98% .1127 279.22);
+  --indigo8: oklch(23.31% .0672 281.07);
+  --purple1: oklch(96.97% .0163 313.62);
+  --purple2: oklch(88.81% .0595 314.5);
+  --purple3: oklch(79.08% .113 313.73);
+  --purple4: oklch(64.18% .1982 312.55);
+  --purple5: oklch(61.49% .2129 312.41);
+  --purple6: oklch(50.43% .1716 312.44);
+  --purple7: oklch(38.87% .126 312.32);
+  --purple8: oklch(26.16% .0759 313.11);
+  --pink1: oklch(96.56% .0177 4.51);
+  --pink2: oklch(87.81% .0675 5.89);
+  --pink3: oklch(77.9% .1338 8.42);
+  --pink4: oklch(66.26% .2271 15.86);
+  --pink5: oklch(64.97% .2383 17.9);
+  --pink6: oklch(53.08% .1924 17.29);
+  --pink7: oklch(40.48% .1434 16.74);
+  --pink8: oklch(26.78% .0869 14.7);
+  --brown1: oklch(97.38% .0045 78.3);
+  --brown2: oklch(90.09% .0172 76.1);
+  --brown3: oklch(81.17% .0322 75.16);
+  --brown4: oklch(66.26% .0586 73.73);
+  --brown5: oklch(63.22% .0643 72.82);
+  --brown6: oklch(51.86% .0506 71.83);
+  --brown7: oklch(40.04% .0375 74.38);
+  --brown8: oklch(27.01% .0227 75.38);
+  --black: oklch(0% 0 0);
+  --white: oklch(100% 0 0);
+  --grey1: oklch(95.79% .001 106.42);
+  --grey2: oklch(94.39% .001 17.18);
+  --grey3: oklch(87.66% .002 67.8);
+  --grey4: oklch(73.07% .004 106.5);
+  --grey5: oklch(62.89% .006 106.57);
+  --grey6: oklch(54.1% .008 97.45);
+  --grey7: oklch(43.73% .011 100.22);
+  --grey8: oklch(34.71% .012 100.33);
+  --grey9: oklch(26.31% .013 100.51);
+  --grey10: oklch(21.35% .012 91.77);
+  --warm1: var(--grey1);
+  --warm2: var(--grey2);
+  --warm3: var(--grey3);
+  --warm4: var(--grey4);
+  --warm5: var(--grey5);
+  --warm6: var(--grey6);
+  --warm7: var(--grey7);
+  --warm8: var(--grey8);
+  --warm9: var(--grey9);
+  --warm10: var(--grey10);
+  --background: var(--warm10);
+  --background-secondary: var(--warm9);
+  --background-hover: var(--warm9);
+  --background-selected: var(--warm8);
+  --background-selected-hover: var(--warm7);
+  --background-high-contrast: var(--black);
+  --border-muted: var(--warm8);
+  --border: var(--warm7);
+  --border-strong: var(--warm6);
+  --border-inked: var(--warm1);
+  --border-inverse: var(--black);
+  --border-focus: var(--blue4);
+  --button: var(--blue4);
+  --button-hover: var(--blue3);
+  --button-active: var(--blue2);
+  --button-disabled: var(--warm8);
+  --link: var(--blue4);
+  --link-hover: var(--blue3);
+  --link-subtle: var(--warm1);
+  --link-visited: var(--indigo4);
+  --support-error: var(--red4);
+  --support-warning: var(--yellow4);
+  --support-success: var(--green4);
+  --support-info: var(--blue4);
+  --content-primary: var(--warm1);
+  --content-secondary: var(--warm4);
+  --content-secondary-alt: var(--warm6);
+  --content-placeholder: var(--warm7);
+  --content-on-color: var(--white);
+  --content-error: var(--red4);
+  --content-success: var(--green4);
+  --content-inked: var(--white);
+}
+
+[data-new-ui-theme="dark--cold"] {
+  --red1: oklch(96.89% .0152 22.39);
+  --red2: oklch(88.06% .0631 22.04);
+  --red3: oklch(78.71% .1233 23.85);
+  --red4: oklch(66.85% .2188 27.86);
+  --red5: oklch(65.42% .2321 28.66);
+  --red6: oklch(53.49% .1867 28.41);
+  --red7: oklch(40.87% .1383 28.31);
+  --red8: oklch(26.91% .0843 27.43);
+  --orange1: oklch(97.94% .0169 76.12);
+  --orange2: oklch(92.44% .0628 75.47);
+  --orange3: oklch(86.56% .1144 74.96);
+  --orange4: oklch(77.91% .1702 65.71);
+  --orange5: oklch(76.52% .1752 62.57);
+  --orange6: oklch(62.47% .142257 63.186);
+  --orange7: oklch(47.75% .1069 65.23);
+  --orange8: oklch(31.2% .0684 68.13);
+  --yellow1: oklch(98.71% .0201 94.52);
+  --yellow2: oklch(95.57% .0743 95.93);
+  --yellow3: oklch(91.99% .1295 95.37);
+  --yellow4: oklch(87.33% .176 91.91);
+  --yellow5: oklch(86.52% .1768 90.38);
+  --yellow6: oklch(70.52% .1441 90.64);
+  --yellow7: oklch(53.55% .109476 91.1235);
+  --yellow8: oklch(34.95% .0716 93.44);
+  --green1: oklch(97.77% .0156 154.48);
+  --green2: oklch(91.5% .0588 153.39);
+  --green3: oklch(84.74% .1113 151.25);
+  --green4: oklch(74.63% .183 148.25);
+  --green5: oklch(73.03% .1944 147.44);
+  --green6: oklch(59.64% .1556 147.67);
+  --green7: oklch(45.69% .1169 147.76);
+  --green8: oklch(29.96% .0699 149.05);
+  --mint1: oklch(97.67% .0158 192.09);
+  --mint2: oklch(91.4% .0559 193.43);
+  --mint3: oklch(84.89% .0975 191.4);
+  --mint4: oklch(76.08% .1293 189.71);
+  --mint5: oklch(74.81% .1296 189.03);
+  --mint6: oklch(61.02% .1054 189.82);
+  --mint7: oklch(46.64% .0808 189.01);
+  --mint8: oklch(30.41% .052376 190.816);
+  --teal1: oklch(97.6% .0099 212.52);
+  --teal2: oklch(91.01% .0384 208.75);
+  --teal3: oklch(83.55% .0693 209.91);
+  --teal4: oklch(71.96% .1068 211.76);
+  --teal5: oklch(69.98% .1109 212.72);
+  --teal6: oklch(57.32% .0893 212.09);
+  --teal7: oklch(43.95% .0672 212.18);
+  --teal8: oklch(29.06% .0415 210.48);
+  --cyan1: oklch(97.65% .011 225.98);
+  --cyan2: oklch(91.15% .0418 227.91);
+  --cyan3: oklch(83.73% .0772 228.87);
+  --cyan4: oklch(72.55% .1259 232.84);
+  --cyan5: oklch(70.68% .1327 233.88);
+  --cyan6: oklch(57.95% .1068 233.26);
+  --cyan7: oklch(44.23% .0796 233.37);
+  --cyan8: oklch(29.28% .0484 232.3);
+  --blue1: oklch(96.63% .0165 250.84);
+  --blue2: oklch(87.61% .062887 250.725);
+  --blue3: oklch(77.33% .1193 251.31);
+  --blue4: oklch(62.52% .2047 255.95);
+  --blue5: oklch(60.28% .2177 257.42);
+  --blue6: oklch(49.47% .175 256.92);
+  --blue7: oklch(38.03% .12949 255.924);
+  --blue8: oklch(25.32% .0794 253.56);
+  --indigo1: oklch(96.48% .0133 290.75);
+  --indigo2: oklch(86.98% .0495 286.6);
+  --indigo3: oklch(75.4% .0957 284.55);
+  --indigo4: oklch(56.4% .1758 279.91);
+  --indigo5: oklch(52.95% .191 278.34);
+  --indigo6: oklch(43.62% .1538 278.81);
+  --indigo7: oklch(33.98% .1127 279.22);
+  --indigo8: oklch(23.31% .0672 281.07);
+  --purple1: oklch(96.97% .0163 313.62);
+  --purple2: oklch(88.81% .0595 314.5);
+  --purple3: oklch(79.08% .113 313.73);
+  --purple4: oklch(64.18% .1982 312.55);
+  --purple5: oklch(61.49% .2129 312.41);
+  --purple6: oklch(50.43% .1716 312.44);
+  --purple7: oklch(38.87% .126 312.32);
+  --purple8: oklch(26.16% .0759 313.11);
+  --pink1: oklch(96.56% .0177 4.51);
+  --pink2: oklch(87.81% .0675 5.89);
+  --pink3: oklch(77.9% .1338 8.42);
+  --pink4: oklch(66.26% .2271 15.86);
+  --pink5: oklch(64.97% .2383 17.9);
+  --pink6: oklch(53.08% .1924 17.29);
+  --pink7: oklch(40.48% .1434 16.74);
+  --pink8: oklch(26.78% .0869 14.7);
+  --brown1: oklch(97.38% .0045 78.3);
+  --brown2: oklch(90.09% .0172 76.1);
+  --brown3: oklch(81.17% .0322 75.16);
+  --brown4: oklch(66.26% .0586 73.73);
+  --brown5: oklch(63.22% .0643 72.82);
+  --brown6: oklch(51.86% .0506 71.83);
+  --brown7: oklch(40.04% .0375 74.38);
+  --brown8: oklch(27.01% .0227 75.38);
+  --black: oklch(0% 0 0);
+  --white: oklch(100% 0 0);
+  --grey1: oklch(96.8% .007 247.896);
+  --grey2: oklch(92.9% .013 255.508);
+  --grey3: oklch(86.9% .022 252.894);
+  --grey4: oklch(70.4% .04 256.788);
+  --grey5: oklch(55.4% .046 257.417);
+  --grey6: oklch(44.6% .043 257.281);
+  --grey7: oklch(37.2% .044 257.287);
+  --grey8: oklch(27.9% .041 260.031);
+  --grey9: oklch(20.8% .042 265.755);
+  --grey10: oklch(12.9% .042 264.695);
+  --cold1: var(--grey1);
+  --cold2: var(--grey2);
+  --cold3: var(--grey3);
+  --cold4: var(--grey4);
+  --cold5: var(--grey5);
+  --cold6: var(--grey6);
+  --cold7: var(--grey7);
+  --cold8: var(--grey8);
+  --cold9: var(--grey9);
+  --cold10: var(--grey10);
+  --background: var(--cold10);
+  --background-secondary: var(--cold9);
+  --background-hover: var(--cold9);
+  --background-selected: var(--cold8);
+  --background-selected-hover: var(--cold7);
+  --background-high-contrast: var(--black);
+  --border-muted: var(--cold8);
+  --border: var(--cold7);
+  --border-strong: var(--cold6);
+  --border-inked: var(--cold1);
+  --border-inverse: var(--black);
+  --border-focus: var(--blue4);
+  --button: var(--blue4);
+  --button-hover: var(--blue3);
+  --button-active: var(--blue2);
+  --button-disabled: var(--cold8);
+  --link: var(--blue4);
+  --link-hover: var(--blue3);
+  --link-subtle: var(--cold1);
+  --link-visited: var(--indigo4);
+  --support-error: var(--red4);
+  --support-warning: var(--yellow4);
+  --support-success: var(--green4);
+  --support-info: var(--blue4);
+  --content-primary: var(--cold1);
+  --content-secondary: var(--cold4);
+  --content-secondary-alt: var(--cold6);
+  --content-placeholder: var(--cold7);
+  --content-on-color: var(--white);
+  --content-error: var(--red4);
+  --content-success: var(--green4);
+  --content-inked: var(--white);
+}
+
+[data-new-ui-theme="light--cold"] .nu-u-text-cold1, [data-new-ui-theme="dark--cold"] .nu-u-text-cold1 {
+  color: var(--cold1);
+}
+
+[data-new-ui-theme="light--cold"] .nu-u-text-cold2, [data-new-ui-theme="dark--cold"] .nu-u-text-cold2 {
+  color: var(--cold2);
+}
+
+[data-new-ui-theme="light--cold"] .nu-u-text-cold3, [data-new-ui-theme="dark--cold"] .nu-u-text-cold3 {
+  color: var(--cold3);
+}
+
+[data-new-ui-theme="light--cold"] .nu-u-text-cold4, [data-new-ui-theme="dark--cold"] .nu-u-text-cold4 {
+  color: var(--cold4);
+}
+
+[data-new-ui-theme="light--cold"] .nu-u-text-cold5, [data-new-ui-theme="dark--cold"] .nu-u-text-cold5 {
+  color: var(--cold5);
+}
+
+[data-new-ui-theme="light--cold"] .nu-u-text-cold6, [data-new-ui-theme="dark--cold"] .nu-u-text-cold6 {
+  color: var(--cold6);
+}
+
+[data-new-ui-theme="light--cold"] .nu-u-text-cold7, [data-new-ui-theme="dark--cold"] .nu-u-text-cold7 {
+  color: var(--cold7);
+}
+
+[data-new-ui-theme="light--cold"] .nu-u-text-cold8, [data-new-ui-theme="dark--cold"] .nu-u-text-cold8 {
+  color: var(--cold8);
+}
+
+[data-new-ui-theme="light--cold"] .nu-u-text-cold9, [data-new-ui-theme="dark--cold"] .nu-u-text-cold9 {
+  color: var(--cold9);
+}
+
+[data-new-ui-theme="light--cold"] .nu-u-text-cold10, [data-new-ui-theme="dark--cold"] .nu-u-text-cold10 {
+  color: var(--cold10);
+}
+
+[data-new-ui-theme="light--warm"] .nu-u-text-warm1, [data-new-ui-theme="dark--warm"] .nu-u-text-warm1 {
+  color: var(--warm1);
+}
+
+[data-new-ui-theme="light--warm"] .nu-u-text-warm2, [data-new-ui-theme="dark--warm"] .nu-u-text-warm2 {
+  color: var(--warm2);
+}
+
+[data-new-ui-theme="light--warm"] .nu-u-text-warm3, [data-new-ui-theme="dark--warm"] .nu-u-text-warm3 {
+  color: var(--warm3);
+}
+
+[data-new-ui-theme="light--warm"] .nu-u-text-warm4, [data-new-ui-theme="dark--warm"] .nu-u-text-warm4 {
+  color: var(--warm4);
+}
+
+[data-new-ui-theme="light--warm"] .nu-u-text-warm5, [data-new-ui-theme="dark--warm"] .nu-u-text-warm5 {
+  color: var(--warm5);
+}
+
+[data-new-ui-theme="light--warm"] .nu-u-text-warm6, [data-new-ui-theme="dark--warm"] .nu-u-text-warm6 {
+  color: var(--warm6);
+}
+
+[data-new-ui-theme="light--warm"] .nu-u-text-warm7, [data-new-ui-theme="dark--warm"] .nu-u-text-warm7 {
+  color: var(--warm7);
+}
+
+[data-new-ui-theme="light--warm"] .nu-u-text-warm8, [data-new-ui-theme="dark--warm"] .nu-u-text-warm8 {
+  color: var(--warm8);
+}
+
+[data-new-ui-theme="light--warm"] .nu-u-text-warm9, [data-new-ui-theme="dark--warm"] .nu-u-text-warm9 {
+  color: var(--warm9);
+}
+
+[data-new-ui-theme="light--warm"] .nu-u-text-warm10, [data-new-ui-theme="dark--warm"] .nu-u-text-warm10 {
+  color: var(--warm10);
+}
+
+.nu-u-bg {
+  background-color: var(--background);
+}
+
+.nu-u-bg-secondary {
+  background-color: var(--background-secondary);
+}
+
+.nu-u-bg-hover {
+  background-color: var(--background-hover);
+}
+
+.nu-u-bg-selected {
+  background-color: var(--background-selected);
+}
+
+.nu-u-bg-selected-hover {
+  background-color: var(--background-selected-hover);
+}
+
+.nu-u-bg-high-contrast {
+  background-color: var(--background-high-contrast);
+}
+
+.nu-u-bg-black {
+  background-color: var(--black);
+}
+
+.nu-u-bg-white {
+  background-color: var(--white);
+}
+
+.nu-u-b--muted {
+  border-color: var(--border-muted);
+}
+
+.nu-u-b {
+  border-color: var(--border);
+}
+
+.nu-u-b--strong {
+  border-color: var(--border-strong);
+}
+
+.nu-u-b--inked {
+  border-color: var(--border-inked);
+}
+
+.nu-u-b--inverse {
+  border-color: var(--border-inverse);
+}
+
+.nu-u-b--focus {
+  border-color: var(--border-focus);
+}
+
+.nu-u-text--primary {
+  color: var(--content-primary);
+}
+
+.nu-u-text--secondary {
+  color: var(--content-secondary);
+}
+
+.nu-u-text--secondary-alt {
+  color: var(--content-secondary-alt);
+}
+
+.nu-u-text--placeholder::placeholder {
+  color: var(--content-placeholder);
+}
+
+.nu-u-text--on-color {
+  color: var(--content-on-color);
+}
+
+.nu-u-text--error {
+  color: var(--content-error);
+}
+
+.nu-u-text--success {
+  color: var(--content-success);
+}
+
+.nu-u-text--inked {
+  color: var(--content-inked);
+}
+
+.nu-u-text-black {
+  color: var(--black);
+}
+
+.nu-u-text-white {
+  color: var(--white);
+}
+
+.nu-u-link {
+  color: var(--link);
+}
+
+.nu-u-link--hover {
+  color: var(--link-hover);
+}
+
+.nu-u-link--subtle {
+  color: var(--link-subtle);
+}
+
+.nu-u-link--visited {
+  color: var(--link-visited);
+}
+
+.nu-u-support--error {
+  color: var(--support-error);
+}
+
+.nu-u-support--warning {
+  color: var(--support-warning);
+}
+
+.nu-u-support--success {
+  color: var(--support-success);
+}
+
+.nu-u-support--info {
+  color: var(--support-info);
+}
 /*# sourceMappingURL=index.css.map */

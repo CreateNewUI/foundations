@@ -1,0 +1,20 @@
+{
+  "$schema": "https://unpkg.com/@changesets/config@3.0.0/schema.json",
+  "changelog": "@changesets/changelog-git",
+  "commit": false,
+  "access": "public",
+  "baseBranch": "main",
+  "updateInternalDependencies": "patch",
+  "fixed": [
+    [
+      "@new-ui/colors",
+      "@new-ui/effects",
+      "@new-ui/reset",
+      "@new-ui/spacings",
+      "@new-ui/themes",
+      "@new-ui/typography"
+    ]
+  ],
+  "linked": [],
+  "ignore": []
+}

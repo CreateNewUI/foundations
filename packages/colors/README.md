@@ -2,31 +2,38 @@
 
 ## Install
 
-Install New UI Colors from your terminal via npm.
+Install New UI Colors from your terminal with npm:
 
 ```
 npm i -D @new-ui/colors
 ```
 
-To get started quickly, you can use the CDN files.
+You can also load the minified build from a CDN in your HTML `<head>`:
 
 ```html
-<!-- Place this at the html head -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@new-ui/colors@latest/dist/index.css"
+  href="https://cdn.jsdelivr.net/npm/@new-ui/colors@latest/dist/index.min.css"
 />
 ```
 
 ## Usage
 
-```scss
-// Place this at the top of your SCSS/CSS file
-@use '@new-ui/colors'; // Use `@import` for CSS
+Import the compiled CSS in a React app or bundler:
+
+```js
+import '@new-ui/colors/css';
 ```
 
+For SCSS projects, load the package with `@use`:
+
+```scss
+@use '@new-ui/colors/scss';
+```
+
+Add the `data-new-ui-theme` attribute to your `html` wrapper element:
+
 ```html
-<!-- Add this attribute to html wrapper -->
 <html data-new-ui-theme="light"></html>
 ```
 

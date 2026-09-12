@@ -1,0 +1,46 @@
+// Semantic contract for @new-ui/themes.
+// Canonical list of the custom properties every theme MUST define. Kept in sync
+// with `semantic-tokens-light` / `semantic-tokens-dark` in
+// @new-ui/colors (packages/colors/src/_theme-mixins.scss).
+// The build-time check in scripts/check-contract.mjs parses the `--token` names
+// out of this file and fails the build if any compiled theme is missing one, so
+// an incomplete skin can never be released.
+
+// Backgrounds
+//   --background
+//   --background-secondary
+//   --background-hover
+//   --background-selected
+//   --background-selected-hover
+//   --background-high-contrast
+// Borders
+//   --border-muted
+//   --border
+//   --border-strong
+//   --border-inked
+//   --border-inverse
+//   --border-focus
+// Buttons
+//   --button
+//   --button-hover
+//   --button-active
+//   --button-disabled
+// Links
+//   --link
+//   --link-hover
+//   --link-subtle
+//   --link-visited
+// Support
+//   --support-error
+//   --support-warning
+//   --support-success
+//   --support-info
+// Content
+//   --content-primary
+//   --content-secondary
+//   --content-secondary-alt
+//   --content-placeholder
+//   --content-on-color
+//   --content-error
+//   --content-success
+//   --content-inked

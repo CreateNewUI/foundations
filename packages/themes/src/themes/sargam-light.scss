@@ -1,0 +1,112 @@
+// Sargam Light
+// Palette values copied verbatim from the official Sargam Colors.
+// Source: https://github.com/SargamDesign/sargam-colors (MIT License)
+// © Sargam Design. Colors for warm, welcoming, caring sites & apps.
+
+[data-new-ui-theme='sargam-light'] {
+  color-scheme: light;
+
+  // Palette (verbatim)
+  --sg-red8: oklch(30.44% 0.101 26.17deg);
+  --sg-red7: oklch(43.38% 0.151 26.97deg);
+  --sg-red6: oklch(55.17% 0.197 27.37deg);
+  --sg-red5: oklch(62.76% 0.227 27.39deg);
+  --sg-red4: oklch(66.47% 0.198 25.21deg);
+  --sg-red3: oklch(71.36% 0.161 22.89deg);
+  --sg-red2: oklch(87.4% 0.062 19.64deg);
+  --sg-red1: oklch(98.23% 0.00857558 17.3027deg);
+  --sg-yellow8: oklch(41.38% 0.082 97.18deg);
+  --sg-yellow7: oklch(59.05% 0.119 95.65deg);
+  --sg-yellow6: oklch(75.67% 0.153 95.46deg);
+  --sg-yellow5: oklch(86.16% 0.175 95.34deg);
+  --sg-yellow4: oklch(88.08% 0.168 97.07deg);
+  --sg-yellow3: oklch(89.85% 0.149 97.89deg);
+  --sg-yellow2: oklch(95.6% 0.07 98.78deg);
+  --sg-yellow1: oklch(99.34% 0.0107311 95.1593deg);
+  --sg-green8: oklch(31.32% 0.083 148.5deg);
+  --sg-green7: oklch(44.09% 0.122 147.81deg);
+  --sg-green6: oklch(55.99% 0.159 147.49deg);
+  --sg-green5: oklch(63.66% 0.183 147.22deg);
+  --sg-green4: oklch(68.54% 0.164 149.56deg);
+  --sg-green3: oklch(73.91% 0.138 151.77deg);
+  --sg-green2: oklch(88.81% 0.057 155.23deg);
+  --sg-green1: oklch(98.32% 0.007 151.89deg);
+  --sg-teal8: oklch(31.18% 0.052 188.89deg);
+  --sg-teal7: oklch(43.57% 0.073 189.66deg);
+  --sg-teal6: oklch(55.39% 0.094 189.13deg);
+  --sg-teal5: oklch(62.84% 0.107 189.16deg);
+  --sg-teal4: oklch(68.08% 0.105 190.16deg);
+  --sg-teal3: oklch(73.51% 0.093 191.77deg);
+  --sg-teal2: oklch(88.92% 0.043 192.75deg);
+  --sg-teal1: oklch(97.99% 0.007 197.04deg);
+  --sg-lavender8: oklch(27.7% 0.061 314.12deg);
+  --sg-lavender7: oklch(38.1% 0.095 314.62deg);
+  --sg-lavender6: oklch(48.06% 0.125 314.21deg);
+  --sg-lavender5: oklch(54.39% 0.144 314.4deg);
+  --sg-lavender4: oklch(61.74% 0.12 314.62deg);
+  --sg-lavender3: oklch(69.01% 0.097 314.82deg);
+  --sg-lavender2: oklch(87.47% 0.037 314.62deg);
+  --sg-lavender1: oklch(98.18% 0.006 308.4deg);
+  --sg-pink8: oklch(33.08% 0.1 354.04deg);
+  --sg-pink7: oklch(46.99% 0.151 355.63deg);
+  --sg-pink6: oklch(59.82% 0.197 355.72deg);
+  --sg-pink5: oklch(67.97% 0.226 355.85deg);
+  --sg-pink4: oklch(71.58% 0.198 353.42deg);
+  --sg-pink3: oklch(75.96% 0.161 351.77deg);
+  --sg-pink2: oklch(89.37% 0.066 347.5deg);
+  --sg-pink1: oklch(98.54% 0.008 349.24deg);
+  --sg-silver10: oklch(16.96% 0.0017 17.32deg);
+  --sg-silver9: oklch(23.19% 0.0015 17.27deg);
+  --sg-silver8: oklch(28.97% 0.0023 67.73deg);
+  --sg-silver7: oklch(38.76% 0.0013 17.22deg);
+  --sg-silver6: oklch(55.08% 0.0061 106.6deg);
+  --sg-silver5: oklch(80.45% 0.0086 91.5deg);
+  --sg-silver4: oklch(88.49% 0.0097 93.58deg);
+  --sg-silver3: oklch(92.18% 0.0083 91.49deg);
+  --sg-silver2: oklch(97.66% 0.0017 67.8deg);
+  --sg-silver1: oklch(100% 0 0deg);
+
+  // Backgrounds
+  --background: var(--sg-silver1);
+  --background-secondary: var(--sg-silver2);
+  --background-hover: var(--sg-silver2);
+  --background-selected: var(--sg-silver3);
+  --background-selected-hover: var(--sg-silver4);
+  --background-high-contrast: var(--sg-silver1);
+
+  // Borders
+  --border-muted: var(--sg-silver3);
+  --border: var(--sg-silver5);
+  --border-strong: var(--sg-silver6);
+  --border-inked: var(--sg-silver9);
+  --border-inverse: var(--sg-silver1);
+  --border-focus: var(--sg-teal6);
+
+  // Buttons
+  --button: var(--sg-teal6);
+  --button-hover: var(--sg-teal7);
+  --button-active: var(--sg-teal8);
+  --button-disabled: var(--sg-silver4);
+
+  // Links
+  --link: var(--sg-teal6);
+  --link-hover: var(--sg-teal7);
+  --link-subtle: var(--sg-teal5);
+  --link-visited: var(--sg-lavender6);
+
+  // Support
+  --support-error: var(--sg-red6);
+  --support-warning: var(--sg-yellow7);
+  --support-success: var(--sg-green6);
+  --support-info: var(--sg-teal6);
+
+  // Content
+  --content-primary: var(--sg-silver9);
+  --content-secondary: var(--sg-silver6);
+  --content-secondary-alt: var(--sg-silver7);
+  --content-placeholder: var(--sg-silver5);
+  --content-on-color: var(--sg-silver1);
+  --content-error: var(--sg-red6);
+  --content-success: var(--sg-green7);
+  --content-inked: var(--sg-silver10);
+}

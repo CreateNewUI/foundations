@@ -1,0 +1,74 @@
+// Monokai
+// Palette values copied verbatim from the official VS Code Monokai theme.
+// Source: https://github.com/microsoft/vscode (extensions/theme-monokai, MIT License)
+// © Microsoft Corporation. Based on the original Monokai by Wimer Hazenberg.
+
+[data-new-ui-theme='monokai'] {
+  color-scheme: dark;
+
+  // Palette (verbatim)
+  --mk-bg: oklch(27.37% 0.0109 114.8deg);
+  --mk-bg-well: oklch(23.71% 0.0058 121.89deg);
+  --mk-line: oklch(35.74% 0.0184 103deg);
+  --mk-selection: oklch(37.77% 0.0168 116.39deg);
+  --mk-surface: oklch(39.5% 0.01 114.53deg);
+  --mk-border: oklch(32.59% 0.0104 114.66deg);
+  --mk-fg: oklch(97.75% 0.0079 106.55deg);
+  --mk-fg-secondary: oklch(84.38% 0.0068 106.55deg);
+  --mk-fg-muted: oklch(65.15% 0.0087 106.64deg);
+  --mk-comment: oklch(54.67% 0.0288 97.39deg);
+  --mk-focus: oklch(66.42% 0.0347 97.49deg);
+  --mk-green: oklch(84.14% 0.2044 127.29deg);
+  --mk-green-dark: oklch(71.18% 0.167 126.9deg);
+  --mk-pink: oklch(64.16% 0.24 7.47deg);
+  --mk-orange: oklch(76.68% 0.1683 62.37deg);
+  --mk-yellow: oklch(87.92% 0.1255 103.18deg);
+  --mk-cyan: oklch(82.69% 0.108 211.96deg);
+  --mk-cyan-dark: oklch(69.95% 0.0862 210.17deg);
+  --mk-purple: oklch(70.12% 0.1812 298.06deg);
+  --mk-on-accent: oklch(27.37% 0.0109 114.8deg);
+
+  // Backgrounds
+  --background: var(--mk-bg);
+  --background-secondary: var(--mk-bg-well);
+  --background-hover: var(--mk-line);
+  --background-selected: var(--mk-selection);
+  --background-selected-hover: var(--mk-surface);
+  --background-high-contrast: var(--mk-bg-well);
+
+  // Borders
+  --border-muted: var(--mk-border);
+  --border: var(--mk-selection);
+  --border-strong: var(--mk-comment);
+  --border-inked: var(--mk-fg);
+  --border-inverse: var(--mk-bg);
+  --border-focus: var(--mk-focus);
+
+  // Buttons
+  --button: var(--mk-green);
+  --button-hover: var(--mk-green-dark);
+  --button-active: var(--mk-green-dark);
+  --button-disabled: var(--mk-comment);
+
+  // Links
+  --link: var(--mk-cyan);
+  --link-hover: var(--mk-cyan-dark);
+  --link-subtle: var(--mk-comment);
+  --link-visited: var(--mk-purple);
+
+  // Support
+  --support-error: var(--mk-pink);
+  --support-warning: var(--mk-orange);
+  --support-success: var(--mk-green);
+  --support-info: var(--mk-cyan);
+
+  // Content
+  --content-primary: var(--mk-fg);
+  --content-secondary: var(--mk-fg-secondary);
+  --content-secondary-alt: var(--mk-fg-muted);
+  --content-placeholder: var(--mk-comment);
+  --content-on-color: var(--mk-on-accent);
+  --content-error: var(--mk-pink);
+  --content-success: var(--mk-green);
+  --content-inked: oklch(100% 0 0deg);
+}

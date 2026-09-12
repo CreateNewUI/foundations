@@ -1,0 +1,48 @@
+[data-new-ui-theme="dracula"] {
+  color-scheme: dark;
+  --dt-background: oklch(28.82% .0221 277.51);
+  --dt-current-line: oklch(40.28% .0322 277.83);
+  --dt-selection: oklch(40.28% .0322 277.83);
+  --dt-foreground: oklch(97.75% .0079 106.55);
+  --dt-comment: oklch(55.98% .0803 270.09);
+  --dt-cyan: oklch(88.26% .0934 212.85);
+  --dt-green: oklch(87.1% .2195 148.02);
+  --dt-orange: oklch(83.39% .1241 66.56);
+  --dt-pink: oklch(75.46% .1831 346.81);
+  --dt-purple: oklch(74.2% .1485 301.88);
+  --dt-red: oklch(68.22% .2063 24.43);
+  --dt-yellow: oklch(95.53% .1342 112.76);
+  --background: var(--dt-background);
+  --background-secondary: oklch(25.54% .0188 280.49);
+  --background-hover: var(--dt-current-line);
+  --background-selected: var(--dt-selection);
+  --background-selected-hover: oklch(46.88% .042 281.2);
+  --background-high-contrast: oklch(21.99% .0137 278.8);
+  --border-muted: oklch(34.02% .0266 276.05);
+  --border: var(--dt-current-line);
+  --border-strong: var(--dt-comment);
+  --border-inked: var(--dt-foreground);
+  --border-inverse: var(--dt-background);
+  --border-focus: var(--dt-purple);
+  --button: var(--dt-purple);
+  --button-hover: var(--dt-pink);
+  --button-active: var(--dt-pink);
+  --button-disabled: var(--dt-comment);
+  --link: var(--dt-cyan);
+  --link-hover: var(--dt-pink);
+  --link-subtle: var(--dt-comment);
+  --link-visited: var(--dt-purple);
+  --support-error: var(--dt-red);
+  --support-warning: var(--dt-orange);
+  --support-success: var(--dt-green);
+  --support-info: var(--dt-cyan);
+  --content-primary: var(--dt-foreground);
+  --content-secondary: oklch(84.43% .0305 281.59);
+  --content-secondary-alt: var(--dt-comment);
+  --content-placeholder: var(--dt-comment);
+  --content-on-color: var(--dt-background);
+  --content-error: var(--dt-red);
+  --content-success: var(--dt-green);
+  --content-inked: var(--dt-foreground);
+}
+/*# sourceMappingURL=dracula.css.map */

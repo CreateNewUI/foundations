@@ -1,11 +1,32 @@
 {
   "name": "@new-ui/effects",
-  "version": "0.1.11",
+  "version": "3.0.0",
   "description": "Layering, elevations, and effects styles",
   "source": "src/index.scss",
   "main": "dist/index.css",
+  "css": "dist/index.css",
+  "minified": "dist/index.min.css",
+  "style": "./dist/index.css",
+  "sass": "./src/index.scss",
+  "exports": {
+    ".": {
+      "sass": "./src/index.scss",
+      "style": "./dist/index.css",
+      "default": "./dist/index.css"
+    },
+    "./css": "./dist/index.css",
+    "./css/min": "./dist/index.min.css",
+    "./scss": "./src/index.scss",
+    "./package.json": "./package.json"
+  },
   "targets": {
-    "main": false
+    "main": false,
+    "css": {
+      "optimize": false
+    },
+    "minified": {
+      "optimize": true
+    }
   },
   "files": [
     "dist/",
@@ -15,7 +36,8 @@
   ],
   "scripts": {
     "watch": "PARCEL_WORKERS=0 parcel watch",
-    "build": "PARCEL_WORKERS=0 parcel build"
+    "build": "PARCEL_WORKERS=0 parcel build",
+    "prepublishOnly": "bun run build"
   },
   "repository": {
     "type": "git",
@@ -27,11 +49,7 @@
     "url": "https://github.com/CreateNewUI/foundations/issues"
   },
   "homepage": "https://github.com/CreateNewUI/foundations#readme",
-  "devDependencies": {
-    "@parcel/transformer-sass": "^2.16.4",
-    "parcel": "^2.16.4"
-  },
   "peerDependencies": {
-    "@new-ui/colors": "^2.0.0"
+    "@new-ui/colors": "^3.0.0"
   }
 }

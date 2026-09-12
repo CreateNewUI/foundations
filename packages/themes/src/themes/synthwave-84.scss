@@ -1,0 +1,75 @@
+// Synthwave '84
+// Palette values copied verbatim from the official Synthwave '84 VS Code theme.
+// Source: https://github.com/robb0wen/synthwave-vscode (MIT License)
+// © Robb Owen. Synthwave '84.
+
+[data-new-ui-theme='synthwave-84'] {
+  color-scheme: dark;
+
+  // Palette (verbatim)
+  --sw-bg: oklch(26.79% 0.0333 291.63deg);
+  --sw-bg-panel: oklch(24.27% 0.0392 304.3deg);
+  --sw-bg-deep: oklch(20.35% 0.0219 292.68deg);
+  --sw-input: oklch(26.98% 0.0451 300.67deg);
+  --sw-menu: oklch(36.89% 0.0837 299.21deg);
+  --sw-selected: oklch(31.25% 0.0672 295.59deg);
+  --sw-hover: oklch(31.46% 0.0646 300.68deg);
+  --sw-indent: oklch(38.69% 0.0253 291.28deg);
+  --sw-border: oklch(46.85% 0.1057 274.36deg);
+  --sw-fg: oklch(100% 0 0deg);
+  --sw-fg-muted: oklch(76.45% 0.0057 17.28deg);
+  --sw-comment: oklch(65% 0.0751 277.93deg);
+  --sw-purple: oklch(46.54% 0.0909 299.31deg);
+  --sw-coral: oklch(73.07% 0.1525 27.16deg);
+  --sw-pink: oklch(76.91% 0.1889 339.11deg);
+  --sw-yellow: oklch(90.39% 0.1495 95.27deg);
+  --sw-cyan: oklch(86.09% 0.1462 201.35deg);
+  --sw-green: oklch(87.06% 0.1402 161.99deg);
+  --sw-red: oklch(66.35% 0.221 22.42deg);
+  --sw-mauve: oklch(71.79% 0.093 312.54deg);
+  --sw-on-accent: oklch(26.98% 0.0451 300.67deg);
+
+  // Backgrounds
+  --background: var(--sw-bg);
+  --background-secondary: var(--sw-bg-panel);
+  --background-hover: var(--sw-hover);
+  --background-selected: var(--sw-selected);
+  --background-selected-hover: var(--sw-menu);
+  --background-high-contrast: var(--sw-bg-deep);
+
+  // Borders
+  --border-muted: var(--sw-indent);
+  --border: var(--sw-border);
+  --border-strong: var(--sw-purple);
+  --border-inked: var(--sw-fg);
+  --border-inverse: var(--sw-bg);
+  --border-focus: var(--sw-pink);
+
+  // Buttons
+  --button: var(--sw-coral);
+  --button-hover: var(--sw-pink);
+  --button-active: var(--sw-pink);
+  --button-disabled: var(--sw-border);
+
+  // Links
+  --link: var(--sw-coral);
+  --link-hover: var(--sw-pink);
+  --link-subtle: var(--sw-comment);
+  --link-visited: var(--sw-mauve);
+
+  // Support
+  --support-error: var(--sw-red);
+  --support-warning: var(--sw-yellow);
+  --support-success: var(--sw-green);
+  --support-info: var(--sw-cyan);
+
+  // Content
+  --content-primary: var(--sw-fg);
+  --content-secondary: var(--sw-fg-muted);
+  --content-secondary-alt: var(--sw-comment);
+  --content-placeholder: var(--sw-comment);
+  --content-on-color: var(--sw-on-accent);
+  --content-error: var(--sw-red);
+  --content-success: var(--sw-green);
+  --content-inked: oklch(100% 0 0deg);
+}

@@ -1,0 +1,110 @@
+{
+  "name": "@new-ui/themes",
+  "version": "3.0.0",
+  "description": "Ready-made themes mapped onto the New UI semantic color contract",
+  "source": "src/index.scss",
+  "main": "dist/index.css",
+  "css": "dist/index.css",
+  "minified": "dist/index.min.css",
+  "style": "./dist/index.css",
+  "sass": "./src/index.scss",
+  "exports": {
+    ".": {
+      "sass": "./src/index.scss",
+      "style": "./dist/index.css",
+      "default": "./dist/index.css"
+    },
+    "./css": "./dist/index.css",
+    "./css/min": "./dist/index.min.css",
+    "./scss": "./src/index.scss",
+    "./dracula": "./dist/themes/dracula.css",
+    "./catppuccin-latte": "./dist/themes/catppuccin-latte.css",
+    "./catppuccin-frappe": "./dist/themes/catppuccin-frappe.css",
+    "./catppuccin-macchiato": "./dist/themes/catppuccin-macchiato.css",
+    "./catppuccin-mocha": "./dist/themes/catppuccin-mocha.css",
+    "./tokyo-night": "./dist/themes/tokyo-night.css",
+    "./night-owl": "./dist/themes/night-owl.css",
+    "./ayu-dark": "./dist/themes/ayu-dark.css",
+    "./flexoki-light": "./dist/themes/flexoki-light.css",
+    "./flexoki-dark": "./dist/themes/flexoki-dark.css",
+    "./aura": "./dist/themes/aura.css",
+    "./synthwave-84": "./dist/themes/synthwave-84.css",
+    "./monokai": "./dist/themes/monokai.css",
+    "./sargam-light": "./dist/themes/sargam-light.css",
+    "./sargam-dark": "./dist/themes/sargam-dark.css",
+    "./scss/*": "./src/themes/*.scss",
+    "./package.json": "./package.json"
+  },
+  "targets": {
+    "main": false,
+    "css": {
+      "source": "src/index.scss",
+      "optimize": false
+    },
+    "minified": {
+      "source": "src/index.scss",
+      "optimize": true
+    },
+    "themes": {
+      "source": [
+        "src/themes/dracula.scss",
+        "src/themes/catppuccin-latte.scss",
+        "src/themes/catppuccin-frappe.scss",
+        "src/themes/catppuccin-macchiato.scss",
+        "src/themes/catppuccin-mocha.scss",
+        "src/themes/tokyo-night.scss",
+        "src/themes/night-owl.scss",
+        "src/themes/ayu-dark.scss",
+        "src/themes/flexoki-light.scss",
+        "src/themes/flexoki-dark.scss",
+        "src/themes/aura.scss",
+        "src/themes/synthwave-84.scss",
+        "src/themes/monokai.scss",
+        "src/themes/sargam-light.scss",
+        "src/themes/sargam-dark.scss"
+      ],
+      "distDir": "dist/themes",
+      "optimize": false
+    }
+  },
+  "files": [
+    "dist/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "watch": "PARCEL_WORKERS=0 parcel watch",
+    "build": "PARCEL_WORKERS=0 parcel build && bun run check:contract",
+    "check:contract": "node scripts/check-contract.mjs",
+    "prepublishOnly": "bun run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CreateNewUI/foundations.git"
+  },
+  "keywords": [
+    "themes",
+    "dark-mode",
+    "light-mode",
+    "design-tokens",
+    "css-variables",
+    "dracula",
+    "catppuccin",
+    "tokyo-night",
+    "night-owl",
+    "ayu",
+    "flexoki",
+    "ui",
+    "new"
+  ],
+  "author": "@planetabhi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CreateNewUI/foundations/issues"
+  },
+  "homepage": "https://github.com/CreateNewUI/foundations#readme",
+  "peerDependencies": {
+    "@new-ui/colors": "^3.0.0"
+  }
+}

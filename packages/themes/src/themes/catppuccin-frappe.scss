@@ -1,0 +1,80 @@
+// Catppuccin Frappé (dark)
+// Palette values copied verbatim from the official Catppuccin palette (v1.8.0).
+// Source: https://github.com/catppuccin/palette (MIT License)
+// © Catppuccin. https://catppuccin.com
+
+[data-new-ui-theme='catppuccin-frappe'] {
+  color-scheme: dark;
+
+  // Palette (verbatim)
+  --ctp-rosewater: oklch(89.55% 0.0335 31.6deg);
+  --ctp-flamingo: oklch(84.39% 0.0553 18.31deg);
+  --ctp-pink: oklch(85.04% 0.0892 336.26deg);
+  --ctp-mauve: oklch(76.48% 0.1108 311.74deg);
+  --ctp-red: oklch(71.71% 0.1244 19.39deg);
+  --ctp-maroon: oklch(76.46% 0.0976 17.18deg);
+  --ctp-peach: oklch(77.27% 0.1106 47.73deg);
+  --ctp-yellow: oklch(84.43% 0.0795 83.47deg);
+  --ctp-green: oklch(81.24% 0.1071 133.39deg);
+  --ctp-teal: oklch(78.3% 0.073 184.64deg);
+  --ctp-sky: oklch(82.55% 0.0592 209.76deg);
+  --ctp-sapphire: oklch(77.96% 0.0727 227.88deg);
+  --ctp-blue: oklch(74.2% 0.1044 265.66deg);
+  --ctp-lavender: oklch(80.99% 0.0759 283.74deg);
+  --ctp-text: oklch(86.19% 0.0526 273.35deg);
+  --ctp-subtext1: oklch(80.84% 0.0507 272.68deg);
+  --ctp-subtext0: oklch(75.24% 0.0483 274.47deg);
+  --ctp-overlay2: oklch(69.7% 0.0464 273.78deg);
+  --ctp-overlay1: oklch(64.01% 0.043 272.61deg);
+  --ctp-overlay0: oklch(58.09% 0.0421 275.2deg);
+  --ctp-surface2: oklch(52.11% 0.0386 274deg);
+  --ctp-surface1: oklch(46.01% 0.0367 272.97deg);
+  --ctp-surface0: oklch(39.49% 0.0342 275.9deg);
+  --ctp-base: oklch(32.91% 0.0324 274.76deg);
+  --ctp-mantle: oklch(29.73% 0.0294 276.21deg);
+  --ctp-crust: oklch(27.2% 0.0264 275.12deg);
+
+  // Backgrounds
+  --background: var(--ctp-base);
+  --background-secondary: var(--ctp-mantle);
+  --background-hover: var(--ctp-surface0);
+  --background-selected: var(--ctp-surface1);
+  --background-selected-hover: var(--ctp-surface2);
+  --background-high-contrast: var(--ctp-crust);
+
+  // Borders
+  --border-muted: var(--ctp-surface0);
+  --border: var(--ctp-surface1);
+  --border-strong: var(--ctp-surface2);
+  --border-inked: var(--ctp-text);
+  --border-inverse: var(--ctp-base);
+  --border-focus: var(--ctp-lavender);
+
+  // Buttons
+  --button: var(--ctp-mauve);
+  --button-hover: var(--ctp-lavender);
+  --button-active: var(--ctp-blue);
+  --button-disabled: var(--ctp-surface2);
+
+  // Links
+  --link: var(--ctp-blue);
+  --link-hover: var(--ctp-sky);
+  --link-subtle: var(--ctp-overlay1);
+  --link-visited: var(--ctp-lavender);
+
+  // Support
+  --support-error: var(--ctp-red);
+  --support-warning: var(--ctp-yellow);
+  --support-success: var(--ctp-green);
+  --support-info: var(--ctp-teal);
+
+  // Content
+  --content-primary: var(--ctp-text);
+  --content-secondary: var(--ctp-subtext1);
+  --content-secondary-alt: var(--ctp-subtext0);
+  --content-placeholder: var(--ctp-overlay1);
+  --content-on-color: var(--ctp-base);
+  --content-error: var(--ctp-red);
+  --content-success: var(--ctp-green);
+  --content-inked: var(--ctp-text);
+}

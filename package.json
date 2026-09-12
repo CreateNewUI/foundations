@@ -1,11 +1,32 @@
 {
   "name": "@new-ui/foundations",
-  "version": "0.3.6",
+  "version": "3.0.0",
   "description": "New UI foundations",
   "source": "src/index.scss",
   "main": "dist/index.css",
+  "css": "dist/index.css",
+  "minified": "dist/index.min.css",
+  "style": "./dist/index.css",
+  "sass": "./src/index.scss",
+  "exports": {
+    ".": {
+      "sass": "./src/index.scss",
+      "style": "./dist/index.css",
+      "default": "./dist/index.css"
+    },
+    "./css": "./dist/index.css",
+    "./css/min": "./dist/index.min.css",
+    "./scss": "./src/index.scss",
+    "./package.json": "./package.json"
+  },
   "targets": {
-    "main": false
+    "main": false,
+    "css": {
+      "optimize": false
+    },
+    "minified": {
+      "optimize": true
+    }
   },
   "files": [
     "dist/",
@@ -18,11 +39,15 @@
   ],
   "scripts": {
     "watch": "PARCEL_WORKERS=0 parcel watch",
-    "build": "PARCEL_WORKERS=0 parcel build",
+    "build": "bun run build:packages && PARCEL_WORKERS=0 parcel build",
+    "build:packages": "bun run --filter './packages/*' build",
+    "prepublishOnly": "bun run build",
     "lint": "stylelint \"**/*.scss\"",
     "format": "prettier --write .",
+    "changeset": "changeset",
+    "version-packages": "changeset version && bun install --lockfile-only",
+    "release": "bun run build:packages && changeset publish",
     "update:deps": "bunx npm-check-updates --deep --upgrade && bun install",
-    "build:packages": "bun run --filter './packages/*' build",
     "clean:install": "rm -rf node_modules bun.lock .parcel-cache packages/*/node_modules packages/*/bun.lock packages/*/.parcel-cache && bun install"
   },
   "repository": {
@@ -49,17 +74,19 @@
   },
   "homepage": "https://github.com/CreateNewUI/foundations#readme",
   "devDependencies": {
+    "@changesets/changelog-git": "^1.0.0",
+    "@changesets/cli": "^3.0.2",
     "@parcel/transformer-sass": "^2.16.4",
     "parcel": "^2.16.4",
-    "prettier": "^3.8.3",
-    "stylelint": "^17.9.1",
+    "prettier": "^3.9.6",
+    "stylelint": "^17.15.0",
     "stylelint-config-standard-scss": "^17.0.0"
   },
   "dependencies": {
-    "@new-ui/colors": "^2.2.5",
-    "@new-ui/effects": "^0.1.11",
-    "@new-ui/reset": "^0.1.2",
-    "@new-ui/spacings": "^0.1.9",
-    "@new-ui/typography": "^0.2.1"
+    "@new-ui/colors": "^3.0.0",
+    "@new-ui/effects": "^3.0.0",
+    "@new-ui/reset": "^3.0.0",
+    "@new-ui/spacings": "^3.0.0",
+    "@new-ui/typography": "^3.0.0"
   }
 }

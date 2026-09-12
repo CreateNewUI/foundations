@@ -1,0 +1,75 @@
+// Night Owl (dark)
+// Palette values copied verbatim from the official Night Owl VS Code theme.
+// Source: https://github.com/sdras/night-owl-vscode-theme (MIT License)
+// © Sarah Drasner. Night Owl.
+
+[data-new-ui-theme='night-owl'] {
+  color-scheme: dark;
+
+  // Palette (verbatim)
+  --no-bg: oklch(19.28% 0.0452 243.97deg);
+  --no-bg-elevated: oklch(25.62% 0.0508 246.06deg);
+  --no-bg-hover: oklch(27.22% 0.0525 246.03deg);
+  --no-bg-deep: oklch(16.94% 0.0357 239.42deg);
+  --no-selection: oklch(34.09% 0.0556 244.62deg);
+  --no-selection-hover: oklch(40.74% 0.0754 246.24deg);
+  --no-fg: oklch(89.84% 0.0198 260.17deg);
+  --no-fg-muted: oklch(70.61% 0.0452 244.18deg);
+  --no-comment: oklch(55.31% 0.0236 196.49deg);
+  --no-slate: oklch(57.88% 0.0525 243.13deg);
+  --no-slate-strong: oklch(66.44% 0.0422 243.79deg);
+  --no-purple: oklch(54.95% 0.1615 297.66deg);
+  --no-purple-light: oklch(72.42% 0.115 290.1deg);
+  --no-teal: oklch(79.12% 0.0755 188.24deg);
+  --no-blue: oklch(74.41% 0.1311 264.28deg);
+  --no-magenta: oklch(74.27% 0.1348 311.06deg);
+  --no-string: oklch(84.25% 0.0844 75.06deg);
+  --no-red: oklch(65.39% 0.1926 25.14deg);
+  --no-green: oklch(77.99% 0.2035 150.74deg);
+  --no-yellow: oklch(86.22% 0.1681 88.31deg);
+  --no-info: oklch(74.82% 0.1235 244.75deg);
+
+  // Backgrounds
+  --background: var(--no-bg);
+  --background-secondary: var(--no-bg-elevated);
+  --background-hover: var(--no-bg-hover);
+  --background-selected: var(--no-selection);
+  --background-selected-hover: var(--no-selection-hover);
+  --background-high-contrast: var(--no-bg-deep);
+
+  // Borders
+  --border-muted: var(--no-bg-hover);
+  --border: var(--no-slate);
+  --border-strong: var(--no-slate-strong);
+  --border-inked: var(--no-fg);
+  --border-inverse: var(--no-bg);
+  --border-focus: var(--no-blue);
+
+  // Buttons
+  --button: var(--no-purple);
+  --button-hover: var(--no-purple-light);
+  --button-active: var(--no-purple-light);
+  --button-disabled: var(--no-slate);
+
+  // Links
+  --link: var(--no-teal);
+  --link-hover: var(--no-blue);
+  --link-subtle: var(--no-comment);
+  --link-visited: var(--no-magenta);
+
+  // Support
+  --support-error: var(--no-red);
+  --support-warning: var(--no-yellow);
+  --support-success: var(--no-green);
+  --support-info: var(--no-info);
+
+  // Content
+  --content-primary: var(--no-fg);
+  --content-secondary: var(--no-fg-muted);
+  --content-secondary-alt: var(--no-slate);
+  --content-placeholder: var(--no-comment);
+  --content-on-color: oklch(100% 0 0deg);
+  --content-error: var(--no-red);
+  --content-success: var(--no-green);
+  --content-inked: oklch(100% 0 0deg);
+}

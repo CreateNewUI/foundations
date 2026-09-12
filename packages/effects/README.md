@@ -2,27 +2,33 @@
 
 ## Install
 
-Install New UI Effects from your terminal via npm.
+Install New UI Effects from your terminal with npm:
 
 ```
 npm i @new-ui/effects
 ```
 
-To get started quickly, you can use the CDN files.
+You can also load the minified build from a CDN in your HTML `<head>`:
 
 ```html
-<!-- Place this at the html head -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@new-ui/effects@latest/dist/index.css"
+  href="https://cdn.jsdelivr.net/npm/@new-ui/effects@latest/dist/index.min.css"
 />
 ```
 
 ## Usage
 
+Import the compiled CSS in a React app or bundler:
+
+```js
+import '@new-ui/effects/css';
+```
+
+For SCSS projects, load the package with `@use`:
+
 ```scss
-// Place this at the top of your SCSS/CSS file
-@use '@new-ui/effects';
+@use '@new-ui/effects/scss';
 ```
 
 ## Guides

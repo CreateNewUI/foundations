@@ -2,7 +2,7 @@
 
 ## Install
 
-Install from your terminal via npm.
+Install New UI Reset from your terminal with npm:
 
 ```
 npm i @new-ui/reset
@@ -10,7 +10,14 @@ npm i @new-ui/reset
 
 ## Usage
 
+Import the compiled CSS in a React app or bundler:
+
+```js
+import '@new-ui/reset/css';
+```
+
+For SCSS projects, load the package with `@use`:
+
 ```scss
-// Place this at the top of your SCSS/CSS file
-@use '@new-ui/reset';
+@use '@new-ui/reset/scss';
 ```

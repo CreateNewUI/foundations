@@ -1,0 +1,79 @@
+// Flexoki Dark
+// Palette values copied verbatim from the official Flexoki spec.
+// Source: https://github.com/kepano/flexoki (MIT License)
+// © Steph Ango. https://stephango.com/flexoki
+
+[data-new-ui-theme='flexoki-dark'] {
+  color-scheme: dark;
+
+  // Base ramp (verbatim)
+  --fk-paper: oklch(99.01% 0.0161 95.22deg);
+  --fk-base-50: oklch(95.37% 0.0147 98.29deg);
+  --fk-base-100: oklch(91.74% 0.0149 98.3deg);
+  --fk-base-150: oklch(88.1% 0.0137 97.46deg);
+  --fk-base-200: oklch(84.63% 0.0137 102.05deg);
+  --fk-base-300: oklch(77.21% 0.0128 96.47deg);
+  --fk-base-400: oklch(69.56% 0.0103 93.62deg);
+  --fk-base-500: oklch(61.69% 0.0078 88.67deg);
+  --fk-base-600: oklch(53.75% 0.0078 97.45deg);
+  --fk-base-700: oklch(45.31% 0.005 91.5deg);
+  --fk-base-800: oklch(36.51% 0.0044 67.69deg);
+  --fk-base-850: oklch(32.14% 0.0038 84.58deg);
+  --fk-base-900: oklch(27.34% 0.0023 67.73deg);
+  --fk-base-950: oklch(22.28% 0.0025 67.7deg);
+  --fk-black: oklch(16.96% 0.0017 17.32deg);
+
+  // Accents — 400 (verbatim)
+  --fk-red: oklch(59.7% 0.1692 28.38deg);
+  --fk-orange: oklch(65.76% 0.1539 49.3deg);
+  --fk-yellow: oklch(73.46% 0.1462 87.46deg);
+  --fk-green: oklch(65.13% 0.1242 119.38deg);
+  --fk-cyan: oklch(67.01% 0.0999 186.58deg);
+  --fk-blue: oklch(59.88% 0.1104 247deg);
+  --fk-purple: oklch(63.48% 0.1098 291deg);
+  --fk-magenta: oklch(63.48% 0.1565 350.47deg);
+
+  // Backgrounds
+  --background: var(--fk-black);
+  --background-secondary: var(--fk-base-950);
+  --background-hover: var(--fk-base-900);
+  --background-selected: var(--fk-base-850);
+  --background-selected-hover: var(--fk-base-800);
+  --background-high-contrast: var(--fk-black);
+
+  // Borders
+  --border-muted: var(--fk-base-900);
+  --border: var(--fk-base-800);
+  --border-strong: var(--fk-base-700);
+  --border-inked: var(--fk-base-200);
+  --border-inverse: var(--fk-black);
+  --border-focus: var(--fk-blue);
+
+  // Buttons
+  --button: var(--fk-purple);
+  --button-hover: var(--fk-magenta);
+  --button-active: var(--fk-magenta);
+  --button-disabled: var(--fk-base-700);
+
+  // Links
+  --link: var(--fk-blue);
+  --link-hover: var(--fk-cyan);
+  --link-subtle: var(--fk-base-500);
+  --link-visited: var(--fk-purple);
+
+  // Support
+  --support-error: var(--fk-red);
+  --support-warning: var(--fk-yellow);
+  --support-success: var(--fk-green);
+  --support-info: var(--fk-blue);
+
+  // Content
+  --content-primary: var(--fk-base-200);
+  --content-secondary: var(--fk-base-400);
+  --content-secondary-alt: var(--fk-base-500);
+  --content-placeholder: var(--fk-base-600);
+  --content-on-color: var(--fk-paper);
+  --content-error: var(--fk-red);
+  --content-success: var(--fk-green);
+  --content-inked: var(--fk-paper);
+}
