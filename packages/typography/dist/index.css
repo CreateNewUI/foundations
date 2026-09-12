@@ -1,11 +1,8 @@
 :root {
   --system-ui: system-ui, sans-serif;
-  --old-style:
-    'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', p052, serif;
-  --monospace-code:
-    ui-monospace, 'Cascadia Code', 'Source Code Pro', menlo, consolas, monospace;
-  --handwritten:
-    'Segoe Print', 'Bradley Hand', chilanka, tscu_comic, casual, cursive;
+  --old-style: "Iowan Old Style", "Palatino Linotype", "URW Palladio L", p052, serif;
+  --monospace-code: ui-monospace, "Cascadia Code", "Source Code Pro", menlo, consolas, monospace;
+  --handwritten: "Segoe Print", "Bradley Hand", chilanka, tscu_comic, casual, cursive;
   --mobile-heading-01: 2rem;
   --mobile-heading-02: 1.75rem;
   --mobile-heading-03: 1.5rem;
@@ -13,11 +10,11 @@
   --mobile-heading-05: 1.125rem;
   --mobile-heading-06: 1rem;
   --mobile-body-xl: 1rem;
-  --mobile-body: 0.875rem;
-  --mobile-body-sm: 0.75rem;
-  --mobile-caption: 0.75rem;
-  --mobile-helper-text: 0.75rem;
-  --mobile-code: 0.875rem;
+  --mobile-body: .875rem;
+  --mobile-body-sm: .75rem;
+  --mobile-caption: .75rem;
+  --mobile-helper-text: .75rem;
+  --mobile-code: .875rem;
   --lh-mobile-heading-01: 2.5rem;
   --lh-mobile-heading-02: 2.25rem;
   --lh-mobile-heading-03: 1.875rem;
@@ -30,9 +27,9 @@
   --lh-mobile-caption: 1rem;
   --lh-mobile-helper-text: 1rem;
   --lh-mobile-code: 1.25rem;
-  --mobile-tracking-heading-01: -0.05rem;
-  --mobile-tracking-heading-02: -0.025rem;
-  --mobile-tracking-heading-03: -0.025rem;
+  --mobile-tracking-heading-01: -.05rem;
+  --mobile-tracking-heading-02: -.025rem;
+  --mobile-tracking-heading-03: -.025rem;
   --desktop-heading-01: 3.375rem;
   --desktop-heading-02: 2.625rem;
   --desktop-heading-03: 2rem;
@@ -41,10 +38,10 @@
   --desktop-heading-06: 1.125rem;
   --desktop-body-xl: 1.125rem;
   --desktop-body: 1rem;
-  --desktop-body-sm: 0.875rem;
-  --desktop-caption: 0.75rem;
-  --desktop-helper-text: 0.75rem;
-  --desktop-code: 0.875rem;
+  --desktop-body-sm: .875rem;
+  --desktop-caption: .75rem;
+  --desktop-helper-text: .75rem;
+  --desktop-code: .875rem;
   --lh-desktop-heading-01: 4rem;
   --lh-desktop-heading-02: 3.125rem;
   --lh-desktop-heading-03: 2.5rem;
@@ -57,9 +54,9 @@
   --lh-desktop-caption: 1rem;
   --lh-desktop-helper-text: 1rem;
   --lh-desktop-code: 1.25rem;
-  --desktop-tracking-heading-01: -0.075rem;
-  --desktop-tracking-heading-02: -0.05rem;
-  --desktop-tracking-heading-03: -0.025rem;
+  --desktop-tracking-heading-01: -.075rem;
+  --desktop-tracking-heading-02: -.05rem;
+  --desktop-tracking-heading-03: -.025rem;
 }
 
 .nu-u-fw-bold {
@@ -107,25 +104,11 @@
 }
 
 .nu-u-serif {
-  font-family:
-    Didot,
-    Bodoni MT,
-    Noto Serif Display,
-    URW Palladio L,
-    P052,
-    Sylfaen,
-    serif;
+  font-family: Didot, Bodoni MT, Noto Serif Display, URW Palladio L, P052, Sylfaen, serif;
 }
 
 .nu-u-sans-serif {
-  font-family:
-    Inter,
-    Roboto,
-    Helvetica Neue,
-    Arial Nova,
-    Nimbus Sans,
-    Arial,
-    sans-serif;
+  font-family: Inter, Roboto, Helvetica Neue, Arial Nova, Nimbus Sans, Arial, sans-serif;
 }
 
 .nu-u-code {

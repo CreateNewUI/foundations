@@ -1,27 +1,27 @@
 # New UI Themes
 
-Ready-made themes mapped onto the New UI semantic color contract. Every theme sets the same 32 semantic custom properties (backgrounds, borders, buttons, links, support, and content), so switching skins never breaks your components.
+New UI Themes provides ready-made themes mapped onto the New UI semantic color contract. Every theme sets the same 32 semantic custom properties for backgrounds, borders, buttons, links, support, and content, so your components stay consistent when you switch themes.
 
 ## Install
 
-Install New UI Themes from your terminal via npm.
+Install New UI Themes from your terminal with npm:
 
 ```
 npm i @new-ui/themes
 ```
 
-To get started quickly, you can use the CDN files.
+To load every theme from a CDN, use the minified build:
 
 ```html
-<!-- All themes -->
 <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/@new-ui/themes@latest/dist/index.min.css"
 />
 ```
 
+To load a single theme, target its file:
+
 ```html
-<!-- A single theme -->
 <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/@new-ui/themes@latest/dist/themes/dracula.css"
@@ -30,19 +30,27 @@ To get started quickly, you can use the CDN files.
 
 ## Usage
 
-```js
-// React / bundlers — every theme
-import '@new-ui/themes/css';
+Import every theme in a React app or bundler:
 
-// Or just one theme
+```js
+import '@new-ui/themes/css';
+```
+
+Import a single theme by its subpath:
+
+```js
 import '@new-ui/themes/dracula';
 ```
 
-```scss
-// SCSS projects — every theme
-@use '@new-ui/themes/scss';
+For SCSS projects, load every theme with `@use`:
 
-// Or just one theme
+```scss
+@use '@new-ui/themes/scss';
+```
+
+Load a single theme with its subpath:
+
+```scss
 @use '@new-ui/themes/scss/dracula';
 ```
 
@@ -55,6 +63,8 @@ Activate a theme by setting the `data-new-ui-theme` attribute on a root element:
 ```
 
 ## Themes
+
+The following table lists each theme, its `color-scheme`, and its import subpath:
 
 | `data-new-ui-theme` value | Scheme | Import subpath           |
 | ------------------------- | ------ | ------------------------ |
@@ -77,9 +87,9 @@ Activate a theme by setting the `data-new-ui-theme` attribute on a root element:
 Each theme also declares `color-scheme`, so native form controls, scrollbars,
 and `light-dark()` values render correctly.
 
-## Authoring a theme
+## Author a theme
 
-A theme defines its own private palette (verbatim from the source), then maps
+A theme defines its own private palette copied from the source, then maps
 those values onto the shared contract:
 
 ```scss
@@ -87,37 +97,37 @@ those values onto the shared contract:
   color-scheme: dark;
 
   // Private palette
-  --mt-bg: #101010;
-  --mt-accent: #7aa2f7;
+  --mt-bg: oklch(16.84% 0 0deg);
+  --mt-accent: oklch(71.9% 0.1287 264.05deg);
   // ...
 
-  // Map onto the 32-token contract (see src/_contract.scss)
+  // Map onto the 32-token contract. Refer to src/_contract.scss.
   --background: var(--mt-bg);
   --button: var(--mt-accent);
   // ...
 }
 ```
 
-The build runs a completeness check (`scripts/check-contract.mjs`) that fails
-if any compiled theme is missing a contract token, so incomplete skins can
-never be released.
+The build runs a completeness check with `scripts/check-contract.mjs`. The
+check fails if any compiled theme is missing a contract token, so an
+incomplete theme cannot ship.
 
 ## Credits
 
-Only the raw palette values are reused from the projects below. The semantic
-mapping onto the New UI contract is original work. Every upstream project is
-MIT licensed.
+New UI reuses only the raw palette values from the following projects. The
+semantic mapping onto the New UI contract is original work. Every upstream
+project is MIT licensed.
 
-- **Dracula** — © Dracula Theme. [dracula/dracula-theme](https://github.com/dracula/dracula-theme) · [draculatheme.com](https://draculatheme.com)
-- **Catppuccin** (Latte, Frappé, Macchiato, Mocha) — © Catppuccin. [catppuccin/palette](https://github.com/catppuccin/palette) · [catppuccin.com](https://catppuccin.com)
-- **Tokyo Night** — © enkia. [enkia/tokyo-night-vscode-theme](https://github.com/enkia/tokyo-night-vscode-theme)
-- **Night Owl** — © Sarah Drasner. [sdras/night-owl-vscode-theme](https://github.com/sdras/night-owl-vscode-theme)
-- **Ayu** — © Ike Ku (dempfi). [ayu-theme/vscode-ayu](https://github.com/ayu-theme/vscode-ayu)
-- **Flexoki** — © Steph Ango. [kepano/flexoki](https://github.com/kepano/flexoki) · [stephango.com/flexoki](https://stephango.com/flexoki)
-- **Aura** — © Dalton Menezes. [daltonmenezes/aura-theme](https://github.com/daltonmenezes/aura-theme) · [aura-theme.com](https://aura-theme.com)
-- **Synthwave '84** — © Robb Owen. [robb0wen/synthwave-vscode](https://github.com/robb0wen/synthwave-vscode)
-- **Monokai** — © Microsoft (VS Code built-in theme), based on the original Monokai by Wimer Hazenberg. [microsoft/vscode](https://github.com/microsoft/vscode/tree/main/extensions/theme-monokai)
-- **Sargam** — © Sargam Design. [SargamDesign/sargam-colors](https://github.com/SargamDesign/sargam-colors)
+- **Dracula**. © Dracula Theme. [dracula/dracula-theme](https://github.com/dracula/dracula-theme), [draculatheme.com](https://draculatheme.com)
+- **Catppuccin** for Latte, Frappé, Macchiato, and Mocha. © Catppuccin. [catppuccin/palette](https://github.com/catppuccin/palette), [catppuccin.com](https://catppuccin.com)
+- **Tokyo Night**. © enkia. [enkia/tokyo-night-vscode-theme](https://github.com/enkia/tokyo-night-vscode-theme)
+- **Night Owl**. © Sarah Drasner. [sdras/night-owl-vscode-theme](https://github.com/sdras/night-owl-vscode-theme)
+- **Ayu**. © Ike Ku, known as dempfi. [ayu-theme/vscode-ayu](https://github.com/ayu-theme/vscode-ayu)
+- **Flexoki**. © Steph Ango. [kepano/flexoki](https://github.com/kepano/flexoki), [stephango.com/flexoki](https://stephango.com/flexoki)
+- **Aura**. © Dalton Menezes. [daltonmenezes/aura-theme](https://github.com/daltonmenezes/aura-theme), [aura-theme.com](https://aura-theme.com)
+- **Synthwave '84**. © Robb Owen. [robb0wen/synthwave-vscode](https://github.com/robb0wen/synthwave-vscode)
+- **Monokai**. © Microsoft, from the VS Code built-in theme, based on the original Monokai by Wimer Hazenberg. [microsoft/vscode](https://github.com/microsoft/vscode/tree/main/extensions/theme-monokai)
+- **Sargam**. © Sargam Design. [SargamDesign/sargam-colors](https://github.com/SargamDesign/sargam-colors)
 
 ## Guides
 

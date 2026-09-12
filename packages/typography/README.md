@@ -2,16 +2,15 @@
 
 ## Install
 
-Install New UI Typography from your terminal via npm.
+Install New UI Typography from your terminal with npm:
 
 ```
 npm i @new-ui/typography
 ```
 
-To get started quickly, you can use the CDN files.
+You can also load the minified build from a CDN in your HTML `<head>`:
 
 ```html
-<!-- Place this at the html head -->
 <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/@new-ui/typography@latest/dist/index.min.css"
@@ -20,13 +19,15 @@ To get started quickly, you can use the CDN files.
 
 ## Usage
 
+Import the compiled CSS in a React app or bundler:
+
 ```js
-// React / bundlers — no Sass toolchain required
 import '@new-ui/typography/css';
 ```
 
+For SCSS projects, load the package with `@use`:
+
 ```scss
-// SCSS projects
 @use '@new-ui/typography/scss';
 ```
 
