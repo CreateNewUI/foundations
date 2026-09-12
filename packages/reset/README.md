@@ -10,7 +10,12 @@ npm i @new-ui/reset
 
 ## Usage
 
+```js
+// React / bundlers — no Sass toolchain required
+import '@new-ui/reset/css';
+```
+
 ```scss
-// Place this at the top of your SCSS/CSS file
-@use '@new-ui/reset';
+// SCSS projects
+@use '@new-ui/reset/scss';
 ```

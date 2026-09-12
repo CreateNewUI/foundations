@@ -14,16 +14,21 @@ To get started quickly, you can use the CDN files.
 <!-- Place this at the html head -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@new-ui/spacings@latest/dist/index.css"
+  href="https://cdn.jsdelivr.net/npm/@new-ui/spacings@latest/dist/index.min.css"
 />
 ...
 ```
 
 ## Usage
 
+```js
+// React / bundlers — no Sass toolchain required
+import '@new-ui/spacings/css';
+```
+
 ```scss
-// Place this at the top of your SCSS/CSS file
-@use '@new-ui/spacings';
+// SCSS projects
+@use '@new-ui/spacings/scss';
 ```
 
 ## Guides

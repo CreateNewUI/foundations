@@ -2,7 +2,7 @@
 
 #### What is New UI?
 
-New UI is a modern, semantic UI framework for building beautiful, accessible websites and apps. It gives you all the core design foundations you need—colors, typography, spacing and sizing, reset, grid and layouts, and layering and elevations. It's designed to grow with you, from your first launch to millions of users. Thoughtfully designed for makers and teams who value scalability and function.
+New UI is a modern, semantic UI framework for building beautiful, accessible websites and apps. It gives you all the core design foundations you need—colors, typography, spacing and sizing, reset, and layering and elevations. It's designed to grow with you, from your first launch to millions of users. Thoughtfully designed for makers and teams who value scalability and function.
 
 #### Install
 
@@ -16,11 +16,31 @@ npm i -D @new-ui/foundations
 
 #### Import
 
-Import the New UI foundations by adding the following line at the top of your SCSS file:
+**React / bundlers (Vite, Next.js, CRA)** — no Sass toolchain required:
+
+```js
+// e.g. in main.tsx, App.tsx, or Next.js app/layout.tsx
+import '@new-ui/foundations/css'; // explicit, TS-safe (recommended)
+// import '@new-ui/foundations'; // bare form also works
+```
+
+**SCSS projects:**
 
 ```scss
-@use '@new-ui/foundations'; // Use `@import` for CSS
+@use '@new-ui/foundations/scss';
 ```
+
+**CDN** — use the minified build:
+
+```html
+<!-- Place this at the html head -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@new-ui/foundations@latest/dist/index.min.css"
+/>
+```
+
+<strong>Note:</strong> The core bundle includes reset, colors, effects, spacings, and typography.
 
 #### Set the theme
 
@@ -29,6 +49,13 @@ Set the theme by adding the `data-new-ui-theme` attribute to your HTML wrapper e
 ```html
 <html data-new-ui-theme="light"></html>
 ```
+
+To keep native controls (form fields, scrollbars, system UI) in step with dark themes, also set the `color-scheme` meta tag:
+
+```html
+<meta name="color-scheme" content="light dark" />
+```
+
 
 | Available themes | Value         |
 | :--------------- | :------------ |
