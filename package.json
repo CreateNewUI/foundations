@@ -83,11 +83,11 @@
     "stylelint-config-standard-scss": "^17.0.0"
   },
   "dependencies": {
-    "@new-ui/colors": "^3.0.0",
-    "@new-ui/effects": "^3.0.0",
-    "@new-ui/layout": "^3.0.0",
-    "@new-ui/reset": "^3.0.0",
-    "@new-ui/spacings": "^3.0.0",
-    "@new-ui/typography": "^3.0.0"
+    "@new-ui/colors": "^3.1.0",
+    "@new-ui/effects": "^3.1.0",
+    "@new-ui/layout": "^3.1.0",
+    "@new-ui/reset": "^3.1.0",
+    "@new-ui/spacings": "^3.1.0",
+    "@new-ui/typography": "^3.1.0"
   }
 }

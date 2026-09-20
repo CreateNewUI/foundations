@@ -9,6 +9,7 @@
     [
       "@new-ui/colors",
       "@new-ui/effects",
+      "@new-ui/layout",
       "@new-ui/reset",
       "@new-ui/spacings",
       "@new-ui/themes",

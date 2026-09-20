@@ -1,5 +1,5 @@
 :root {
-  --spacing: .125rem;
+  --spacing: 0.125rem;
   --spacing-00: 0px;
   --spacing-01: var(--spacing);
   --spacing-02: calc(var(--spacing) * 2);

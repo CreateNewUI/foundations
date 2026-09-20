@@ -1,6 +1,6 @@
 {
   "name": "@new-ui/themes",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Ready-made themes mapped onto the New UI semantic color contract",
   "source": "src/index.scss",
   "main": "dist/index.css",
@@ -105,6 +105,6 @@
   },
   "homepage": "https://github.com/CreateNewUI/foundations#readme",
   "peerDependencies": {
-    "@new-ui/colors": "^3.0.0"
+    "@new-ui/colors": "^3.1.0"
   }
 }
