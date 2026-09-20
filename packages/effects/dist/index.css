@@ -30,6 +30,18 @@
   --aspect-video: 16 / 9;
   --default-transition-duration: .15s;
   --default-transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+  --duration-75: 75ms;
+  --duration-100: .1s;
+  --duration-150: .15s;
+  --duration-200: .2s;
+  --duration-300: .3s;
+  --duration-500: .5s;
+  --duration-700: .7s;
+  --duration-1000: 1s;
+  --ease-linear: linear;
+  --ease-in: cubic-bezier(.4, 0, 1, 1);
+  --ease-out: cubic-bezier(0, 0, .2, 1);
+  --ease-in-out: cubic-bezier(.4, 0, .2, 1);
 }
 
 [data-new-ui-theme="dark"], [data-new-ui-theme="dark--warm"], [data-new-ui-theme="dark--cold"] {
@@ -193,5 +205,58 @@
   transition-property: opacity;
   transition-duration: var(--default-transition-duration);
   transition-timing-function: var(--default-transition-timing-function);
+}
+
+@keyframes nu-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes nu-ping {
+  75%, 100% {
+    opacity: 0;
+    transform: scale(2);
+  }
+}
+
+@keyframes nu-pulse {
+  50% {
+    opacity: .5;
+  }
+}
+
+@keyframes nu-bounce {
+  0%, 100% {
+    animation-timing-function: cubic-bezier(.8, 0, 1, 1);
+    transform: translateY(-25%);
+  }
+
+  50% {
+    animation-timing-function: cubic-bezier(0, 0, .2, 1);
+    transform: none;
+  }
+}
+
+.nu-u-animate-spin {
+  animation: 1s linear infinite nu-spin;
+}
+
+.nu-u-animate-ping {
+  animation: 1s cubic-bezier(0, 0, .2, 1) infinite nu-ping;
+}
+
+.nu-u-animate-pulse {
+  animation: 2s cubic-bezier(.4, 0, .6, 1) infinite nu-pulse;
+}
+
+.nu-u-animate-bounce {
+  animation: 1s infinite nu-bounce;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nu-u-animate-spin, .nu-u-animate-ping, .nu-u-animate-pulse, .nu-u-animate-bounce {
+    animation: none;
+  }
 }
 /*# sourceMappingURL=index.css.map */
