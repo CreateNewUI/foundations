@@ -2,7 +2,7 @@
 
 ## What is New UI?
 
-New UI is a modern, semantic UI framework for building beautiful, accessible websites and applications. It provides the core design foundations you need, including colors, typography, spacing and sizing, reset, and layering and elevations. New UI grows with you, from your first launch to millions of users. It suits makers and teams who value scalability and function.
+New UI is a modern, semantic UI framework for building beautiful, accessible websites and applications. It provides the core design foundations you need, including colors, typography, spacing and sizing, reset, layout, and layering and elevations. New UI grows with you, from your first launch to millions of users. It suits makers and teams who value scalability and function.
 
 ## Install
 
@@ -12,7 +12,7 @@ To set up the project, open your terminal and run the following command:
 npm i -D @new-ui/foundations
 ```
 
-**Note:** This command installs all New UI foundation packages, which include reset, colors, effects, spacings, and typography. To install only specific packages, refer to the New UI documentation for instructions.
+> **Note:** This command installs all New UI foundation packages, which include reset, colors, effects, layout, spacings, and typography. To install only specific packages, refer to the New UI documentation for instructions.
 
 ## Import
 
@@ -39,7 +39,7 @@ To load the bundle from a CDN, use the minified build in your HTML `<head>`:
 />
 ```
 
-**Note:** The core bundle includes reset, colors, effects, spacings, and typography.
+> **Note:** The core bundle includes reset, colors, effects, layout, spacings, and typography.
 
 ## Set the theme
 
@@ -167,6 +167,29 @@ To learn how to install and activate these themes, refer to the New UI Themes do
 | **`--focus-default`** | Default focus |
 | **`--focus-accent`**  | Accent focus  |
 | **`--focus-inverse`** | Focus inverse |
+
+### Layout
+
+| Breakpoint             | Size (px/rem) |
+| :--------------------- | :------------ |
+| **`--breakpoint-sm`**  | 640 / 40      |
+| **`--breakpoint-md`**  | 768 / 48      |
+| **`--breakpoint-lg`**  | 1024 / 64     |
+| **`--breakpoint-xl`**  | 1280 / 80     |
+| **`--breakpoint-2xl`** | 1536 / 96     |
+
+| Layer                        | Value | Role                |
+| :--------------------------- | :---- | :------------------ |
+| **`--z-dropdown`**           | 1000  | Dropdown menus      |
+| **`--z-sticky`**             | 1020  | Sticky elements     |
+| **`--z-fixed`**              | 1030  | Fixed elements      |
+| **`--z-offcanvas-backdrop`** | 1040  | Offcanvas backdrop  |
+| **`--z-offcanvas`**          | 1045  | Offcanvas panels    |
+| **`--z-modal-backdrop`**     | 1050  | Modal backdrop      |
+| **`--z-modal`**              | 1055  | Modal dialogs       |
+| **`--z-popover`**            | 1070  | Popovers            |
+| **`--z-tooltip`**            | 1080  | Tooltips            |
+| **`--z-toast`**              | 1090  | Toast notifications |
 
 ### Spacings
 

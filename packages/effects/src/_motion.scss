@@ -1,0 +1,57 @@
+@keyframes nu-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes nu-ping {
+  75%,
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes nu-pulse {
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes nu-bounce {
+  0%,
+  100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.nu-u-animate-spin {
+  animation: nu-spin 1s linear infinite;
+}
+
+.nu-u-animate-ping {
+  animation: nu-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.nu-u-animate-pulse {
+  animation: nu-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.nu-u-animate-bounce {
+  animation: nu-bounce 1s infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nu-u-animate-spin,
+  .nu-u-animate-ping,
+  .nu-u-animate-pulse,
+  .nu-u-animate-bounce {
+    animation: none;
+  }
+}

@@ -1188,6 +1188,18 @@ table {
   --aspect-video: 16 / 9;
   --default-transition-duration: .15s;
   --default-transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+  --duration-75: 75ms;
+  --duration-100: .1s;
+  --duration-150: .15s;
+  --duration-200: .2s;
+  --duration-300: .3s;
+  --duration-500: .5s;
+  --duration-700: .7s;
+  --duration-1000: 1s;
+  --ease-linear: linear;
+  --ease-in: cubic-bezier(.4, 0, 1, 1);
+  --ease-out: cubic-bezier(0, 0, .2, 1);
+  --ease-in-out: cubic-bezier(.4, 0, .2, 1);
 }
 
 [data-new-ui-theme="dark"], [data-new-ui-theme="dark--warm"], [data-new-ui-theme="dark--cold"] {
@@ -1351,6 +1363,137 @@ table {
   transition-property: opacity;
   transition-duration: var(--default-transition-duration);
   transition-timing-function: var(--default-transition-timing-function);
+}
+
+@keyframes nu-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes nu-ping {
+  75%, 100% {
+    opacity: 0;
+    transform: scale(2);
+  }
+}
+
+@keyframes nu-pulse {
+  50% {
+    opacity: .5;
+  }
+}
+
+@keyframes nu-bounce {
+  0%, 100% {
+    animation-timing-function: cubic-bezier(.8, 0, 1, 1);
+    transform: translateY(-25%);
+  }
+
+  50% {
+    animation-timing-function: cubic-bezier(0, 0, .2, 1);
+    transform: none;
+  }
+}
+
+.nu-u-animate-spin {
+  animation: 1s linear infinite nu-spin;
+}
+
+.nu-u-animate-ping {
+  animation: 1s cubic-bezier(0, 0, .2, 1) infinite nu-ping;
+}
+
+.nu-u-animate-pulse {
+  animation: 2s cubic-bezier(.4, 0, .6, 1) infinite nu-pulse;
+}
+
+.nu-u-animate-bounce {
+  animation: 1s infinite nu-bounce;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nu-u-animate-spin, .nu-u-animate-ping, .nu-u-animate-pulse, .nu-u-animate-bounce {
+    animation: none;
+  }
+}
+
+:root {
+  --breakpoint-sm: 40rem;
+  --breakpoint-md: 48rem;
+  --breakpoint-lg: 64rem;
+  --breakpoint-xl: 80rem;
+  --breakpoint-2xl: 96rem;
+  --z-dropdown: 1000;
+  --z-sticky: 1020;
+  --z-fixed: 1030;
+  --z-offcanvas-backdrop: 1040;
+  --z-offcanvas: 1045;
+  --z-modal-backdrop: 1050;
+  --z-modal: 1055;
+  --z-popover: 1070;
+  --z-tooltip: 1080;
+  --z-toast: 1090;
+}
+
+.nu-u-z-0 {
+  z-index: 0;
+}
+
+.nu-u-z-10 {
+  z-index: 10;
+}
+
+.nu-u-z-20 {
+  z-index: 20;
+}
+
+.nu-u-z-30 {
+  z-index: 30;
+}
+
+.nu-u-z-40 {
+  z-index: 40;
+}
+
+.nu-u-z-50 {
+  z-index: 50;
+}
+
+.nu-u-z-auto {
+  z-index: auto;
+}
+
+.nu-u-z-dropdown {
+  z-index: var(--z-dropdown);
+}
+
+.nu-u-z-sticky {
+  z-index: var(--z-sticky);
+}
+
+.nu-u-z-fixed {
+  z-index: var(--z-fixed);
+}
+
+.nu-u-z-modal-backdrop {
+  z-index: var(--z-modal-backdrop);
+}
+
+.nu-u-z-modal {
+  z-index: var(--z-modal);
+}
+
+.nu-u-z-popover {
+  z-index: var(--z-popover);
+}
+
+.nu-u-z-tooltip {
+  z-index: var(--z-tooltip);
+}
+
+.nu-u-z-toast {
+  z-index: var(--z-toast);
 }
 
 :root {
@@ -2013,7 +2156,7 @@ table {
   letter-spacing: var(--desktop-tracking-heading-01);
 }
 
-@media screen and (width <= 30rem) {
+@media screen and (width <= 40rem) {
   .nu-c-h1 {
     font-size: var(--mobile-heading-01);
     line-height: var(--lh-mobile-heading-01);
@@ -2028,7 +2171,7 @@ table {
   letter-spacing: var(--desktop-tracking-heading-02);
 }
 
-@media screen and (width <= 30rem) {
+@media screen and (width <= 40rem) {
   .nu-c-h2 {
     font-size: var(--mobile-heading-02);
     line-height: var(--lh-mobile-heading-02);
@@ -2043,7 +2186,7 @@ table {
   letter-spacing: var(--desktop-tracking-heading-03);
 }
 
-@media screen and (width <= 30rem) {
+@media screen and (width <= 40rem) {
   .nu-c-h3 {
     font-size: var(--mobile-heading-03);
     line-height: var(--lh-mobile-heading-03);
@@ -2057,7 +2200,7 @@ table {
   line-height: var(--lh-desktop-heading-04);
 }
 
-@media screen and (width <= 30rem) {
+@media screen and (width <= 40rem) {
   .nu-c-h4 {
     font-size: var(--mobile-heading-04);
     line-height: var(--lh-mobile-heading-04);
@@ -2070,7 +2213,7 @@ table {
   line-height: var(--lh-desktop-heading-05);
 }
 
-@media screen and (width <= 30rem) {
+@media screen and (width <= 40rem) {
   .nu-c-h5 {
     font-size: var(--mobile-heading-05);
     line-height: var(--lh-mobile-heading-05);
@@ -2083,7 +2226,7 @@ table {
   line-height: var(--lh-desktop-heading-06);
 }
 
-@media screen and (width <= 30rem) {
+@media screen and (width <= 40rem) {
   .nu-c-h6 {
     font-size: var(--mobile-heading-06);
     line-height: var(--lh-mobile-heading-06);
@@ -2095,7 +2238,7 @@ table {
   line-height: var(--lh-desktop-body-xl);
 }
 
-@media screen and (width <= 30rem) {
+@media screen and (width <= 40rem) {
   .nu-c-fs-lead {
     font-size: var(--mobile-body-xl);
     line-height: var(--lh-mobile-body-xl);
@@ -2107,7 +2250,7 @@ table {
   line-height: var(--lh-desktop-body);
 }
 
-@media screen and (width <= 30rem) {
+@media screen and (width <= 40rem) {
   .nu-c-fs-normal {
     font-size: var(--mobile-body);
     line-height: var(--lh-mobile-body);
@@ -2119,7 +2262,7 @@ table {
   line-height: var(--lh-desktop-body-sm);
 }
 
-@media screen and (width <= 30rem) {
+@media screen and (width <= 40rem) {
   .nu-c-fs-small {
     font-size: var(--mobile-body-sm);
     line-height: var(--lh-mobile-body-sm);
@@ -2133,7 +2276,7 @@ table {
   line-height: var(--lh-desktop-caption);
 }
 
-@media screen and (width <= 30rem) {
+@media screen and (width <= 40rem) {
   .nu-c-caption {
     font-size: var(--mobile-caption);
     line-height: var(--lh-mobile-caption);
@@ -2145,7 +2288,7 @@ table {
   line-height: var(--lh-desktop-helper-text);
 }
 
-@media screen and (width <= 30rem) {
+@media screen and (width <= 40rem) {
   .nu-c-helper-text {
     font-size: var(--mobile-helper-text);
     line-height: var(--lh-mobile-helper-text);
@@ -2158,7 +2301,7 @@ table {
   line-height: var(--desktop-code);
 }
 
-@media screen and (width <= 30rem) {
+@media screen and (width <= 40rem) {
   .nu-c-code {
     font-size: var(--mobile-code);
     line-height: var(--mobile-code);
