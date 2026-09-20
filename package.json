@@ -1,6 +1,6 @@
 {
   "name": "@new-ui/foundations",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "New UI foundations",
   "source": "src/index.scss",
   "main": "dist/index.css",
@@ -75,19 +75,19 @@
   "homepage": "https://github.com/CreateNewUI/foundations#readme",
   "devDependencies": {
     "@changesets/changelog-git": "^1.0.0",
-    "@changesets/cli": "^3.0.2",
+    "@changesets/cli": "^3.0.3",
     "@parcel/transformer-sass": "^2.16.4",
     "parcel": "^2.16.4",
-    "prettier": "^3.9.6",
+    "prettier": "^3.9.8",
     "stylelint": "^17.15.0",
     "stylelint-config-standard-scss": "^17.0.0"
   },
   "dependencies": {
-    "@new-ui/colors": "^3.0.0",
-    "@new-ui/effects": "^3.0.0",
-    "@new-ui/layout": "^3.0.0",
-    "@new-ui/reset": "^3.0.0",
+    "@new-ui/colors": "^3.1.0",
+    "@new-ui/effects": "^3.1.0",
+    "@new-ui/layout": "^3.1.0",
+    "@new-ui/reset": "^3.1.0",
     "@new-ui/spacings": "^3.0.0",
-    "@new-ui/typography": "^3.0.0"
+    "@new-ui/typography": "^3.1.0"
   }
 }

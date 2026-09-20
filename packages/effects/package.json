@@ -1,6 +1,6 @@
 {
   "name": "@new-ui/effects",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Layering, elevations, and effects styles",
   "source": "src/index.scss",
   "main": "dist/index.css",
@@ -50,6 +50,6 @@
   },
   "homepage": "https://github.com/CreateNewUI/foundations#readme",
   "peerDependencies": {
-    "@new-ui/colors": "^3.0.0"
+    "@new-ui/colors": "^3.1.0"
   }
 }

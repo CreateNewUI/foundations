@@ -1,6 +1,6 @@
 {
   "name": "@new-ui/layout",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Layout primitives — responsive breakpoints and z-index scale",
   "source": "src/index.scss",
   "main": "dist/index.css",
