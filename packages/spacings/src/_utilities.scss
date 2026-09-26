@@ -37,11 +37,11 @@
 }
 
 .nu-u-me-auto {
-  margin-right: auto;
+  margin-inline-end: auto;
 }
 
 .nu-u-ms-auto {
-  margin-left: auto;
+  margin-inline-start: auto;
 }
 
 // Margin - All sides
@@ -53,11 +53,11 @@
 // Margin - Bottom
 @include spacing-utilities(margin-bottom, 'mb');
 
-// Margin - Left
-@include spacing-utilities(margin-left, 'ms');
+// Margin - Inline start
+@include spacing-utilities(margin-inline-start, 'ms');
 
-// Margin - Right
-@include spacing-utilities(margin-right, 'me');
+// Margin - Inline end
+@include spacing-utilities(margin-inline-end, 'me');
 
 // Margin - Inline (left & right)
 @include spacing-utilities(margin-inline, 'mx');
@@ -74,14 +74,23 @@
 // Padding - Bottom
 @include spacing-utilities(padding-bottom, 'pb');
 
-// Padding - Left
-@include spacing-utilities(padding-left, 'ps');
+// Padding - Inline start
+@include spacing-utilities(padding-inline-start, 'ps');
 
-// Padding - Right
-@include spacing-utilities(padding-right, 'pe');
+// Padding - Inline end
+@include spacing-utilities(padding-inline-end, 'pe');
 
 // Padding - Inline (left & right)
 @include spacing-utilities(padding-inline, 'px');
 
 // Padding - Block (top & bottom)
 @include spacing-utilities(padding-block, 'py');
+
+// Gap - All
+@include spacing-utilities(gap, 'gap');
+
+// Gap - Column
+@include spacing-utilities(column-gap, 'gap-x');
+
+// Gap - Row
+@include spacing-utilities(row-gap, 'gap-y');

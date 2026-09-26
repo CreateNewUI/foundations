@@ -32,7 +32,11 @@ ol[role='list'] {
 
 body {
   min-height: 100vh;
+  min-height: 100dvh;
   line-height: 1.5;
+  overflow-wrap: break-word;
+  text-wrap: pretty;
+  -webkit-tap-highlight-color: transparent;
 }
 
 h1,
@@ -60,7 +64,14 @@ button,
 select {
   font-family: inherit;
   font-size: inherit;
+  color: inherit;
   margin: 0;
+}
+
+hr {
+  height: 0;
+  color: inherit;
+  border: 0;
 }
 
 table {
@@ -70,4 +81,20 @@ table {
 
 :target {
   scroll-margin-block: 5ex;
+}
+
+:focus-visible {
+  outline: 1.5px solid var(--border-focus, currentColor);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

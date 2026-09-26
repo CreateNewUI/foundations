@@ -46,12 +46,3 @@
 .nu-u-animate-bounce {
   animation: nu-bounce 1s infinite;
 }
-
-@media (prefers-reduced-motion: reduce) {
-  .nu-u-animate-spin,
-  .nu-u-animate-ping,
-  .nu-u-animate-pulse,
-  .nu-u-animate-bounce {
-    animation: none;
-  }
-}

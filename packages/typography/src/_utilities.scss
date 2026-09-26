@@ -46,17 +46,35 @@
 
 /* Font family */
 .nu-u-serif {
-  font-family:
-    Didot, 'Bodoni MT', 'Noto Serif Display', 'URW Palladio L', 'P052', Sylfaen,
-    serif;
+  font-family: var(--serif);
 }
 
 .nu-u-sans-serif {
-  font-family:
-    Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial,
-    sans-serif;
+  font-family: var(--sans);
 }
 
 .nu-u-code {
   font-family: var(--monospace-code);
+}
+
+.nu-u-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.nu-u-break-anywhere {
+  word-break: break-all;
+}
+
+.nu-u-wrap-anywhere {
+  overflow-wrap: anywhere;
+}
+
+.nu-u-nowrap {
+  white-space: nowrap;
+}
+
+.nu-u-tabular-nums {
+  font-variant-numeric: tabular-nums;
 }
