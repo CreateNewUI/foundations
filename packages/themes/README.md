@@ -84,13 +84,11 @@ The following table lists each theme, its `color-scheme`, and its import subpath
 | `sargam-light`            | light  | `./sargam-light`         |
 | `sargam-dark`             | dark   | `./sargam-dark`          |
 
-Each theme also declares `color-scheme`, so native form controls, scrollbars,
-and `light-dark()` values render correctly.
+Each theme also declares `color-scheme`, so native form controls, scrollbars, and `light-dark()` values render correctly.
 
 ## Author a theme
 
-A theme defines its own private palette copied from the source, then maps
-those values onto the shared contract:
+A theme defines its own private palette copied from the source, then maps those values onto the shared contract:
 
 ```scss
 [data-new-ui-theme='my-theme'] {
@@ -108,6 +106,4 @@ those values onto the shared contract:
 }
 ```
 
-The build runs a completeness check with `scripts/check-contract.mjs`. The
-check fails if any compiled theme is missing a contract token, so an
-incomplete theme cannot ship.
+The build runs a completeness check with `scripts/check-contract.mjs`. The check fails if any compiled theme is missing a contract token, so an incomplete theme cannot ship.

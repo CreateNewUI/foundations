@@ -46,6 +46,3 @@ Add the `data-new-ui-theme` attribute to your `html` wrapper element:
 - dark--warm
 - dark--cold
 
-## Guides
-
-- [Read our colors guide](https://new-ui.com/docs/foundations/colors)

@@ -30,7 +30,3 @@ For SCSS projects, load the package with `@use`:
 ```scss
 @use '@new-ui/effects/scss';
 ```
-
-## Guides
-
-- [Read our effects guide](https://new-ui.com/docs/foundations/effects)

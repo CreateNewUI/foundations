@@ -31,6 +31,3 @@ For SCSS projects, load the package with `@use`:
 @use '@new-ui/spacings/scss';
 ```
 
-## Guides
-
-- [Read our spacings guide](https://new-ui.com/docs/foundations/spacings)
