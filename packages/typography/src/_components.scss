@@ -128,10 +128,10 @@ $mobile-breakpoint: 40rem;
 .nu-c-code {
   font-family: var(--monospace-code);
   font-size: var(--desktop-code);
-  line-height: var(--desktop-code);
+  line-height: var(--lh-desktop-code);
 
   @media screen and (max-width: $mobile-breakpoint) {
     font-size: var(--mobile-code);
-    line-height: var(--mobile-code);
+    line-height: var(--lh-mobile-code);
   }
 }

@@ -3,6 +3,10 @@
   --old-style: "Iowan Old Style", "Palatino Linotype", "URW Palladio L", p052, serif;
   --monospace-code: ui-monospace, "Cascadia Code", "Source Code Pro", menlo, consolas, monospace;
   --handwritten: "Segoe Print", "Bradley Hand", chilanka, tscu_comic, casual, cursive;
+  --serif: "Didot", "Bodoni MT", "Noto Serif Display", "URW Palladio L", "P052",
+    "Sylfaen", serif;
+  --sans: "Inter", "Roboto", "Helvetica Neue", "Arial Nova", "Nimbus Sans", "Arial",
+    sans-serif;
   --mobile-heading-01: 2rem;
   --mobile-heading-02: 1.75rem;
   --mobile-heading-03: 1.5rem;
@@ -104,15 +108,37 @@
 }
 
 .nu-u-serif {
-  font-family: Didot, Bodoni MT, Noto Serif Display, URW Palladio L, P052, Sylfaen, serif;
+  font-family: var(--serif);
 }
 
 .nu-u-sans-serif {
-  font-family: Inter, Roboto, Helvetica Neue, Arial Nova, Nimbus Sans, Arial, sans-serif;
+  font-family: var(--sans);
 }
 
 .nu-u-code {
   font-family: var(--monospace-code);
+}
+
+.nu-u-truncate {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.nu-u-break-anywhere {
+  word-break: break-all;
+}
+
+.nu-u-wrap-anywhere {
+  overflow-wrap: anywhere;
+}
+
+.nu-u-nowrap {
+  white-space: nowrap;
+}
+
+.nu-u-tabular-nums {
+  font-variant-numeric: tabular-nums;
 }
 
 .nu-c-h1 {
@@ -264,13 +290,13 @@
 .nu-c-code {
   font-family: var(--monospace-code);
   font-size: var(--desktop-code);
-  line-height: var(--desktop-code);
+  line-height: var(--lh-desktop-code);
 }
 
 @media screen and (width <= 40rem) {
   .nu-c-code {
     font-size: var(--mobile-code);
-    line-height: var(--mobile-code);
+    line-height: var(--lh-mobile-code);
   }
 }
 /*# sourceMappingURL=index.css.map */

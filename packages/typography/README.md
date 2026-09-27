@@ -30,7 +30,3 @@ For SCSS projects, load the package with `@use`:
 ```scss
 @use '@new-ui/typography/scss';
 ```
-
-## Guides
-
-- [Read our typography guide](https://new-ui.com/docs/foundations/typography)

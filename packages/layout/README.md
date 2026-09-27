@@ -43,7 +43,3 @@ styles that stay in sync with the shared scale:
   }
 }
 ```
-
-## Guides
-
-- [Read our layout guide](https://new-ui.com/docs/foundations/layout)

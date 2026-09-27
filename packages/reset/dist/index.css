@@ -18,7 +18,10 @@ ul[role="list"], ol[role="list"] {
 }
 
 body {
-  min-height: 100vh;
+  overflow-wrap: break-word;
+  text-wrap: pretty;
+  -webkit-tap-highlight-color: transparent;
+  min-height: 100dvh;
   line-height: 1.5;
 }
 
@@ -38,7 +41,14 @@ img, picture {
 input, textarea, button, select {
   font-family: inherit;
   font-size: inherit;
+  color: inherit;
   margin: 0;
+}
+
+hr {
+  height: 0;
+  color: inherit;
+  border: 0;
 }
 
 table {
@@ -48,5 +58,19 @@ table {
 
 :target {
   scroll-margin-block: 5ex;
+}
+
+:focus-visible {
+  outline: 1.5px solid var(--border-focus, currentColor);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, :before, :after {
+    scroll-behavior: auto !important;
+    transition-duration: .01ms !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+  }
 }
 /*# sourceMappingURL=index.css.map */

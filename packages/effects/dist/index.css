@@ -4,9 +4,9 @@
   --content: 0px 2px 4px #00000014;
   --canvas: none;
   --keyboard-key: 0 2px 0px var(--border-muted);
-  --focus-default: 0px 0px 0px 2px var(--blue5);
+  --focus-default: 0px 0px 0px 2px var(--border-focus);
   --focus-accent: 0px 0px 0px 2px var(--blue8);
-  --focus-inverse: 0px 0px 0px 2px var(--white);
+  --focus-inverse: 0px 0px 0px 2px var(--border-inverse);
   --radius-xs: .125rem;
   --radius-sm: .25rem;
   --radius-md: .375rem;
@@ -15,6 +15,7 @@
   --radius-2xl: 1rem;
   --radius-3xl: 1.5rem;
   --radius-4xl: 2rem;
+  --radius-full: 9999px;
   --blur-xs: .25rem;
   --blur-sm: .5rem;
   --blur-md: .75rem;
@@ -70,6 +71,10 @@
   box-shadow: var(--canvas);
 }
 
+.nu-u-shadow-keyboard-key {
+  box-shadow: var(--keyboard-key);
+}
+
 .nu-u-focus-default {
   box-shadow: var(--focus-default);
 }
@@ -115,7 +120,7 @@
 }
 
 .nu-u-radius-full {
-  border-radius: 9999px;
+  border-radius: var(--radius-full);
 }
 
 .nu-u-blur-xs {
@@ -252,11 +257,5 @@
 
 .nu-u-animate-bounce {
   animation: 1s infinite nu-bounce;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .nu-u-animate-spin, .nu-u-animate-ping, .nu-u-animate-pulse, .nu-u-animate-bounce {
-    animation: none;
-  }
 }
 /*# sourceMappingURL=index.css.map */

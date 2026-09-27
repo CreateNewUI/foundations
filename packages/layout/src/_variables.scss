@@ -1,9 +1,10 @@
+@use 'breakpoints';
+
 :root {
-  --breakpoint-sm: 40rem;
-  --breakpoint-md: 48rem;
-  --breakpoint-lg: 64rem;
-  --breakpoint-xl: 80rem;
-  --breakpoint-2xl: 96rem;
+  @each $name, $value in breakpoints.$breakpoints {
+    --breakpoint-#{$name}: #{$value};
+  }
+
   --z-dropdown: 1000;
   --z-sticky: 1020;
   --z-fixed: 1030;

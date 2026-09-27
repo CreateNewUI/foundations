@@ -1,4 +1,5 @@
 @use 'sass:map';
+@use 'sass:list';
 
 $breakpoints: (
   'sm': 40rem,
@@ -17,13 +18,38 @@ $breakpoints: (
 }
 
 @mixin media-up($name) {
-  @media (min-width: breakpoint($name)) {
+  @media (width >= #{breakpoint($name)}) {
     @content;
   }
 }
 
 @mixin media-down($name) {
-  @media (max-width: breakpoint($name)) {
+  @media (width < #{breakpoint($name)}) {
     @content;
+  }
+}
+
+@mixin media-between($min, $max) {
+  @media (width >= #{breakpoint($min)}) and (width < #{breakpoint($max)}) {
+    @content;
+  }
+}
+
+@mixin media-only($name) {
+  $names: map.keys($breakpoints);
+  $index: list.index($names, $name);
+
+  @if not $index {
+    @error "Unknown breakpoint `#{$name}`. Valid names: #{$names}.";
+  }
+
+  @if $index == list.length($names) {
+    @include media-up($name) {
+      @content;
+    }
+  } @else {
+    @include media-between($name, list.nth($names, $index + 1)) {
+      @content;
+    }
   }
 }

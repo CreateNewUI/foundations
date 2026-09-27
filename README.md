@@ -2,7 +2,7 @@
 
 ## What is New UI?
 
-New UI is a modern, semantic UI framework for building beautiful, accessible websites and applications. It provides the core design foundations you need, including colors, typography, spacing and sizing, reset, layout, and layering and elevations. New UI grows with you, from your first launch to millions of users. It suits makers and teams who value scalability and function.
+New UI is a modern, semantic UI framework for building beautiful, accessible sites and applications. It provides the core design foundations you need, including colors, typography, spacing and sizing, reset, layout, and layering and elevations. New UI grows with you, from your first launch to millions of users. It suits makers and teams who value scalability and function.
 
 ## Install
 
