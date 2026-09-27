@@ -45,4 +45,3 @@ Add the `data-new-ui-theme` attribute to your `html` wrapper element:
 - dark
 - dark--warm
 - dark--cold
-

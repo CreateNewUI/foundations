@@ -30,4 +30,3 @@ For SCSS projects, load the package with `@use`:
 ```scss
 @use '@new-ui/spacings/scss';
 ```
-
